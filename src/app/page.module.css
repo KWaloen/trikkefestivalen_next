@@ -1,6 +1,6 @@
 .page {
   position: relative;
-  background: linear-gradient(to bottom,  #F0D120 20%, #0A9EDE 40%);
+  background: linear-gradient(to bottom,  #F0D120 10%, #0A9EDE 40%);
 
   display: grid;
   grid-template-rows: 20px 1fr 20px;
@@ -24,48 +24,61 @@
   grid-row-start: 2;      /* keep it in your 1fr row */
 }
 
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  a.primary:hover {
-    background: var(--button-primary-hover);
-    border-color: transparent;
-  }
-
-  a.secondary:hover {
-    background: var(--button-secondary-hover);
-    border-color: transparent;
-  }
-
-  .footer a:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
-}
-
 .tram {
    position: absolute;
-   top: 15%;
-   left: 28%;
+   top: 100px;
 }
 
 .music {
   position: absolute;
-  top: 15%;
-  left: 25%;
+}
+
+.clouds {
+  position: absolute;
+}
+
+.date {
+  position: absolute;
+  top: 70px;
+}
+
+.whiteee {
+  position: absolute;
 }
   
+.EXAMM {
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
+
+.about {
+  position: absolute;
+  left: 150px;
+  top: 230px;
+}
+
+.schedule {
+  position: absolute;
+  left: 130px;
+  top: 380px;
+}
+
+.contact {
+  position: absolute;
+  right: 130px;
+  top: 230px;
+}
 
 @media screen and (max-width: 600px) {
     .tram {
       position: absolute;
-      top: 30%;
-      left: 0%;
+
+      
     }
 
     .music {
       position: absolute;
-      top: 28%;
-      left: 0%;
     }
 }
 
