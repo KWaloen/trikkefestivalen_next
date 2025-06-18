@@ -8,64 +8,64 @@ export default function Home() {
           className={styles.tram}
           src="/trikk.gif"
           alt="trikk"
-          width={400}
-          height={300}
+          width={700}
+          height={600}
         />
         <Image
           className={styles.tram}
           src="/whiteee.gif"
           alt="whiteee"
-          width={400}
-          height={300}
+          width={700}
+          height={600}
         />
         <Image
           className={styles.music}
           src="/TRIKK.gif"
           alt="music"
-          width={500}
-          height={400}
+          width={700}
+          height={600}
         />
         <Image
           className={styles.clouds}
           src="/clouds.gif"
           alt="clouds"
-          width={500}
-          height={400}
+          width={800}
+          height={700}
         />
         <Image
           className={styles.date}
           src="/date.png"
           alt="date"
-          width={100}
-          height={20}
+          width={300}
+          height={50}
         />
         <Image
           className={styles.EXAMM}
           src="/EXAMM.png"
-          alt="about"
-          width={130}
-          height={80}
+          alt="about_image"
+          width={150}
+          height={90}
         />
         <Image
           className={styles.about}
           src="/about.png"
           alt="about"
-          width={90}
-          height={30}
+          width={120}
+          height={50}
         />
         <Image
           className={styles.schedule}
           src="/schedule.png"
           alt="schedule"
-          width={150}
-          height={60}
+          width={180}
+          height={120}
         />
         <Image
           className={styles.contact}
           src="/contact.png"
           alt="contact"
-          width={90}
-          height={30}
+          width={120}
+          height={50}
         />
 
     </div>

@@ -48,26 +48,26 @@
   
 .EXAMM {
   position: absolute;
-  left: 150px;
-  top: 150px;
+  left: 155px;
+  top: 310px;
 }
 
 .about {
   position: absolute;
   left: 150px;
-  top: 230px;
+  top: 400px;
 }
 
 .schedule {
   position: absolute;
   left: 130px;
-  top: 380px;
+  top: 600px;
 }
 
 .contact {
   position: absolute;
-  right: 130px;
-  top: 230px;
+  right: 150px;
+  top: 400px;
 }
 
 @media screen and (max-width: 600px) {
