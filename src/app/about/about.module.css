@@ -1,15 +1,29 @@
 .page {
   position: relative;
-  background: linear-gradient(to bottom,  #F0D120 10%, #0A9EDE 40%);
+  background:  #0A9EDE 40%;
 
   display: grid;
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
-  min-height: 100svh;
+  align-content: center;
+  min-height: 50svh;
   gap: 64px;
+
   font-family: var(--font-geist-sans);
 }
 
+.date {
+  position: absolute;
+  top: 220px;
+}
 
+.EXAMM {
+  position: absolute;
+  top:0px;
+}
 
+.pageContent{
+  background: white;
+  color: black;
+}

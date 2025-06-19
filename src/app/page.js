@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Link from "next/link"
+import NavBar from './components/NavBar'
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <NavBar/>
         <Image
           className={styles.tram}
           src="/trikk.gif"
@@ -40,13 +42,15 @@ export default function Home() {
           width={300}
           height={50}
         />
-        <Image
-          className={styles.EXAMM}
-          src="/EXAMM.png"
-          alt="about_image"
-          width={150}
-          height={90}
-        />
+        <Link href="/about">
+            <Image
+              className={styles.EXAMM}
+              src="/EXAMM.png"
+              alt="about_image"
+              width={150}
+              height={90}
+            />
+        </Link>
         <Link href="/about">
             <Image
               className={styles.about}

@@ -1,0 +1,40 @@
+.page {
+    position: relative;
+    background: linear-gradient(#0A9EDE 40%);
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    min-height: 10svh;
+    padding: 50px;
+    font-family: var(--font-geist-sans);
+}
+
+.footer {
+    display: flex;    
+    gap: 150px;
+    align-items: center;
+}
+
+.footerleft {
+    display: grid;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.footercenter {
+    display: grid;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.footerright {
+    display: grid;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.tram {
+    
+   
+}

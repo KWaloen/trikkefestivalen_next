@@ -1,6 +1,6 @@
 .page {
   position: relative;
-  background: linear-gradient(to bottom,  #F0D120 10%, #0A9EDE 40%);
+  background: linear-gradient(to bottom,  #e1c72efa 10%, #0A9EDE 40%);
 
   display: grid;
   grid-template-rows: 20px 1fr 20px;

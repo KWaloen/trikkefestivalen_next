@@ -6,23 +6,27 @@ export default function NavBar() {
   return (
     <div className= {styles.navbar}>
       <div className= {styles.navbarleft}>
-        <Link href="/">
-          {" "}
-          Home 🏠{" "}
-        </Link>
+  
       </div>
 
       <div className= {styles.navbarright}>
         <div className = {styles.dropdown}>
-          <button>🍔</button>
-            <div className = {styles.dropdownmenu}>
-              <Link href="/ReactProjects/ToDoList"> ✔️ Todo list ✔️</Link>
-              <Link href="/ReactProjects/LoginPage">🔑 Login Page 🔒</Link>
-              <Link href="/JavaProjects/BugShooter"> 🐜 BugShooter 🐜 </Link>
-              <Link href="/JavaProjects/RodentReboot"> 🐀 Rodent Reboot 🐀</Link>
-              <Link href="/ReactProjects/Haskell_Is_Hard">Haskell_Is_Hard.AI </Link>
-            </div>
-        </div>
+        <Image
+          className={styles.EXAMM}
+          src="/whiteee.gif"
+          alt="dropdown"
+          width={170}
+          height={120}
+        />
+          <div className = {styles.dropdownmenu}>
+            <Link href="/">Home</Link>
+            <Link href="/about">About</Link>
+            <Link href="/artists">Artists</Link>
+            <Link href="/events">Events</Link>
+            <Link href="/volunteer">Volunteer</Link>
+            <Link href="/faqs">FAQS</Link>
+          </div>
+      </div>
       </div>
     </div>
   );
