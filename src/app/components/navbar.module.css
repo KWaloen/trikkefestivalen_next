@@ -1,0 +1,48 @@
+.navbar {
+    justify-self: stretch;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.navbarleft {
+  display: flex;
+  gap: 15px;
+}
+
+.navbarright {
+  display: flex;
+  gap: 15px;
+}
+
+.dropdown {
+position: relative;
+} 
+
+
+.dropdownmenu {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: rgb(12, 44, 44); 
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.8);
+  width: 200px;
+  text-align: center;
+}
+
+.dropdown:hover .dropdownmenu {
+  display: block;
+  position: absolute;
+}
+
+.dropdown a{
+  font-size: medium;  
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -46,13 +47,15 @@ export default function Home() {
           width={150}
           height={90}
         />
-        <Image
-          className={styles.about}
-          src="/about.png"
-          alt="about"
-          width={120}
-          height={50}
-        />
+        <Link href="/about">
+            <Image
+              className={styles.about}
+              src="/about.png"
+              alt="about"
+              width={120}
+              height={50}
+            />
+        </Link>
         <Image
           className={styles.schedule}
           src="/schedule.png"
