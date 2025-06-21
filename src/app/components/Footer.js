@@ -6,11 +6,11 @@ export default function Footer() {
     <div className={styles.page}>
       
       <Image
-        className={styles.EXAMM}
-        src="/EXAMM.png"
-        alt="about_image"
+        className={styles.logo}
+        src="/footer/logo.png"
+        alt="logo"
         width={150}
-        height={90}
+        height={50}
       />
       
       <div className={styles.footer}>
