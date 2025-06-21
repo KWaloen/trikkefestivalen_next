@@ -88,7 +88,66 @@ export default function Home() {
             height={200}
           />
         </div>
-        
+
+        <div className = {styles.tripleTrikks}>
+            <Image
+              src="/artists/trikk1.png"
+              alt="trikk1"
+              width={180}
+              height={90}
+            />
+            <Image
+              src="/artists/trikk2.png"
+              alt="trikk2"
+              width={180}
+              height={100}
+            />
+            <Image
+              src="/artists/trikk3.png"
+              alt="trikk3"
+              width={180}
+              height={110}
+            />
+        </div>
+
+        <div>
+          <Image
+              className={styles.fifteenMin}
+              src="/artists/15min.png"
+              alt="15min"
+              width={800}
+              height={50}
+            />
+        </div>
+
+        <div>
+          <Image
+              className={styles.yellow}
+              src="/artists/yellow.png"
+              alt="yellow"
+              width={2000}
+              height={50}
+            />
+        </div>
+
+        <div className = {styles.artists}>
+          <div>artists</div>
+
+        </div>
+
+        <div>
+          <Image
+              className={styles.yellow}
+              src="/artists/yellow.png"
+              alt="yellow"
+              width={2000}
+              height={50}
+            />
+
+            
+        </div>
+
+
       </div>
 
     <Footer/>

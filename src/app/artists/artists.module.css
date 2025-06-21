@@ -73,15 +73,44 @@
 
 .musicBanner {
   position: relative;
-  margin-bottom: 100px;
-}
-
-.experience {
-  position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .tfButton {
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+.experience {
+  position: relative;
+}
+
+.tripleTrikks {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  column-gap: 100px;
+  margin-bottom: 50px;
+}
+
+.fifteenMin {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.yellow {
+  display: grid;
+  column-gap: 0;
+  overflow: hidden;
+  
+}
+
+.orange {
+  display: grid;
+  column-gap: 0;
+  overflow: hidden;
+}
+
+.artists {
+  background-color: orange;
+  width: 100%;
 }
