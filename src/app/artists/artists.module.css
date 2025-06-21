@@ -7,7 +7,7 @@
   align-items: center;
   justify-items: center;
   align-content: center;
-  min-height: 60svh;
+  min-height: 50svh;
 
 
   font-family: var(--font-geist-sans);
@@ -17,21 +17,21 @@
 .date {
   position: absolute;
   top: 220px;
-  left: 30%;
+  left: 27%;
   z-index: 1;
 }
 
 .year {
   position: absolute;
   top: 220px;
-  right: 25%;
+  right: 27%;
   z-index: 1;
 }
 
 .EXAMM {
   position: absolute;
   top: 20px;
-  left: 35%;
+  left: 32%;
   z-index: 1;
 }
 
@@ -52,17 +52,36 @@
   background: #E7E7CE;
   color: black;
   z-index: 1;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  min-height: 50svh;
 }
 
 .gap {
   background: #E7E7CE;
-  min-height: 100px;
+  min-height: 250px;
   z-index: 1;
 }
 
 .wave {
   position: absolute;
-  top: 100px;
-  width: 2000px;
+  top: 140px;
+  width: 1600px;
   z-index: -1;
+}
+
+.musicBanner {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.experience {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.tfButton {
+  position: relative;
+  margin-bottom: 100px;
 }
