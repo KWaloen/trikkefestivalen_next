@@ -9,42 +9,42 @@ export default function Home() {
       <NavBar/>
       <Image
           className={styles.title}
-          src="/trikkefestivalenLogo.png"
+          src="/main/trikkefestivalenLogo.png"
           alt="title"
           width={600}
           height={250}
         />
         <Image
           className={styles.tram}
-          src="/trikk.gif"
+          src="/main/trikk.gif"
           alt="trikk"
           width={700}
           height={600}
         />
         <Image
           className={styles.tram}
-          src="/whiteee.gif"
+          src="/main/whiteee.gif"
           alt="whiteee"
           width={700}
           height={600}
         />
         <Image
           className={styles.music}
-          src="/TRIKK.gif"
+          src="/main/TRIKK.gif"
           alt="music"
           width={700}
           height={600}
         />
         <Image
           className={styles.clouds}
-          src="/clouds.gif"
+          src="/main/clouds.gif"
           alt="clouds"
           width={800}
           height={700}
         />
         <Image
           className={styles.date}
-          src="/date.png"
+          src="/main/date.png"
           alt="date"
           width={300}
           height={50}
@@ -52,7 +52,7 @@ export default function Home() {
         <Link href="/artists">
             <Image
               className={styles.EXAMM}
-              src="/EXAMM.png"
+              src="/main/EXAMM.png"
               alt="artists_image"
               width={150}
               height={90}
@@ -61,7 +61,7 @@ export default function Home() {
         <Link href="/artists">
             <Image
               className={styles.artists}
-              src="/artists.png"
+              src="/main/artists.png"
               alt="artists_text"
               width={80}
               height={20}
@@ -69,42 +69,42 @@ export default function Home() {
         </Link>
         <Image
           className={styles.ticket}
-          src="/ticket.png"
+          src="/main/ticket.png"
           alt="ticket"
           width={80}
           height={50}
         />
         <Image
           className={styles.events}
-          src="/events.png"
+          src="/main/events.png"
           alt="events"
           width={80}
           height={20}
         />
         <Image
           className={styles.letter}
-          src="/letter.png"
+          src="/main/letter.png"
           alt="letter"
           width={80}
           height={50}
         />
         <Image
           className={styles.faqs}
-          src="/faqs.png"
+          src="/main/faqs.png"
           alt="faqs"
           width={80}
           height={20}
         />
         <Image
           className={styles.notes}
-          src="/notes.png"
+          src="/main/notes.png"
           alt="notes"
           width={80}
           height={50}
         />
         <Image
           className={styles.volunteer}
-          src="/volunteer.png"
+          src="/main/volunteer.png"
           alt="volunteer"
           width={80}
           height={20}
