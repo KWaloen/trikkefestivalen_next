@@ -107,6 +107,12 @@
   top: 600px;
 }
 
+.rail {
+  position: absolute;
+  bottom: 10px;
+
+}
+
 
 @media screen and (max-width: 600px) {
     .tram {

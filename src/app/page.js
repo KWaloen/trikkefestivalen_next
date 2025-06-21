@@ -109,6 +109,13 @@ export default function Home() {
           width={80}
           height={20}
         />
+        <Image
+          className={styles.rail}
+          src="/main/rail.png"
+          alt="rail"
+          width={700}
+          height={10}
+        />
 
     </div>
   )
