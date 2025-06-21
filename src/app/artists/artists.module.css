@@ -1,29 +1,68 @@
 .page {
   position: relative;
-  background:  #0A9EDE 40%;
+  background:  #0099AD 40%;
 
   display: grid;
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
   align-content: center;
-  min-height: 50svh;
-  gap: 64px;
+  min-height: 60svh;
+
 
   font-family: var(--font-geist-sans);
+  z-index: 1;
 }
 
 .date {
   position: absolute;
   top: 220px;
+  left: 30%;
+  z-index: 1;
+}
+
+.year {
+  position: absolute;
+  top: 220px;
+  right: 25%;
+  z-index: 1;
 }
 
 .EXAMM {
   position: absolute;
-  top:0px;
+  top: 20px;
+  left: 35%;
+  z-index: 1;
 }
 
-.pageContent{
-  background: white;
+.logo {
+  position: absolute;
+  top: 70px;
+  right: 30%;
+  z-index: 1;
+}
+
+.trikk {
+  position: absolute;
+  top: 330px;
+  z-index: 1;
+}
+
+.pageContent {
+  background: #E7E7CE;
   color: black;
+  z-index: 1;
+}
+
+.gap {
+  background: #E7E7CE;
+  min-height: 100px;
+  z-index: 1;
+}
+
+.wave {
+  position: absolute;
+  top: 100px;
+  width: 2000px;
+  z-index: -1;
 }

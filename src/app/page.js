@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <NavBar/>
+      
       <Image
           className={styles.title}
           src="/main/trikkefestivalenLogo.png"
