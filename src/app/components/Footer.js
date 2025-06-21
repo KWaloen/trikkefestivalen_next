@@ -4,8 +4,17 @@ import styles from './footer.module.css'
 export default function Footer() {
   return (
     <div className={styles.page}>
-      <ul>Trikkefestivalen</ul>
+      
+      <Image
+        className={styles.EXAMM}
+        src="/EXAMM.png"
+        alt="about_image"
+        width={150}
+        height={90}
+      />
+      
       <div className={styles.footer}>
+
         <div className={styles.footerleft}>
           <ul>About</ul>
           <ul>Event</ul>

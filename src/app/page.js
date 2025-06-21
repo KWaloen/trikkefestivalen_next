@@ -7,6 +7,13 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <NavBar/>
+      <Image
+          className={styles.title}
+          src="/trikkefestivalenLogo.png"
+          alt="title"
+          width={600}
+          height={250}
+        />
         <Image
           className={styles.tram}
           src="/trikk.gif"
@@ -42,37 +49,65 @@ export default function Home() {
           width={300}
           height={50}
         />
-        <Link href="/about">
+        <Link href="/artists">
             <Image
               className={styles.EXAMM}
               src="/EXAMM.png"
-              alt="about_image"
+              alt="artists_image"
               width={150}
               height={90}
             />
         </Link>
-        <Link href="/about">
+        <Link href="/artists">
             <Image
-              className={styles.about}
-              src="/about.png"
-              alt="about"
-              width={120}
-              height={50}
+              className={styles.artists}
+              src="/artists.png"
+              alt="artists_text"
+              width={80}
+              height={20}
             />
         </Link>
         <Image
-          className={styles.schedule}
-          src="/schedule.png"
-          alt="schedule"
-          width={180}
-          height={120}
+          className={styles.ticket}
+          src="/ticket.png"
+          alt="ticket"
+          width={80}
+          height={50}
         />
         <Image
-          className={styles.contact}
-          src="/contact.png"
-          alt="contact"
-          width={120}
+          className={styles.events}
+          src="/events.png"
+          alt="events"
+          width={80}
+          height={20}
+        />
+        <Image
+          className={styles.letter}
+          src="/letter.png"
+          alt="letter"
+          width={80}
           height={50}
+        />
+        <Image
+          className={styles.faqs}
+          src="/faqs.png"
+          alt="faqs"
+          width={80}
+          height={20}
+        />
+        <Image
+          className={styles.notes}
+          src="/notes.png"
+          alt="notes"
+          width={80}
+          height={50}
+        />
+        <Image
+          className={styles.volunteer}
+          src="/volunteer.png"
+          alt="volunteer"
+          width={80}
+          height={20}
         />
 
     </div>

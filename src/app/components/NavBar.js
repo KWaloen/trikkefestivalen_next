@@ -13,14 +13,13 @@ export default function NavBar() {
         <div className = {styles.dropdown}>
         <Image
           className={styles.EXAMM}
-          src="/whiteee.gif"
+          src="/hamburger.png"
           alt="dropdown"
-          width={170}
-          height={120}
+          width={30}
+          height={20}
         />
           <div className = {styles.dropdownmenu}>
             <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
             <Link href="/artists">Artists</Link>
             <Link href="/events">Events</Link>
             <Link href="/volunteer">Volunteer</Link>

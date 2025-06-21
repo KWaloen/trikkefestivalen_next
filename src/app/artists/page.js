@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from './about.module.css'
+import styles from './artists.module.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
@@ -12,7 +12,7 @@ export default function Home() {
           <Image
           className={styles.EXAMM}
           src="/EXAMM.png"
-          alt="about_image"
+          alt="artists_image"
           width={300}
           height={170}
           />
