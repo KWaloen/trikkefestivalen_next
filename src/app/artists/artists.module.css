@@ -110,7 +110,29 @@
   overflow: hidden;
 }
 
-.artists {
-  background-color: orange;
+.orangeBackground {
+  background-color: #DE6331;
   width: 100%;
+}
+
+.artistsTitle {
+  display: grid;              
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  width: 50%;
+  margin: 0 auto;
+  min-height: 120px;
+}
+
+.artists {
+  display: grid;              
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  width: 30%;
+  margin: 0 auto;
+  row-gap: 50px;
 }

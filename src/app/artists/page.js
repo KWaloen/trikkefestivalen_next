@@ -130,16 +130,62 @@ export default function Home() {
             />
         </div>
 
-        <div className = {styles.artists}>
-          <div>artists</div>
+        <div className = {styles.orangeBackground}>
+          
+          <div className = {styles.artistsTitle}>
+          <Image
+                src="/artists/artists.png"
+                alt="artistsTitle"
+                width={180}
+                height={90}
+              />
 
+          <Image
+                src="/artists/artistsNotes.png"
+                alt="artistsNotes"
+                width={180}
+                height={90}
+              />
+          </div>
+          
+          <div className = {styles.artists}>
+
+              <Image
+                src="/artists/trikk1.png"
+                alt="trikk1"
+                width={180}
+                height={90}
+              />
+
+              <Image
+                src="/artists/trikk1.png"
+                alt="trikk1"
+                width={180}
+                height={90}
+              />
+
+              <Image
+                src="/artists/trikk1.png"
+                alt="trikk1"
+                width={180}
+                height={90}
+              />
+
+              <Image
+                src="/artists/trikk1.png"
+                alt="trikk1"
+                width={180}
+                height={90}
+              />
+
+
+          </div>
         </div>
-
         <div>
           <Image
               className={styles.yellow}
-              src="/artists/yellow.png"
-              alt="yellow"
+              src="/artists/yellowFlip.png"
+              alt="yellowFlip"
               width={2000}
               height={50}
             />
