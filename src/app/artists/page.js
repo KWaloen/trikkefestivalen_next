@@ -178,9 +178,20 @@ export default function Home() {
                 height={90}
               />
 
+          </div>
 
           </div>
-        </div>
+            
+              <div className={styles.seeArtists}>
+                <Image
+                    className={styles.ovalArtists}
+                    src="/artists/seeArtistText.png"
+                    alt="trikk1"
+                    width={180}
+                    height={30}
+                  />
+              </div>
+          
         <div>
           <Image
               className={styles.yellow}
@@ -192,7 +203,6 @@ export default function Home() {
 
             
         </div>
-
 
       </div>
 

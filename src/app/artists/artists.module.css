@@ -101,7 +101,6 @@
   display: grid;
   column-gap: 0;
   overflow: hidden;
-  
 }
 
 .orange {
@@ -135,4 +134,22 @@
   width: 30%;
   margin: 0 auto;
   row-gap: 50px;
+}
+
+.seeArtists {
+  background: #DE6331;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.ovalArtists {
+  background: yellow;
+  border-radius: 30%;
+  padding: 20px;              /* space between image and edge */
+  width: max-content;         /* shrink-wrap around content + padding */
+  height: 55px;
+  width: 200px;
+  
 }
