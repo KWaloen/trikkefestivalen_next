@@ -137,14 +137,14 @@ export default function Home() {
                 src="/artists/artists.png"
                 alt="artistsTitle"
                 width={180}
-                height={90}
+                height={40}
               />
 
           <Image
                 src="/artists/artistsNotes.png"
                 alt="artistsNotes"
                 width={180}
-                height={90}
+                height={80}
               />
           </div>
           
@@ -184,7 +184,7 @@ export default function Home() {
             
               <div className={styles.seeArtists}>
                 <Image
-                    className={styles.ovalArtists}
+                    className={styles.oval}
                     src="/artists/seeArtistText.png"
                     alt="trikk1"
                     width={180}
@@ -194,15 +194,95 @@ export default function Home() {
           
         <div>
           <Image
-              className={styles.yellow}
-              src="/artists/yellowFlip.png"
+              className={`${styles.yellow} ${styles.yellowTop}`}
+              src="/artists/yellowWave.png"
               alt="yellowFlip"
+              width={2000}
+              height={40}
+            />
+
+          <div className={styles.tramAndDate}>
+            <Image
+                className={styles.tramPic}
+                src="/artists/tramPic.png"
+                alt="tramPic"
+                width={800}
+                height={0} /*dictated by css style */
+              />
+
+            <Image
+              className={styles.tramDate}
+              src="/artists/tramDate.png"
+              alt="trikk1"
+              width={400}
+              height={60}
+            />
+            
+          </div>
+
+          <Image
+              className={`${styles.yellow} ${styles.yellowBottom}`}
+              src="/artists/yellowWave.png"
+              alt="yellow"
+              width={2000}
+              height={40}
+            />
+
+        </div>
+
+        <div className={styles.orangeBackground}>
+
+          <div className = {styles.tripleTrams}>
+            <Image
+              src="/artists/tram1.png"
+              alt="tram1"
+              width={80}
+              height={90}
+            />
+            <Image
+              src="/artists/notes.png"
+              alt="notes"
+              width={120}
+              height={90}
+            />
+            <Image
+              src="/artists/tram2.png"
+              alt="tram2"
+              width={130}
+              height={90}
+            />
+          </div>
+
+          <div className={styles.artistNames}>
+            Artists
+          </div>
+
+          <div>
+          <Image
+              
+              src="/artists/musikkpåskinner.png"
+              alt="musikkpaskinner"
+              width={1000}
+              height={50}
+            />
+        </div>
+
+
+        </div>
+
+        <div>
+          <Image
+              className={styles.wavyOrange}
+              src="/artists/wavyOrange.png"
+              alt="yellow"
               width={2000}
               height={50}
             />
-
-            
         </div>
+
+
+
+
 
       </div>
 
