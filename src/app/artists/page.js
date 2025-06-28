@@ -259,8 +259,7 @@ export default function Home() {
             </div>
 
           <div>
-          <Image
-              
+          <Image 
               src="/artists/musikkpåskinner.png"
               alt="musikkpaskinner"
               width={1000}

@@ -1,0 +1,48 @@
+.page {
+  position: relative;
+  background:  #0099AD 40%;
+
+  display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  min-height: 40svh;
+
+
+  font-family: var(--font-geist-sans);
+  z-index: 1;
+}
+
+.title {
+  position: relative;
+  top: 30px;
+  z-index: 1;
+}
+
+
+.pageContent {
+  background: #E7E7CE;
+  color: black;
+  z-index: 1;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  min-height: 50svh;
+  margin: 50px;
+}
+
+.blueWave {
+  display: grid;
+  column-gap: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  margin-top: -40px;
+  
+}
+
+.blueWaveBackground {
+    background: #E7E7CE;
+}
+

@@ -82,20 +82,24 @@ export default function Home() {
           width={80}
           height={20}
         />
-        <Image
-          className={styles.letter}
-          src="/main/letter.png"
-          alt="letter"
-          width={80}
-          height={50}
-        />
-        <Image
-          className={styles.faqs}
-          src="/main/faqs.png"
-          alt="faqs"
-          width={80}
-          height={20}
-        />
+        <Link href="/faqs">
+          <Image
+            className={styles.letter}
+            src="/main/letter.png"
+            alt="letter"
+            width={80}
+            height={50}
+          />
+        
+          <Image
+            className={styles.faqs}
+            src="/main/faqs.png"
+            alt="faqs"
+            width={80}
+            height={20}
+          />
+        </Link>
+
         <Image
           className={styles.notes}
           src="/main/notes.png"
