@@ -7,7 +7,7 @@
   align-items: center;
   justify-items: center;
   align-content: center;
-  min-height: 40svh;
+  min-height: 60svh;
 
 
   font-family: var(--font-geist-sans);
@@ -16,23 +16,41 @@
 
 .title {
   position: relative;
-  top: 30px;
+  top: -50px;
+  left: -200px;
   z-index: 1;
 }
 
-.artistNotes {
-    position: relative;
-    bottom: -10px;
-    z-index: 1;
+.sequence {
+  position: relative;
+  top: -30px;
+  left: -200px;
+  z-index: 1;
 }
 
-.notesGif {
-    position: absolute;
-    z-index: 2;
-    left: -300px;
-    top: -290px;
-    z-index: 0;
+.date {
+  position: relative;
+  top: -10px;
+  left: -200px;
+  z-index: 1;
 }
+
+.getongetoff {
+  position: relative;
+  top: 0px;
+  right: -400px;
+  margin: 20px;
+  z-index: 1;
+}
+
+.blackTram {
+  position: relative;
+  right: -400px;
+  margin: 20px;
+  z-index: 1;
+}
+
+
 
 .pageContent {
   background: #E7E7CE;
@@ -45,7 +63,7 @@
   margin: 50px;
 }
 
-.blueWave {
+.orangeWave {
   display: grid;
   column-gap: 0;
   overflow: hidden;
@@ -55,64 +73,6 @@
   
 }
 
-.blueWaveBackground {
+.background {
     background: #E7E7CE;
-}
-
-.faqItem {
-  margin-bottom: 1rem;
-  z-index: 3;
-}
-
-.questionGrid {
-  display: grid;              
-  grid-template-columns: repeat(1, 1fr);
-  margin: 0px auto;
-  row-gap: 50px;
-  z-index: 3;
-}
-
-.question {
-  color: #E7E7CE;
-  background: #DE6331;
-  padding: 20px;             
-  width: max-content;         
-  height: 55px;
-  width: 800px;
-  border-radius: 10px 10px 0 0;
-  cursor: pointer;
-  z-index: 3;
-
-  font-family: "Winky Rough", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-}
-
-.answer {
-  padding: 10px 20px;
-  color: black;
-  background: #f5f5f5;
-  border-radius: 0 0 10px 10px;
-  height: auto;
-  width: 800px;
-  z-index: 3;
-}
-
-.banner {
-  background: #E7BD08 url('/path/to/your/image.png') no-repeat center/cover;
-  transform: rotate(-4deg);
-  padding: 10px;
-}
-
-.image {
-  display: block;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.imageLast {
-  display: block;
-  margin-top: 100px;
-  
 }

@@ -68,20 +68,24 @@ export default function Home() {
               height={20}
             />
         </Link>
-        <Image
-          className={styles.ticket}
-          src="/main/ticket.png"
-          alt="ticket"
-          width={80}
-          height={50}
-        />
-        <Image
-          className={styles.events}
-          src="/main/events.png"
-          alt="events"
-          width={80}
-          height={20}
-        />
+
+        <Link href="/events">
+          <Image
+            className={styles.ticket}
+            src="/main/ticket.png"
+            alt="ticket"
+            width={80}
+            height={50}
+          />
+          <Image
+            className={styles.events}
+            src="/main/events.png"
+            alt="events"
+            width={80}
+            height={20}
+          />
+        </Link>
+
         <Link href="/faqs">
           <Image
             className={styles.letter}
@@ -100,20 +104,23 @@ export default function Home() {
           />
         </Link>
 
-        <Image
-          className={styles.notes}
-          src="/main/notes.png"
-          alt="notes"
-          width={80}
-          height={50}
-        />
-        <Image
-          className={styles.volunteer}
-          src="/main/volunteer.png"
-          alt="volunteer"
-          width={80}
-          height={20}
-        />
+        <Link href="/volunteer">
+          <Image
+            className={styles.notes}
+            src="/main/notes.png"
+            alt="notes"
+            width={80}
+            height={50}
+          />
+          <Image
+            className={styles.volunteer}
+            src="/main/volunteer.png"
+            alt="volunteer"
+            width={80}
+            height={20}
+          />
+          </Link>
+
         <Image
           className={styles.rail}
           src="/main/rail.png"
