@@ -54,6 +54,7 @@ export default function Home() {
           
           
           <div className = {styles.gap}/>
+          
       </div>
 
       <div className = {styles.gap}/>
@@ -253,9 +254,9 @@ export default function Home() {
             />
           </div>
 
-          <div className={styles.artistNames}>
-            Artists
-          </div>
+            <div className={styles.artistNames}>
+              Artists
+            </div>
 
           <div>
           <Image
@@ -265,7 +266,7 @@ export default function Home() {
               width={1000}
               height={50}
             />
-        </div>
+          </div>
 
 
         </div>
@@ -280,10 +281,134 @@ export default function Home() {
             />
         </div>
 
+        <div className={styles.moreInfo}>
 
+              <Image
+                className={styles.photo}
+                src="/artists/singer.png"
+                alt="singer"
+                width={250}
+                height={0}
+              />
+              
+              <div className={styles.volunteer}>
 
+                <Image
+                  className={styles.photo}
+                  src="/artists/volunteerBanner.png"
+                  alt="becomeAVolunteer"
+                  width={200}
+                  height={90}
+                />
 
+                <Image
+                  className={styles.photo}
+                  src="/artists/volunteerText.png"
+                  alt="volunteerText"
+                  width={400}
+                  height={100}
+                />
 
+                <Image
+                  className={styles.readMore}
+                  src="/artists/readMore.png"
+                  alt="readMore"
+                  width={150}
+                  height={100}
+                />
+
+                <Image
+                  className={styles.photo}
+                  src="/artists/yellowLine.png"
+                  alt="readMoreLine"
+                  width={150}
+                  height={100}
+                />
+
+              </div>
+
+              <Image
+                className={styles.photo}
+                src="/artists/tramShed.png"
+                alt="singer"
+                width={280}
+                height={0}
+              />
+
+              <div className={styles.fromEngen}>
+
+                
+                <Image
+                  className={styles.photo}
+                  src="/artists/fromEngen.png"
+                  alt="becomeAVolunteer"
+                  width={200}
+                  height={90}
+                />
+
+                <Image
+                  className={styles.photo}
+                  src="/artists/fromEngenHelper.png"
+                  alt="volunteerText"
+                  width={400}
+                  height={100}
+                />
+
+                <Image
+                  className={styles.readMore}
+                  src="/artists/readMore.png"
+                  alt="readMore"
+                  width={150}
+                  height={100}
+                />
+
+                <Image
+                  className={styles.photo}
+                  src="/artists/yellowLine.png"
+                  alt="readMoreLine"
+                  width={150}
+                  height={100}
+                />
+
+              </div>
+              
+        </div>
+
+        <div className={styles.endBanners}>
+          <Image
+            src="/artists/tramDate.png"
+            alt="trikk1"
+            width={400}
+            height={60}
+          />
+        </div>
+
+        <div className={styles.endBanners}>
+          <Image
+            src="/artists/musicBanner.png"
+            alt="musicBanner"
+            width={1000}
+            height={70}
+          />
+        </div>
+
+        <div className={styles.endBanners}>
+          <Image
+            src="/artists/musikkpåskinner.png"
+            alt="musikkpaskinner"
+            width={1000}
+            height={50}
+          />
+        </div>
+      </div>
+
+      <div className={styles.blueWave}>
+        <Image
+          src="/artists/blue.png"
+          alt="blue"
+          width={2000}
+          height={50}
+        />
       </div>
 
     <Footer/>

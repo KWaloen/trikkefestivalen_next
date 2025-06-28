@@ -205,8 +205,58 @@
 .wavyOrange {
   z-index: 2;
   margin-top: -20px;
+  margin-bottom: 100px;
 }
 
-.musikkPaSkinner {
+.moreInfo {
+  display: grid;              
+  grid-template-columns: repeat(2, 1fr);
+  width: 30%;
+  margin: 0 auto;
+  row-gap: 100px;
+  column-gap: 50px;
+  position: relative;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.photo {
+  height: auto;
+  margin-bottom: 20px;
   
+}
+
+.volunteer {
+  display: grid;
+  place-items: center;
+  margin: auto;
+  position: relative;
+  
+}
+
+.readMore {
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.fromEngen {
+  display: grid;
+  place-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.endBanners {
+  margin-bottom: 50px;
+}
+
+.blueWave {
+  z-index: 2;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  width: auto;
+  overflow: hidden;
+  position: relative;
 }

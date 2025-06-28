@@ -5,13 +5,23 @@ export default function Footer() {
   return (
     <div className={styles.page}>
       
-      <Image
-        className={styles.logo}
-        src="/footer/logo.png"
-        alt="logo"
-        width={150}
-        height={50}
-      />
+      <div className={styles.images}>
+        <Image
+          className={styles.logo}
+          src="/footer/logo.png"
+          alt="logo"
+          width={150}
+          height={50}
+        />
+
+        <Image
+          className={styles.logo}
+          src="/footer/trikk2.png"
+          alt="logo"
+          width={150}
+          height={100}
+        />
+      </div>
       
       <div className={styles.footer}>
 

@@ -8,6 +8,7 @@
     min-height: 10svh;
     padding: 50px;
     font-family: var(--font-geist-sans);
+    z-index: 1;
 }
 
 .footer {
@@ -37,4 +38,17 @@
 .logo {
     margin-bottom: 50px;
    
+}
+
+.images {
+  display: grid;              
+  grid-template-columns: repeat(2, 1fr);
+  width: 30%;
+  margin: 0 auto;
+  row-gap: 100px;
+  column-gap: 50px;
+  position: relative;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
 }
