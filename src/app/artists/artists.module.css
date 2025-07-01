@@ -144,8 +144,9 @@
   display: grid;              
   grid-template-columns: repeat(3, 1fr);
   width: 30%;
-  margin: 0 auto;
+  margin: 80px;
   row-gap: 50px;
+  
 }
 
 .seeArtists {

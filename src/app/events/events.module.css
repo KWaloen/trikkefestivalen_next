@@ -3,12 +3,11 @@
   background:  #DE6331 40%;
 
   display: grid;
-  grid-template-rows: 20px 1fr 20px;
+  grid-auto-rows: min-content;
   align-items: center;
   justify-items: center;
   align-content: center;
   min-height: 60svh;
-
 
   font-family: var(--font-geist-sans);
   z-index: 1;
@@ -43,14 +42,31 @@
   z-index: 1;
 }
 
-.blackTram {
-  position: relative;
-  right: -400px;
-  margin: 20px;
-  z-index: 1;
+.artists {
+  display: grid;              
+  grid-template-columns: repeat(3, 1fr);
+  width: 30%;
+  margin: 0 auto;
+  row-gap: 50px;
+
 }
 
+.blackTram {
+  display: grid;
+  position: relative;
+  right: -420px;
+  z-index: 1;
+  height: auto;
+}
 
+.tramText {
+  display: grid;
+  position: relative;
+  right: -345px;
+  margin-bottom: 20px;
+  z-index: 1;
+  height: auto;
+}
 
 .pageContent {
   background: #E7E7CE;
@@ -59,7 +75,7 @@
   align-items: center;
   justify-items: center;
   align-content: center;
-  min-height: 50svh;
+  min-height: min-content;
   margin: 50px;
 }
 
@@ -68,7 +84,7 @@
   column-gap: 0;
   overflow: hidden;
   position: relative;
-  z-index: 2;
+  z-index: 0;
   margin-top: -40px;
   
 }

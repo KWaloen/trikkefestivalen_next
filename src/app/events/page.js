@@ -1,8 +1,9 @@
-import Head from 'next/head'
+
 import Image from 'next/image'
 import styles from './events.module.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
+import Subscribe from '../components/Subscribe'
 
 export default function Home() {
   return (
@@ -50,20 +51,90 @@ export default function Home() {
               </div>
             </div>
 
-            <div>
-              Artists
+            <div className={styles.artists}>
+              <Image
+                  src="/artists/trikk1.png"
+                  alt="trikk1"
+                  width={180}
+                  height={90}
+                />
+  
+                <Image
+                  src="/artists/trikk1.png"
+                  alt="trikk1"
+                  width={180}
+                  height={90}
+                />
+  
+                <Image
+                  src="/artists/trikk1.png"
+                  alt="trikk1"
+                  width={180}
+                  height={90}
+                />
+  
+                <Image
+                  src="/artists/trikk1.png"
+                  alt="trikk1"
+                  width={180}
+                  height={90}
+                />
+                <Image
+                  src="/artists/trikk1.png"
+                  alt="trikk1"
+                  width={180}
+                  height={90}
+                />
+  
+                <Image
+                  src="/artists/trikk1.png"
+                  alt="trikk1"
+                  width={180}
+                  height={90}
+                />
+  
+                <Image
+                  src="/artists/trikk1.png"
+                  alt="trikk1"
+                  width={180}
+                  height={90}
+                />
+  
+                <Image
+                  src="/artists/trikk1.png"
+                  alt="trikk1"
+                  width={180}
+                  height={90}
+                />
+                <Image
+                  src="/artists/trikk1.png"
+                  alt="trikk1"
+                  width={180}
+                  height={90}
+                />
+  
+                
             </div>
 
-            
-            <div className={styles.blackTram}>
-                <Image
-                  src="/events/blackTram.gif"
-                  alt="blackTram"
-                  width={150}
-                  height={150}
-                />               
+            <div>
+              <div className={styles.blackTram}>
+                  <Image
+                    src="/events/blackTram.gif"
+                    alt="blackTram"
+                    width={150}
+                    height={100}
+                  />
+              </div>
+
+              <div className={styles.tramText}>
+                  <Image
+                    src="/events/tramText.png"
+                    alt="tramText"
+                    width={300}
+                    height={30}
+                  />                
+              </div>
             </div>
-            
             
 
 
@@ -83,7 +154,7 @@ export default function Home() {
 
         <div className = {styles.pageContent}>
 
-            
+            <Subscribe/>
 
 
             
