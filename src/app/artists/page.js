@@ -185,7 +185,7 @@ export default function Home() {
                     className={styles.oval}
                     src="/artists/seeArtistText.png"
                     alt="trikk1"
-                    width={180}
+                    width={300}
                     height={30}
                   />
               </div>

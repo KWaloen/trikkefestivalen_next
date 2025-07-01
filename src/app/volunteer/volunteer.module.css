@@ -1,0 +1,92 @@
+.page {
+  display: grid;
+  position: relative;
+  background:  black;
+
+  display: grid;
+  grid-template-rows: 0px auto 0px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  min-height: min-content;
+
+
+  font-family: var(--font-geist-sans);
+  z-index: 1;
+}
+
+.background {
+    background: #E7E7CE;
+}
+
+.concert {
+    width: 60%;
+    height: auto;
+}
+
+.volunteerText {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    bottom: -5px;
+    z-index: 2;
+}
+
+.volunteerImages {
+    height: auto;
+    margin: 30px;
+}
+
+.pageContent {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    min-height: min-content;
+    margin: 50px;
+}
+
+.oval {
+    margin: 50px;
+    background: yellow;
+    background-image: linear-gradient(to right, yellow 0%, #DE6331 100%);
+    border-radius: 20px;
+    padding: 20px;             
+    width: max-content;         
+    height: auto;
+    width: 300px;
+}
+
+.trikk {
+    position: relative;
+    height: auto;
+}   
+
+.tram {
+    position: relative;
+    height: auto;
+}   
+
+.imageGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 200px;
+    margin-bottom: 30px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.tramShed {
+    height: auto;
+}
+
+.images {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    min-height: min-content;
+}
+
