@@ -9,7 +9,6 @@
   align-content: center;
   min-height: 50svh;
 
-
   font-family: var(--font-geist-sans);
   z-index: 1;
 }
@@ -49,6 +48,7 @@
 }
 
 .pageContent {
+  display: grid;
   background: #E7E7CE;
   color: black;
   z-index: 1;
@@ -116,6 +116,7 @@
 }
 
 .orangeBackground {
+  display: grid;
   background-color: #DE6331;
   width: 100%;
 

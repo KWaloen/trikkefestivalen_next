@@ -52,9 +52,6 @@ export default function Home() {
             height={380}
           />
           
-          
-          <div className = {styles.gap}/>
-          
       </div>
 
       <div className = {styles.gap}/>
