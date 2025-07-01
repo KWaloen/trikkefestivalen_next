@@ -156,7 +156,14 @@ export default function Home() {
 
             <Subscribe/>
 
-
+            <div className = {styles.banner}>
+                <Image 
+                    src="/artists/musicBanner.png"
+                    alt="banner"
+                    width={1000}
+                    height={50}
+                  />
+            </div>
             
 
         </div>

@@ -92,3 +92,9 @@
 .background {
     background: #E7E7CE;
 }
+
+.banner {
+  background: #E7BD08 no-repeat center/cover;
+  transform: rotate(-4deg);
+  padding: 10px;
+}
