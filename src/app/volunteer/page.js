@@ -157,12 +157,12 @@ export default function Home() {
         />
 
         <Image
-                className={styles.oval}
-                src="/volunteer/becomeavolunteer.png"
-                alt="becomeavolunteer"
-                width={200}
-                height={30}
-              />
+            className={styles.oval}
+            src="/volunteer/becomeavolunteer.png"
+            alt="becomeavolunteer"
+            width={200}
+            height={30}
+          />
     </div>
 
         <Subscribe/>

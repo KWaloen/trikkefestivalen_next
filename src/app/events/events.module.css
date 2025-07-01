@@ -93,3 +93,7 @@
   transform: rotate(-4deg);
   padding: 10px;
 }
+
+.background {
+  background: #E7E7CE;
+}
