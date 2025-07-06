@@ -44,11 +44,14 @@
 
 .artists {
   display: grid;              
-  grid-template-columns: repeat(3, 1fr);
-  width: 30%;
-  margin: 0 auto;
+  grid-template-columns: repeat(3);
+  width: 100%;
   row-gap: 50px;
-
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  
 }
 
 .blackTram {

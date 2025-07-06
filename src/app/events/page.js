@@ -4,6 +4,7 @@ import styles from './events.module.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import Subscribe from '../components/Subscribe'
+import GetArtist from '../components/GetArtist'
 
 export default function Home() {
   return (
@@ -52,67 +53,8 @@ export default function Home() {
             </div>
 
             <div className={styles.artists}>
-              <Image
-                  src="/artists/trikk1.png"
-                  alt="trikk1"
-                  width={180}
-                  height={90}
-                />
-  
-                <Image
-                  src="/artists/trikk1.png"
-                  alt="trikk1"
-                  width={180}
-                  height={90}
-                />
-  
-                <Image
-                  src="/artists/trikk1.png"
-                  alt="trikk1"
-                  width={180}
-                  height={90}
-                />
-  
-                <Image
-                  src="/artists/trikk1.png"
-                  alt="trikk1"
-                  width={180}
-                  height={90}
-                />
-                <Image
-                  src="/artists/trikk1.png"
-                  alt="trikk1"
-                  width={180}
-                  height={90}
-                />
-  
-                <Image
-                  src="/artists/trikk1.png"
-                  alt="trikk1"
-                  width={180}
-                  height={90}
-                />
-  
-                <Image
-                  src="/artists/trikk1.png"
-                  alt="trikk1"
-                  width={180}
-                  height={90}
-                />
-  
-                <Image
-                  src="/artists/trikk1.png"
-                  alt="trikk1"
-                  width={180}
-                  height={90}
-                />
-                <Image
-                  src="/artists/trikk1.png"
-                  alt="trikk1"
-                  width={180}
-                  height={90}
-                />
-  
+              
+              <GetArtist/>  
                 
             </div>
 
