@@ -2,8 +2,11 @@ import Image from 'next/image'
 import styles from './artists.module.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
+import GetArtist from '../components/GetArtist'
 
-export default function Home() {
+export default async function Home() {
+
+
   return (
     <div>
       <div className={styles.page}>
@@ -145,38 +148,9 @@ export default function Home() {
                 height={80}
               />
           </div>
+            
+              <GetArtist/>
           
-          <div className = {styles.artists}>
-
-              <Image
-                src="/artists/trikk1.png"
-                alt="trikk1"
-                width={180}
-                height={90}
-              />
-
-              <Image
-                src="/artists/trikk1.png"
-                alt="trikk1"
-                width={180}
-                height={90}
-              />
-
-              <Image
-                src="/artists/trikk1.png"
-                alt="trikk1"
-                width={180}
-                height={90}
-              />
-
-              <Image
-                src="/artists/trikk1.png"
-                alt="trikk1"
-                width={180}
-                height={90}
-              />
-
-          </div>
 
           </div>
             
@@ -412,3 +386,4 @@ export default function Home() {
     </div>
   )
 }
+

@@ -1,0 +1,8 @@
+.artists {
+  display: grid;              
+  grid-template-columns: repeat(3, 1fr);
+  width: 30%;
+  margin: 80px;
+  row-gap: 50px;
+  
+}
