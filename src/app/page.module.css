@@ -55,8 +55,9 @@
   
 .EXAMM {
   position: absolute;
-  left: 155px;
-  top: 300px;
+  left: 160px;
+  top: 320px;
+  width: auto;
 }
 
 .artists {
@@ -113,15 +114,116 @@
 }
 
 
-@media screen and (max-width: 600px) {
-    .tram {
-      position: absolute;
+@media screen and (max-width: 2000px) {
+  .page {
+    position: relative;
+    background: linear-gradient(to bottom,  #e1c72efa 10%, #0A9EDE 40%);
 
-      
-    }
+    display: grid;
+    grid-template-rows: 20px 1fr 20px;
+    align-items: center;
+    justify-items: center;
+    min-height: 100svh;
+    gap: 64px;
+    font-family: var(--font-geist-sans);
+  }
 
-    .music {
-      position: absolute;
-    }
+@media (prefers-color-scheme: dark) {
+  .page {
+    background-color: linear-gradient(to bottom, orange, rgb(10, 10, 45));
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* center them horizontally */
+  grid-row-start: 2;      /* keep it in your 1fr row */
+}
+
+.tram {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  
+}
+
+.music {
+  position: block;
+  top: 11%;
+  left: -8%;
+  height: auto;
+  width: 100%;
+}
+
+.clouds {
+  position: absolute;
+  width: fit-content;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+
+}
+
+.date {
+  position: absolute;
+  width: fit-content;
+  height: auto;
+}
+  
+.EXAMM {
+  position: static;
+  align-items: center;
+  justify-items: center;
+  width: auto;
+}
+
+.artists {
+  position: static;
+}
+
+.ticket {
+  position: static;
+}
+
+.events {
+  position: static;
+}
+
+.faqs {
+  position: static;
+}
+
+.letter {
+  position: static;
+}
+
+.contact {
+  position: static;
+}
+
+.notes {
+  position: static;
+}
+
+.volunteer {
+  position: static;
+}
+
+.linksGrid {
+  display: grid;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  margin-top: 100%;
+  align-items: center;
+  justify-items: center;
+}
+  
 }
 

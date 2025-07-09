@@ -30,13 +30,6 @@ export default function Home() {
           height={600}
         />
         <Image
-          className={styles.music}
-          src="/main/TRIKK.gif"
-          alt="music"
-          width={700}
-          height={600}
-        />
-        <Image
           className={styles.clouds}
           src="/main/clouds.gif"
           alt="clouds"
@@ -50,84 +43,80 @@ export default function Home() {
           width={300}
           height={50}
         />
-        <Link href="/artists">
-            <Image
-              className={styles.EXAMM}
-              src="/main/EXAMM.png"
-              alt="artists_image"
-              width={150}
-              height={90}
-            />
-        </Link>
-        <Link href="/artists">
-            <Image
-              className={styles.artists}
-              src="/main/artists.png"
-              alt="artists_text"
-              width={80}
-              height={20}
-            />
-        </Link>
-
-        <Link href="/events">
-          <Image
-            className={styles.ticket}
-            src="/main/ticket.png"
-            alt="ticket"
-            width={80}
-            height={50}
-          />
-          <Image
-            className={styles.events}
-            src="/main/events.png"
-            alt="events"
-            width={80}
-            height={20}
-          />
-        </Link>
-
-        <Link href="/faqs">
-          <Image
-            className={styles.letter}
-            src="/main/letter.png"
-            alt="letter"
-            width={80}
-            height={50}
-          />
+    
         
-          <Image
-            className={styles.faqs}
-            src="/main/faqs.png"
-            alt="faqs"
-            width={80}
-            height={20}
-          />
-        </Link>
+          <div className={styles.linksGrid}>
+            <Link href="/artists">
+                <Image
+                  className={styles.EXAMM}
+                  src="/main/EXAMM.png"
+                  alt="artists_image"
+                  width={150}
+                  height={70}
+                />
+                <Image
+                  className={styles.artists}
+                  src="/main/artists.png"
+                  alt="artists_text"
+                  width={80}
+                  height={20}
+                />
+            </Link>
+          
+            <Link href="/events">
+              <Image
+                className={styles.ticket}
+                src="/main/ticket.png"
+                alt="ticket"
+                width={80}
+                height={50}
+              />
+              <Image
+                className={styles.events}
+                src="/main/events.png"
+                alt="events"
+                width={80}
+                height={20}
+              />
+            </Link>
+          
+            <Link href="/faqs">
+              <Image
+                className={styles.letter}
+                src="/main/letter.png"
+                alt="letter"
+                width={80}
+                height={50}
+              />
+              <Image
+                className={styles.faqs}
+                src="/main/faqs.png"
+                alt="faqs"
+                width={80}
+                height={20}
+              />
+            </Link>
+          
+            <Link href="/volunteer">
+              <Image
+                className={styles.notes}
+                src="/main/notes.png"
+                alt="notes"
+                width={80}
+                height={50}
+              />
+              <Image
+                className={styles.volunteer}
+                src="/main/volunteer.png"
+                alt="volunteer"
+                width={80}
+                height={20}
+              />
+            </Link>
+          </div>
+       
 
-        <Link href="/volunteer">
-          <Image
-            className={styles.notes}
-            src="/main/notes.png"
-            alt="notes"
-            width={80}
-            height={50}
-          />
-          <Image
-            className={styles.volunteer}
-            src="/main/volunteer.png"
-            alt="volunteer"
-            width={80}
-            height={20}
-          />
-          </Link>
-
-        <Image
-          className={styles.rail}
-          src="/main/rail.png"
-          alt="rail"
-          width={700}
-          height={10}
-        />
+        
 
     </div>
   )
