@@ -181,38 +181,47 @@
   align-items: center;
   justify-items: center;
   width: auto;
+  z-index: 1;
 }
 
 .artists {
   position: static;
+  z-index: 1;
 }
 
 .ticket {
   position: static;
+  z-index: 1;
 }
 
 .events {
   position: static;
+  z-index: 1;
 }
 
 .faqs {
   position: static;
+  z-index: 1;
 }
 
 .letter {
   position: static;
+  z-index: 1;
 }
 
 .contact {
   position: static;
+  z-index: 1;
 }
 
 .notes {
   position: static;
+  z-index: 1;
 }
 
 .volunteer {
   position: static;
+  z-index: 1;
 }
 
 .linksGrid {
