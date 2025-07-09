@@ -52,3 +52,62 @@
   justify-items: center;
   align-content: center;
 }
+
+@media screen and (max-width: 1000px) {
+
+.page {
+    position: relative;
+    background: linear-gradient(#0099AD 40%);
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    min-height: 10svh;
+    padding: 50px;
+    font-family: var(--font-geist-sans);
+    z-index: 1;
+}
+
+.footer {
+    display: flex;    
+    gap: 25px;
+    align-items: center;
+}
+
+.footerleft {
+    display: grid;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.footercenter {
+    display: grid;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.footerright {
+    display: grid;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.logo {
+    margin-bottom: 50px;
+   
+}
+
+.images {
+  display: grid;              
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+  margin: 0 auto;
+  row-gap: 10px;
+  column-gap: 10px;
+  position: relative;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+}

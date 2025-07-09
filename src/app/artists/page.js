@@ -12,32 +12,27 @@ export default async function Home() {
       <div className={styles.page}>
           <NavBar/>
 
+        <div className={styles.topRow}>
           <Image
             className={styles.EXAMM}
             src="/artists/EXAMM.png"
             alt="tram_image"
-            width={250}
-            height={150}
+            width={100}
+            height={100}
           />
           <Image
             className={styles.logo}
             src="/artists/logo.png"
             alt="logo"
-            width={400}
+            width={200}
             height={100}
           />
+        </div>
           <Image
             className={styles.date}
             src="/artists/date.png"
             alt="date"
             width={300}
-            height={50}
-          />  
-          <Image
-            className={styles.year}
-            src="/artists/year.png"
-            alt="year"
-            width={100}
             height={50}
           />  
           <Image
@@ -91,19 +86,19 @@ export default async function Home() {
         </div>
 
         <div className = {styles.tripleTrikks}>
-            <Image
+            <Image className={styles.singleTrikk}
               src="/artists/trikk1.png"
               alt="trikk1"
               width={180}
               height={90}
             />
-            <Image
+            <Image className={styles.singleTrikk}
               src="/artists/trikk2.png"
               alt="trikk2"
               width={180}
               height={100}
             />
-            <Image
+            <Image className={styles.singleTrikk}
               src="/artists/trikk3.png"
               alt="trikk3"
               width={180}
@@ -225,9 +220,7 @@ export default async function Home() {
             />
           </div>
 
-            <div className={styles.artistNames}>
-              Artists
-            </div>
+          <div className = {styles.gap}/>
 
           <div>
           <Image 
@@ -237,7 +230,6 @@ export default async function Home() {
               height={50}
             />
           </div>
-
 
         </div>
 
@@ -346,6 +338,7 @@ export default async function Home() {
 
         <div className={styles.endBanners}>
           <Image
+            className={styles.photo}
             src="/artists/tramDate.png"
             alt="trikk1"
             width={400}
@@ -355,6 +348,7 @@ export default async function Home() {
 
         <div className={styles.endBanners}>
           <Image
+            className={styles.photo}
             src="/artists/musicBanner.png"
             alt="musicBanner"
             width={1000}
@@ -364,6 +358,7 @@ export default async function Home() {
 
         <div className={styles.endBanners}>
           <Image
+            className={styles.photo}
             src="/artists/musikkpåskinner.png"
             alt="musikkpaskinner"
             width={1000}

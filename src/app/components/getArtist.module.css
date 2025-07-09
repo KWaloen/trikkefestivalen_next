@@ -6,3 +6,18 @@
   row-gap: 50px;
   
 }
+
+@media screen and (max-width: 1000px) {
+
+  .artists {
+  display: grid;              
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  max-width: 600px;
+  margin: 5px auto;
+  align-items: center;
+  justify-items: center;
+  
+}
+
+}

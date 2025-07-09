@@ -29,9 +29,11 @@
 
 .EXAMM {
   position: absolute;
-  top: 20px;
-  left: 32%;
+  top: 60px;
+  left: 31%;
   z-index: 1;
+  width: 100px;
+  height: auto;
 }
 
 .logo {
@@ -125,8 +127,6 @@
   align-items: center;
   justify-items: center;
   align-content: center;
-  margin: auto;
- 
 }
 
 .artistsTitle {
@@ -135,8 +135,7 @@
   align-items: center;
   justify-items: center;
   align-content: center;
-  width: 50%;
-  margin: 0 auto;
+  width: 100%;
   min-height: 120px;
 }
 
@@ -260,4 +259,289 @@
   width: auto;
   overflow: hidden;
   position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+
+.page {
+  position: relative;
+  background:  #0099AD 40%;
+
+  display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  min-height: 50svh;
+
+  font-family: var(--font-geist-sans);
+  z-index: 1;
+}
+
+.topRow {
+  display: grid;
+  grid-auto-flow: column;  /* flow items in a single row */
+  grid-auto-columns: auto; /* size each column to its content */
+  gap: 50px;               /* space between items */
+  align-items: center;
+}
+
+.date {
+  position: static;
+  z-index: 1;
+  bottom: auto;
+}
+
+
+.EXAMM {
+  position: static;
+  z-index: 1;
+  height: auto;
+  width: 80;
+}
+
+.logo {
+  position: static;
+  z-index: 1;
+}
+
+.trikk {
+  position: relative;
+  top: 330px;
+  z-index: 1;
+  width: 100%;
+  top: 50px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  background: #E7E7CE;
+  color: black;
+  z-index: 1;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  min-height: 50svh;
+}
+
+.gap {
+  background: #E7E7CE;
+  min-height: 150px;
+  z-index: 1;
+}
+
+.wave {
+  position: absolute;
+  top: 120px;
+  width: 1000%;
+  z-index: -1;
+}
+
+.musicBanner {
+  position: static;
+  max-width: 100%;
+  height: auto;
+}
+
+.tfButton {
+  position: static;
+  max-width: 100%;
+  height: auto;
+}
+
+.experience {
+  position: static;
+  max-width: 100%;
+  height: auto;
+}
+
+.tripleTrikks {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  column-gap: 10px;
+  margin-bottom: 50px;
+}
+
+.singleTrikk {
+  position: static;
+  max-width: 100%;
+  height: auto;
+}
+
+.fifteenMin {
+  position: static;
+  max-width: 100%;
+  height: auto;
+}
+
+.yellow {
+  display: grid;
+  column-gap: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.yellowTop {
+  margin-top: -10px;
+  margin-bottom: -30px;
+}
+
+.yellowBottom {
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+
+.orangeBackground {
+  display: flex;
+  flex-direction: column;
+  background-color: #DE6331;
+  width: 100%;
+
+  overflow: visible;
+
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+ 
+}
+
+.artistsTitle {
+  display: grid;              
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  width: 98%;
+  margin: 0 auto;
+  min-height: 100px;
+}
+
+.artists {
+  display: grid;              
+  grid-template-columns: repeat(3, 1fr);
+  width: 30%;
+  margin: 80px;
+  row-gap: 50px;
+  
+}
+
+.seeArtists {
+  background: #DE6331;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.oval {
+  background: yellow;
+  border-radius: 10px;
+  padding: 20px;             
+  width: max-content;         
+  height: 55px;
+  width: 200px;
+}
+
+.tramAndDate {
+  position: relative;   
+  width: 800px;         
+  margin: 0 auto;       
+}
+
+.tramPic {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.tramDate {
+  position: absolute;    
+  top: 50%;             
+  left: 50%;             
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.tripleTrams {
+  height: auto;
+  display: flex;
+  grid-template-columns: repeat(3, 2fr);
+  column-gap: 10px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.artistNames {
+  top: 50px;
+  position: relative;
+  min-height: 200px;
+}
+
+.wavyOrange {
+  z-index: 2;
+  margin-top: -20px;
+  margin-bottom: 100px;
+}
+
+.moreInfo {
+  display: grid;              
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+  margin: 0 auto;
+  row-gap: 100px;
+  column-gap: 50px;
+  position: relative;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.photo {
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.volunteer {
+  display: grid;
+  place-items: center;
+  margin: auto;
+  position: relative;
+  
+}
+
+.readMore {
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.fromEngen {
+  display: grid;
+  place-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.endBanners {
+  width: 100%;
+  height: auto;
+}
+
+.blueWave {
+  z-index: 2;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  width: auto;
+  overflow: hidden;
+  position: relative;
+}
+
 }
