@@ -160,6 +160,8 @@
 .clouds {
   position: absolute;
   width: fit-content;
+  z-index: 2;
+  pointer-events: none;
 }
 
 .title {
