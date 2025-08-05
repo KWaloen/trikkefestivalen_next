@@ -3,6 +3,7 @@
   --foreground: #171717;
   --font-geist-sans: 'Geist', sans-serif;
   --font-geist-mono: 'Geist Mono', monospace;
+  --font-gravity-bold: 'Gravity Bold', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,6 +43,15 @@ a {
   src: url("/fonts/house-soft-narrow/HouseSoft-NarrowExtraBold.otf")
         format("opentype");
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gravity Bold";
+  src: url("/fonts/gravity-bold/GravityBold.otf")
+        format("opentype");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
