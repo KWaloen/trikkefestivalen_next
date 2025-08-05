@@ -41,8 +41,11 @@
 
 .title {
   position: absolute;
-  top: 220px; 
-}
+  top: 300px;
+  font-family: "House Soft Narrow", sans-serif;
+  font-size: 7rem;   /* adjust as you like */
+  margin: 1rem 0;
+} 
 
 .date {
   position: absolute;

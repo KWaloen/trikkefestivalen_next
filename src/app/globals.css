@@ -21,7 +21,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-geist-sans);
+  font-family: "House Soft Narrow", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -37,8 +37,29 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "House Soft Narrow";
+  src: url("/fonts/house-soft-narrow/HouseSoft-NarrowExtraBold.otf")
+        format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "House Soft Narrow";
+  src: url("/fonts/house-soft-narrow/HouseSoft-NarrowExtraBold.otf")
+        format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
+
+
