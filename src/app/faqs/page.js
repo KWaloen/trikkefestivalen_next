@@ -79,17 +79,31 @@ export default function Home() {
                     <div className={styles.answer}>
                         I år (2025) arrangerer vi for første gang Trikkefestivalen, en lokal musikkfestival hvor vi kombinerer den historiske trikken med moderne musikk!
                         Seks lokale, unge artister vil i løpet av en dag fremføre musikk mens trikken beveger seg til og fra Café Opera over Høyden til Teknisk museum på Møhlenpris
+                        <br />
+                        <br />
+                        Festivalen drives med støtte fra Bergen Kommune og Studenradioen i Bergen. Vi har også partnerskap med <a href="https://besporvei.net/">Bergen Elektriske Sporvei</a>, som drifter trikken og <a href="https://cafeopera.org/">Café Opera</a> og <a href="https://nobelbopel.no/">Nobel Bopel</a>.
                     </div>
                 </details>
 
                  <details className={styles.faqItem}>
                     <summary className = {styles.question}>
 
+                        Hva slags fordeler er det med billetten?
+
+                    </summary>   
+                    <div className={styles.answer}>
+                        Billetten gir deg en enkeltgangs rabatt på mat og drikke på Café Opera og Nobel Bopel, samt en gratis trikketur til og fra festivalen. I tillegg til å få en unik konsertopplevelse på trikken, får du også gratis transport fra Engen til Møhlenpris og tilbake igjen.
+                    </div>
+                </details>
+
+                                 <details className={styles.faqItem}>
+                    <summary className = {styles.question}>
+
                         Hvor starter festivalen?
 
                     </summary>   
                     <div className={styles.answer}>
-                        Festivalen starter og ender hvor trikken vanligivis starter og ender, nemlig på Engen (foran DNS, i nærheten av Café Opera) eller foran Teknisk Musuem på Møhlenpris. Sjekk programmet vårt for mer informasjon om hvilken strekning artist spiller. 
+                        Festivalen starter og ender hvor trikken vanligivis starter og ender, nemlig på Engen (foran DNS, i nærheten av Café Opera) eller foran Teknisk Museum på Møhlenpris. Sjekk programmet vårt for mer informasjon om hvilken strekning artist spiller. 
                     </div>
                 </details>
 

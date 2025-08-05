@@ -93,13 +93,19 @@
 
 .answer {
   padding: 10px 20px;
-  color: black;
+  color: #DE6331;
   background: #f5f5f5;
   border-radius: 0 0 10px 10px;
   height: auto;
   width: 800px;
   z-index: 3;
 }
+
+.answer a{
+  color: #DE6331;
+  text-decoration: underline;
+}
+
 
 .banner {
   background: #E7BD08 no-repeat center/cover;
