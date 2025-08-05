@@ -53,8 +53,8 @@
 .pageContent {
   display: flex;
   flex-direction: column;
-  align-items: center;        /* centers children horizontally */
-  justify-content: center;    /* centers children vertically if needed */
+  align-items: center;        
+  justify-content: center;    
   background: #E7E7CE;
   color: black;
   z-index: 1;
@@ -398,11 +398,13 @@
 .yellowTop {
   margin-top: -10px;
   margin-bottom: -30px;
+  width: 100vw;
 }
 
 .yellowBottom {
   margin-top: -30px;
   margin-bottom: -10px;
+  width: 100vw;
 }
 
 .orangeBackground {

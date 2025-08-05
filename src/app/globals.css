@@ -3,7 +3,9 @@
   --background: #ffffff;
   --foreground: #171717;
   --font-house-soft: "House Soft Narrow", sans-serif;
+  --font-gravity-bold: "Gravity Bold", sans-serif;
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -21,7 +23,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "House Soft Narrow", sans-serif;
+  font-family: "House Soft Narrow", "Gravity Bold", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -46,15 +48,15 @@ a {
   font-display: swap;
 }
 
-
 @font-face {
-  font-family: "House Soft Narrow";
-  src: url("/fonts/house-soft-narrow/HouseSoft-NarrowExtraBold.otf")
+  font-family: "Gravity Bold";
+  src: url("/fonts/gravity-bold/Gravity-Bold.otf")
         format("opentype");
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
+
 
 @media (prefers-color-scheme: dark) {
   html {
