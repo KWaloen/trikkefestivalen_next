@@ -1,3 +1,4 @@
+
 .page {
   position: relative;
   background:  #0099AD 40%;
@@ -50,14 +51,18 @@
 }
 
 .pageContent {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;        /* centers children horizontally */
+  justify-content: center;    /* centers children vertically if needed */
   background: #E7E7CE;
   color: black;
   z-index: 1;
-  align-items: center;
-  justify-items: center;
-  align-content: center;
   min-height: 50svh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  overflow-x: hidden;
 }
 
 .gap {
@@ -120,7 +125,7 @@
 .orangeBackground {
   display: grid;
   background-color: #DE6331;
-  width: 100%;
+  width: 100vw;
 
   overflow: visible;
 
@@ -150,7 +155,7 @@
 
 .seeArtists {
   background: #DE6331;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -322,10 +327,14 @@
   color: black;
   z-index: 1;
   align-items: center;
-  justify-items: center;
-  align-content: center;
+  justify-content: center;
   min-height: 50svh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 0 1rem; /* Optional spacing */
+  box-sizing: border-box;
 }
+
 
 .gap {
   background: #E7E7CE;

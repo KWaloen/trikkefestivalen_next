@@ -146,7 +146,6 @@ export default async function Home() {
             
               <GetArtist/>
           
-
           </div>
             
               <div className={styles.seeArtists}>
