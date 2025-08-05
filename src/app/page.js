@@ -8,14 +8,12 @@ export default function Home() {
     <div className={styles.page}>
       <NavBar />
 
-      <h1 className={styles.title}>Trikkefestivalen</h1>
-
       <Image
-        className={styles.tram}
-        src="/main/trikk.gif"
-        alt="trikk"
-        width={700}
-        height={600}
+        className={styles.title}
+        src="/main/trikkefestivalenLogo.png"
+        alt="title"
+        width={600}
+        height={250}
       />
       <Image
         className={styles.tram}
@@ -31,14 +29,6 @@ export default function Home() {
         width={800}
         height={700}
       />
-      <Image
-        className={styles.date}
-        src="/main/date.png"
-        alt="date"
-        width={300}
-        height={50}
-      />
-
 
       <div className={styles.linksGrid}>
         <Link href="/artists">
@@ -49,13 +39,8 @@ export default function Home() {
             width={150}
             height={70}
           />
-          <Image
-            className={styles.artists}
-            src="/main/artists.png"
-            alt="artists_text"
-            width={80}
-            height={20}
-          />
+
+          <div className={styles.artists}>Artists</div>
         </Link>
 
         <Link href="/events">
@@ -66,13 +51,7 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <Image
-            className={styles.events}
-            src="/main/events.png"
-            alt="events"
-            width={80}
-            height={20}
-          />
+          <div className={styles.events}>Events</div>
         </Link>
 
         <Link href="/faqs">
@@ -83,13 +62,7 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <Image
-            className={styles.faqs}
-            src="/main/faqs.png"
-            alt="faqs"
-            width={80}
-            height={20}
-          />
+          <div className={styles.faqs}>FAQS</div>
         </Link>
 
         <Link href="/volunteer">
@@ -100,19 +73,9 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <Image
-            className={styles.volunteer}
-            src="/main/volunteer.png"
-            alt="volunteer"
-            width={80}
-            height={20}
-          />
+          <div className={styles.volunteer}>Volunteer</div>
         </Link>
       </div>
-
-
-
-
     </div>
   )
 }

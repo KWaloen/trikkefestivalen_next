@@ -1,8 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-geist-sans: 'Geist', sans-serif;
-  --font-geist-mono: 'Geist Mono', monospace;
+  --font-house-soft: "House Soft Narrow", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

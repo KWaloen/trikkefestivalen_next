@@ -1,6 +1,6 @@
 .page {
   position: relative;
-  background: linear-gradient(to bottom,  #e1c72efa 10%, #0A9EDE 40%);
+  background: #DE6331;
 
   display: grid;
   grid-template-rows: 20px 1fr 20px;
@@ -41,11 +41,8 @@
 
 .title {
   position: absolute;
-  top: 300px;
-  font-family: "House Soft Narrow", sans-serif;
-  font-size: 7rem;   /* adjust as you like */
-  margin: 1rem 0;
-} 
+  top: 220px; 
+}
 
 .date {
   position: absolute;
@@ -65,7 +62,9 @@
 
 .artists {
   position: absolute;
-  left: 150px;
+  font-family: var(--font-house-soft);
+  font-size: 30px;
+  left: 140px;
   top: 400px;
 }
 
@@ -77,12 +76,16 @@
 
 .events {
   position: absolute;
-  left: 150px;
+  font-family: var(--font-house-soft);
+  font-size: 30px;
+  left: 140px;
   top: 600px;
 }
 
 .faqs {
   position: absolute;
+  font-family: var(--font-house-soft);
+  font-size: 30px;
   right: 150px;
   top: 405px;
 }
@@ -107,7 +110,9 @@
 
 .volunteer {
   position: absolute;
-  right: 150px;
+  font-family: var(--font-house-soft);
+  font-size: 30px;
+  right: 110px;
   top: 600px;
 }
 
