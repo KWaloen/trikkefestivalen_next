@@ -1,3 +1,5 @@
+@import "normalize.css";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
