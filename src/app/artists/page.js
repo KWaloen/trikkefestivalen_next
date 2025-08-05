@@ -29,13 +29,6 @@ export default async function Home() {
           />
         </div>
           <Image
-            className={styles.date}
-            src="/artists/date.png"
-            alt="date"
-            width={300}
-            height={50}
-          />  
-          <Image
             className={styles.trikk}
             src="/artists/Group.png"
             alt="date"

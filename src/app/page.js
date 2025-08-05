@@ -6,7 +6,14 @@ import NavBar from './components/NavBar'
 export default function Home() {
   return (
     <div className={styles.page}>
+
+      
       <NavBar />
+
+      <div className={styles.date}>Lørdag 06.September, 2025</div>
+
+
+      <h1 className={styles.title}>Trikkefestivalen</h1>
 
       <Image
         className={styles.title}
@@ -15,6 +22,8 @@ export default function Home() {
         width={600}
         height={250}
       />
+
+      
       <Image
         className={styles.tram}
         src="/main/whiteee.gif"
@@ -22,6 +31,7 @@ export default function Home() {
         width={700}
         height={600}
       />
+      
       <Image
         className={styles.clouds}
         src="/main/clouds.gif"
@@ -29,6 +39,7 @@ export default function Home() {
         width={800}
         height={700}
       />
+
 
       <div className={styles.linksGrid}>
         <Link href="/artists">
