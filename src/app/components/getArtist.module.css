@@ -1,23 +1,27 @@
 .artists {
   display: grid;              
   grid-template-columns: repeat(3, 1fr);
-  width: 30%;
-  margin: 80px;
+  gap: 50px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 80px auto;
   row-gap: 50px;
+  padding: 0 20px;
   
 }
 
 @media screen and (max-width: 1000px) {
 
-  .artists {
+.artists {
   display: grid;              
-  grid-template-columns: repeat(3, 1fr);
-  width: 90%;
+  grid-template-columns: 1fr;
+  width: 100%;
   max-width: 600px;
-  margin: 5px auto;
-  align-items: center;
-  justify-items: center;
-  
+  margin: 20px auto;
+  justify-items: start;
+  padding: 0 10px;
+  gap: 30px;
+
 }
 
 }

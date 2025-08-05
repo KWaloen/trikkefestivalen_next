@@ -44,7 +44,7 @@
 
 .artists {
   display: grid;              
-  grid-template-columns: repeat(3);
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
   row-gap: 50px;
   margin: auto;
@@ -100,3 +100,90 @@
 .background {
   background: #E7E7CE;
 }
+
+@media screen and (max-width: 1000px) {
+
+.page {
+  background:  #DE6331;
+
+  display: grid;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  place-items: center;
+  min-height: 50svh;
+
+  font-family: var(--font-geist-sans);
+  z-index: 1;
+}
+
+.title {
+  position: static;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.sequence {
+  position: static;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.date {
+  position: static;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.getongetoff {
+  position: static;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.artists {
+  display: grid;              
+  grid-template-columns: 1fr;
+  width: 100%;
+  row-gap: 20px;
+  margin: auto;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.blackTram {
+  position: static;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.tramText {
+  position: static;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.pageContent {
+  background: #E7E7CE;
+  color: black;
+  z-index: 1;
+  display: grid;
+  margin: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+.orangeWave {
+  margin-top: -20px; 
+}
+
+.banner {
+  background: #E7BD08 no-repeat center/cover;
+  transform: rotate(0deg);
+  padding: 10px;
+}
+
+.background {
+  background: #E7E7CE;
+}
+} 
