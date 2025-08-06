@@ -1,6 +1,7 @@
 .page {
   position: relative;
-  background: linear-gradient(to bottom,  #e1c72efa 10%, #0A9EDE 40%);
+
+  background: linear-gradient(to top, #de6331 10%, #0A9EDE);    
 
   display: grid;
   grid-template-rows: 20px 1fr 20px;
@@ -13,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   .page {
-    background-color: linear-gradient(to bottom, orange, rgb(10, 10, 45));
+    background-color: #de6331 40%;
   }
 }
 
@@ -26,7 +27,8 @@
 
 .tram {
    position: absolute;
-   top: 200px;
+   top: 250px;
+   bottom: 50px;
 }
 
 .music {
@@ -41,7 +43,19 @@
 
 .title {
   position: absolute;
-  top: 220px; 
+
+  top: 220px;
+  font-family: "House Soft Narrow", sans-serif;
+  font-size: 7rem;   /* adjust as you like */
+  margin: 1rem 0;
+}
+
+.date {
+  position: absolute;
+  top: 400px;
+  font-family: var(--font-gravity-bold), sans-serif;
+  font-size: 2rem;   /* adjust as you like */
+
 }
 
 .date {
@@ -62,7 +76,9 @@
 
 .artists {
   position: absolute;
-  left: 150px;
+  font-family: var(--font-house-soft);
+  font-size: 30px;
+  left: 140px;
   top: 400px;
 }
 
@@ -74,12 +90,16 @@
 
 .events {
   position: absolute;
-  left: 150px;
+  font-family: var(--font-house-soft);
+  font-size: 30px;
+  left: 140px;
   top: 600px;
 }
 
 .faqs {
   position: absolute;
+  font-family: var(--font-house-soft);
+  font-size: 30px;
   right: 150px;
   top: 405px;
 }
@@ -104,7 +124,9 @@
 
 .volunteer {
   position: absolute;
-  right: 150px;
+  font-family: var(--font-house-soft);
+  font-size: 30px;
+  right: 110px;
   top: 600px;
 }
 
@@ -117,7 +139,7 @@
 @media screen and (max-width: 1000px) {
   .page {
     position: relative;
-    background: linear-gradient(to bottom,  #e1c72efa 10%, #0A9EDE 40%);
+    background: linear-gradient(to top, #DE6331, 90%, #0A9EDE);
 
     display: grid;
     grid-template-rows: 20px 1fr 20px;
@@ -166,10 +188,9 @@
 
 .title {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: auto;
   margin-bottom: 50px;
-
 }
 
 .date {

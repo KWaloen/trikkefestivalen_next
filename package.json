@@ -9,8 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.3.3",
+    "normalize.css": "^8.0.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^10.2.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.3"
-  }
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "browserslist": "^4.25.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }
