@@ -15,14 +15,6 @@ export default function Home() {
 
       <h1 className={styles.title}>Trikkefestivalen</h1>
 
-      <Image
-        className={styles.title}
-        src="/main/trikkefestivalenLogo.png"
-        alt="title"
-        width={600}
-        height={250}
-      />
-
       
       <Image
         className={styles.tram}
