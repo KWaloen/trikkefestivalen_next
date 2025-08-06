@@ -49,7 +49,7 @@ export default function Home() {
             height={70}
           />
 
-          <div className={styles.artists}>Artists</div>
+          <div className={styles.artists}>Artister og program</div>
         </Link>
 
         <Link href="/events">
@@ -60,7 +60,7 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <div className={styles.events}>Events</div>
+          <div className={styles.events}>Billetter & Om Festivalen</div>
         </Link>
 
         <Link href="/faqs">
@@ -71,7 +71,7 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <div className={styles.faqs}>FAQS</div>
+          <div className={styles.faqs}>Ofte stilte spørsmål</div>
         </Link>
 
         <Link href="/volunteer">
@@ -82,7 +82,7 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <div className={styles.volunteer}>Volunteer</div>
+          <div className={styles.volunteer}>Bli frivillig!</div>
         </Link>
       </div>
     </div>
