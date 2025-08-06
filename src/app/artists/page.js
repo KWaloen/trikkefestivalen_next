@@ -68,15 +68,7 @@ export default async function Home() {
           />
         </div>
 
-        <div>
-          <Image
-            className={styles.experience}
-            src="/artists/experience.png"
-            alt="experience"
-            width={800}
-            height={200}
-          />
-        </div>
+        <div className={styles.experience}>EXPERIENCE MUSIC WHILE TRAVELING ON THE HISTORIC TRAM THROUGH THE STREETS OF BERGEN</div>
 
         <div className = {styles.tripleTrikks}>
             <Image className={styles.singleTrikk}
@@ -99,15 +91,7 @@ export default async function Home() {
             />
         </div>
 
-        <div>
-          <Image
-              className={styles.fifteenMin}
-              src="/artists/15min.png"
-              alt="15min"
-              width={800}
-              height={50}
-            />
-        </div>
+        <div className={styles.fifteenMin}>15 MINUTES OF BORDERLESS MUSIC</div>
 
         <div>
           <Image
@@ -120,14 +104,10 @@ export default async function Home() {
         </div>
 
         <div className = {styles.orangeBackground}>
-          
+
           <div className = {styles.artistsTitle}>
-          <Image
-                src="/artists/artists.png"
-                alt="artistsTitle"
-                width={180}
-                height={40}
-              />
+          
+          <div className={styles.artistsText}>ARTISTS</div>
 
           <Image
                 src="/artists/artistsNotes.png"
@@ -142,13 +122,7 @@ export default async function Home() {
           </div>
             
               <div className={styles.seeArtists}>
-                <Image
-                    className={styles.oval}
-                    src="/artists/seeArtistText.png"
-                    alt="trikk1"
-                    width={300}
-                    height={30}
-                  />
+                <div className={styles.oval}>SEE ALL ARTISTS</div>
               </div>
           
         <div>
@@ -168,7 +142,6 @@ export default async function Home() {
                 width={800}
                 height={0} /*dictated by css style */
               />
-
             
           </div>
 
@@ -240,29 +213,11 @@ export default async function Home() {
               
               <div className={styles.volunteer}>
 
-                <Image
-                  className={styles.photo}
-                  src="/artists/volunteerBanner.png"
-                  alt="becomeAVolunteer"
-                  width={200}
-                  height={90}
-                />
+                <div className={styles.volunteerTitle}>BECOME A VOLUNTEER!</div>
 
-                <Image
-                  className={styles.photo}
-                  src="/artists/volunteerText.png"
-                  alt="volunteerText"
-                  width={400}
-                  height={100}
-                />
+                <div className={styles.volunteerText}>THE FESTIVAL IS MADE POSSIBLE THROUGH VOLUNTEER WORK AND PARTNERSHIPS WITH LOCAL BUSINESSES</div>
 
-                <Image
-                  className={styles.readMore}
-                  src="/artists/readMore.png"
-                  alt="readMore"
-                  width={150}
-                  height={100}
-                />
+                <div className={styles.readMore}>READ MORE</div>
 
                 <Image
                   className={styles.photo}
@@ -284,29 +239,11 @@ export default async function Home() {
 
               <div className={styles.fromEngen}>
 
-                <Image
-                  className={styles.photo}
-                  src="/artists/fromEngen.png"
-                  alt="becomeAVolunteer"
-                  width={200}
-                  height={90}
-                />
+                <div className={styles.volunteerTitle}>FROM ENGEN TO MØHLENPRIS</div>
 
-                <Image
-                  className={styles.photo}
-                  src="/artists/fromEngenHelper.png"
-                  alt="volunteerText"
-                  width={400}
-                  height={100}
-                />
+                <div className={styles.volunteerText}>THE TRAM FESTIVAL IS A VOLUNTARY INITIATIVE WHERE WE WANT TO HOLD A MUSIC FESTIVAL ON THE HISTORIC TRAM THAT RUNS FROM CAFE OPERA TO THE TECHNICAL MUSEUM AT MØHLENPRIS</div>
 
-                <Image
-                  className={styles.readMore}
-                  src="/artists/readMore.png"
-                  alt="readMore"
-                  width={150}
-                  height={100}
-                />
+                <div className={styles.readMore}>READ MORE</div>
 
                 <Image
                   className={styles.photo}

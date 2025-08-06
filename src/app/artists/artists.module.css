@@ -47,7 +47,7 @@
 
 .trikk {
   position: absolute;
-  top: 330px;
+  top: 230px;
   z-index: 1;
 }
 
@@ -68,7 +68,7 @@
 
 .gap {
   background: #E7E7CE;
-  min-height: 250px;
+  min-height: 100px;
   z-index: 1;
 }
 
@@ -86,23 +86,30 @@
 
 .tfButton {
   position: relative;
-  margin-bottom: 50px;
 }
 
 .experience {
   position: relative;
+  font-size: 40px;
+  font-family: var(--font-gravity-bold), sans-serif;
+  max-width: 50%;
+  margin: 50 auto;
+  text-align: center;
 }
 
 .tripleTrikks {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   column-gap: 100px;
-  margin-bottom: 50px;
 }
 
 .fifteenMin {
   position: relative;
-  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: var(--font-gravity-bold), sans-serif;
+  max-width: 50%;
+  margin: 50 auto;
+  text-align: center;
 }
 
 .yellow {
@@ -145,6 +152,11 @@
   min-height: 120px;
 }
 
+.artistsText{
+  font-size: 50px;
+  color: yellow;
+}
+
 .artists {
   display: grid;              
   grid-template-columns: repeat(3, 1fr);
@@ -169,6 +181,8 @@
   width: max-content;         
   height: 55px;
   width: 200px;
+  margin: 0 auto 20;
+  text-align: center;
 }
 
 .tramAndDate {
@@ -242,9 +256,29 @@
   
 }
 
+.volunteerTitle {
+  font-size: 30px;
+  font-family: "House Soft Narrow", sans-serif;
+  color: #DE6331;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.volunteerText {
+  font-size: 15px;
+  font-family: var(--font-gravity-bold);
+  color: #DE6331;
+  margin: 25 auto;
+  text-align: center;
+  min-width: 400px;
+}
+
 .readMore {
   height: auto;
   margin-bottom: 5px;
+  color: #E7BD08;
+  font-size: 25px;
 }
 
 .fromEngen {
@@ -527,6 +561,10 @@
   place-items: center;
   margin: auto;
   position: relative;
+}
+
+.volunteerText {
+  font-size: 10px;
   
 }
 
