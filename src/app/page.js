@@ -13,8 +13,14 @@ export default function Home() {
       <div className={styles.date}>Lørdag 06.September, 2025</div>
 
 
-      <h1 className={styles.title}>Trikkefestivalen</h1>
-
+      <Image
+        className={styles.title}
+        src="/main/trikkefestivalenLogo.png"
+        alt="title"
+        width={600}
+        height={250}
+        margin={250}
+      />
       
       <Image
         className={styles.tram}
@@ -30,7 +36,7 @@ export default function Home() {
         alt="clouds"
         width={800}
         height={700}
-      />
+        />
 
 
       <div className={styles.linksGrid}>

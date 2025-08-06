@@ -27,7 +27,8 @@
 
 .tram {
    position: absolute;
-   top: 200px;
+   top: 250px;
+   bottom: 50px;
 }
 
 .music {
@@ -43,7 +44,7 @@
 .title {
   position: absolute;
 
-  top: 300px;
+  top: 220px;
   font-family: "House Soft Narrow", sans-serif;
   font-size: 7rem;   /* adjust as you like */
   margin: 1rem 0;
@@ -187,10 +188,9 @@
 
 .title {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: auto;
   margin-bottom: 50px;
-
 }
 
 .date {
