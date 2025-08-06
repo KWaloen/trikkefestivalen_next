@@ -11,7 +11,7 @@
   min-height: 40svh;
 
 
-  font-family: var(--font-geist-sans);
+  font-family: "Winky Rough", sans-serif;
   z-index: 1;
 }
 
@@ -85,7 +85,7 @@
   cursor: pointer;
   z-index: 3;
 
-  font-family: "Winky Rough", sans-serif;
+  font-family: var(--font-geist-sans);
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
@@ -93,13 +93,20 @@
 
 .answer {
   padding: 10px 20px;
-  color: black;
+  color: #DE6331;
+  font-family: "Winky Rough", sans-serif;
   background: #f5f5f5;
   border-radius: 0 0 10px 10px;
   height: auto;
   width: 800px;
   z-index: 3;
 }
+
+.answer a{
+  color: #DE6331;
+  text-decoration: underline;
+}
+
 
 .banner {
   background: #E7BD08 no-repeat center/cover;
@@ -134,7 +141,7 @@
   min-height: 40svh;
 
 
-  font-family: var(--font-geist-sans);
+  font-family: "winky rough", sans-serif;
   z-index: 1;
 }
 
@@ -209,13 +216,14 @@
   cursor: pointer;
   z-index: 3;
 
-  font-family: "Winky Rough", sans-serif;
+  font-family: var(--font-geist-sans);
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
 }
 
 .answer {
+  font-family: "Winky Rough", sans-serif;
   padding: 10px 20px;
   color: black;
   background: #f5f5f5;

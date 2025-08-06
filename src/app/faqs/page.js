@@ -73,65 +73,105 @@ export default function Home() {
                 <details className={styles.faqItem}>
                     <summary className = {styles.question}>
 
-                        WHAT IS THE TRAM FESTIVAL?
+                        Hva er Trikkefestivalen?
 
                     </summary>   
                     <div className={styles.answer}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I år (2025) arrangerer vi for første gang Trikkefestivalen, en lokal musikkfestival hvor vi kombinerer den historiske trikken med moderne musikk!
+                        Seks lokale, unge artister vil i løpet av en dag fremføre musikk mens trikken beveger seg til og fra Café Opera over Høyden til Teknisk museum på Møhlenpris
+                        <br />
+                        <br />
+                        Festivalen drives med støtte fra Bergen Kommune og Studenradioen i Bergen. Vi har også partnerskap med <a href="https://besporvei.net/">Bergen Elektriske Sporvei</a>, som drifter trikken og <a href="https://cafeopera.org/">Café Opera</a> og <a href="https://nobelbopel.no/">Nobel Bopel</a>.
                     </div>
                 </details>
 
                  <details className={styles.faqItem}>
                     <summary className = {styles.question}>
 
-                        WHERE DOES THE FESTIVAL START?
+                        Hva slags fordeler er det med billetten?
 
                     </summary>   
                     <div className={styles.answer}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Billetten gir deg en enkeltgangs rabatt på mat og drikke på Café Opera og Nobel Bopel, samt en gratis trikketur til og fra festivalen. I tillegg til å få en unik konsertopplevelse på trikken, får du også gratis transport fra Engen til Møhlenpris og tilbake igjen.
                     </div>
                 </details>
 
-                 <details className={styles.faqItem}>
+                                 <details className={styles.faqItem}>
                     <summary className = {styles.question}>
 
-                        HOW DO YOU PAY FOR A TICKET?
+                        Hvor starter festivalen?
 
                     </summary>   
                     <div className={styles.answer}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Festivalen starter og ender hvor trikken vanligivis starter og ender, nemlig på Engen (foran DNS, i nærheten av Café Opera) eller foran Teknisk Museum på Møhlenpris. Sjekk programmet vårt for mer informasjon om hvilken strekning artist spiller. 
+                    </div>
+                </details>
+
+                <details className={styles.faqItem}>
+                    <summary className = {styles.question}>
+
+                        Hvor mye vil en billett koste?
+
+                    </summary>   
+                    <div className={styles.answer}>
+                        Vi jobber med å finne en løsning for billettpriser. Hold øynene åpne for mer informasjon!
                     </div>
                 </details>   
 
                  <details className={styles.faqItem}>
                     <summary className = {styles.question}>
 
-                        WHOW DO THE TRAM PERFORMANCES WORK?
+                        Hvordan betaler man for billett?
 
                     </summary>   
                     <div className={styles.answer}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Billetter kan kjøpes på nettsiden vår på forhånd eller foran trikken før hver konsert. Vi holder på å fikse en løsning for dette, så hold øynene åpne for mer informasjon!
+                    </div>
+                </details>   
+
+                 <details className={styles.faqItem}>
+                    <summary className = {styles.question}>
+
+                        Hvordan fungerer festivalen? Er ikke trikken veldig liten?
+
+                    </summary>   
+                    <div className={styles.answer}>
+                        Svaret er ja; trikken er veldig liten. 
+                        Det vil si at det vil være begrenset plass til både publikum og artister. Vi anbefaler derfor å både kjøpe billett tidlig eller komme tidlig for å sikre seg plass, og å være forberedt på en intim konsertopplevelse.
                     </div>
                 </details> 
 
                  <details className={styles.faqItem}>
                     <summary className = {styles.question}>
 
-                        IS THE FESTIVAL QUITABLE FOR CHILDREN AND FAMILIES?
-
+                        Er festivalen barnevennlig?
                     </summary>   
                     <div className={styles.answer}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Ja, festivalen er barnevennlig! Vi oppfordrer familier til å ta med barna sine for en morsom og minneverdig opplevelse. Barn under 12 år kan delta gratis i følge med en betalende voksen. <br />
+                        <br />
+
+                        <p>Grunnet trikkens begrensede plass, må alle barn ha en billett for å delta.
+                        Vi anbefaler at barn under 12 år sitter på fanget til en voksen.</p>
                     </div>
                 </details>
 
                  <details className={styles.faqItem}>
                     <summary className = {styles.question}>
 
-                        ARE THERE EVENTS OFF THE TRAMS AS WELL?
+                        Er festivalen tilgjengelig for personer med nedsatt funksjonsevne?
                     </summary>   
                     <div className={styles.answer}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Vi holder på å utrede dette. Hvis du har spesifikke behov eller spørsmål, vennligst ta kontakt med oss på trikkfestivalen@gmail.com, så skal vi gjøre vårt beste for å imøtekomme dem.
+                    </div>
+                </details>
+
+                <details className={styles.faqItem}>
+                    <summary className = {styles.question}>
+
+                        Jeg har spørsmål om festivalen, hvordan kan jeg kontakte dere?
+                    </summary>   
+                    <div className={styles.answer}>
+                        Du kan kontakte oss på trikkfestivalen@gmail.com for spørsmål om festivalen. 
                     </div>
                 </details>
 
