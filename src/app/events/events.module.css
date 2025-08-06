@@ -9,22 +9,22 @@
   align-content: center;
   min-height: 60svh;
 
-  font-family: var(--font-geist-sans);
   z-index: 1;
 }
 
 .title {
   position: relative;
-  top: -50px;
-  left: -200px;
   z-index: 1;
+  font-family: "House Soft Narrow", sans-serif;
+  font-size: 40px;
 }
 
 .sequence {
   position: relative;
-  top: -30px;
-  left: -200px;
   z-index: 1;
+  font-family: var(--font-gravity-bold), sans-serif;
+  font-size: 20px;
+  margin: 10 auto;
 }
 
 .date {
@@ -36,15 +36,13 @@
 
 .getongetoff {
   position: relative;
-  top: 0px;
-  right: -400px;
-  margin: 20px;
   z-index: 1;
+  font-family: "House Soft Narrow", sans-serif;
+  font-size: 20px;
+  color: black;
 }
 
 .artists {
-  display: grid;              
-  grid-template-columns: repeat(3, 1fr);
   width: 100%;
   row-gap: 50px;
   margin: auto;
@@ -63,12 +61,12 @@
 }
 
 .tramText {
-  display: grid;
   position: relative;
-  right: -345px;
-  margin-bottom: 20px;
   z-index: 1;
-  height: auto;
+  font-family: var(--font-gravity-bold), sans-serif;
+  font-size: 10px;
+  margin: 10 auto;
+  color: black;
 }
 
 .pageContent {
@@ -141,14 +139,11 @@
 }
 
 .artists {
-  display: grid;              
-  grid-template-columns: 1fr;
-  width: 100%;
-  row-gap: 20px;
-  margin: auto;
-  justify-items: center;
-  align-items: center;
-  align-content: center;
+  display: grid;
+  place-items: center;      /* shorthand for align-items:center + justify-items:center */
+  width: 100%;               
+  height: 100vh;            /* fill the viewport height */
+  background-color: #DE6331;
 }
 
 .blackTram {

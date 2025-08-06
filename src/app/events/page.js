@@ -9,104 +9,85 @@ import GetArtist from '../components/GetArtist'
 export default function Home() {
   return (
 
-        <div className = {styles.background}>
+    <div className={styles.background}>
 
-        <div className={styles.page}>
-          <NavBar/> 
+      <div className={styles.page}>
+        <NavBar />
 
-            <div>
-              <div className={styles.title}>
-                  <Image
-                    src="/events/eventsTitle.png"
-                    alt="eventsTitle"
-                    width={200}
-                    height={25}
-                  />               
-              </div>
+        <div>
+          <div className={styles.title}>
+            EVENTS
+          </div>
 
-              <div className={styles.sequence}>
-                  <Image
-                    src="/events/sequence.png"
-                    alt="eventsTitle"
-                    width={300}
-                    height={20}
-                  />               
-              </div>
+          <div className={styles.sequence}>
+            15 MINUTE CONCERT SEQUENCES
+          </div>
 
-
-
-              <div className={styles.getongetoff}>
-                  <Image
-                    src="/events/getongetoff.png"
-                    alt="eventsTitle"
-                    width={250}
-                    height={20}
-                  />               
-              </div>
-            </div>
-
-            <div className={styles.artists}>
-              
-              <GetArtist/>  
-                
-            </div>
-
-            <div>
-              <div className={styles.blackTram}>
-                  <Image
-                    src="/events/blackTram.gif"
-                    alt="blackTram"
-                    width={150}
-                    height={100}
-                  />
-              </div>
-
-              <div className={styles.tramText}>
-                  <Image
-                    src="/events/tramText.png"
-                    alt="tramText"
-                    width={300}
-                    height={30}
-                  />                
-              </div>
-            </div>
-            
-
-
+          <div className={styles.getongetoff}>
+            GET ON, ENJOY MUSIC, GET OFF
+          </div>
         </div>
 
-        <Image
-          className = {styles.orangeWave}
-          src="/events/orangeWave.png"
-          alt="orangeWave"
-          width={2000}
-          height={80}
-        />
+        <div className={styles.artists}>
 
-
-        
-        
-
-        <div className = {styles.pageContent}>
-
-            <Subscribe/>
-
-            <div className = {styles.banner}>
-                <Image 
-                    src="/artists/musicBanner.png"
-                    alt="banner"
-                    width={1000}
-                    height={50}
-                  />
-            </div>
-            
+          <GetArtist />
 
         </div>
 
 
+        <div>
+          <div className={styles.blackTram}>
+            <Image
+              src="/events/blackTram.gif"
+              alt="blackTram"
+              width={150}
+              height={100}
+            />
+          </div>
+
+          <div className={styles.tramText}>
+            <div className={styles.sequence}>
+              WE START BY CAFE OPERA AND FOLLOW THE TRAM TO MØHLENPRIS
+            </div>
+          </div>
+        </div>
 
 
-        <Footer/>
+
+      </div>
+
+      <Image
+        className={styles.orangeWave}
+        src="/events/orangeWave.png"
+        alt="orangeWave"
+        width={2000}
+        height={80}
+      />
+
+
+
+
+
+      <div className={styles.pageContent}>
+
+        <Subscribe />
+
+        <div className={styles.banner}>
+          <Image
+            src="/artists/musicBanner.png"
+            alt="banner"
+            width={1000}
+            height={50}
+          />
+        </div>
+
+
+      </div>
+
+
+
+
+      <Footer />
     </div>
 
   )
