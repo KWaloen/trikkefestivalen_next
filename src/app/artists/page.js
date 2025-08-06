@@ -169,13 +169,6 @@ export default async function Home() {
                 height={0} /*dictated by css style */
               />
 
-            <Image
-              className={styles.tramDate}
-              src="/artists/tramDate.png"
-              alt="trikk1"
-              width={400}
-              height={60}
-            />
             
           </div>
 
@@ -291,7 +284,6 @@ export default async function Home() {
 
               <div className={styles.fromEngen}>
 
-                
                 <Image
                   className={styles.photo}
                   src="/artists/fromEngen.png"
@@ -328,15 +320,6 @@ export default async function Home() {
               
         </div>
 
-        <div className={styles.endBanners}>
-          <Image
-            className={styles.photo}
-            src="/artists/tramDate.png"
-            alt="trikk1"
-            width={400}
-            height={60}
-          />
-        </div>
 
         <div className={styles.endBanners}>
           <Image
