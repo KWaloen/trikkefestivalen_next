@@ -33,14 +33,7 @@ export default function Home() {
                   />               
               </div>
 
-              <div className={styles.date}>
-                  <Image
-                    src="/events/date.png"
-                    alt="eventsTitle"
-                    width={400}
-                    height={25}
-                  />               
-              </div>
+
 
               <div className={styles.getongetoff}>
                   <Image
