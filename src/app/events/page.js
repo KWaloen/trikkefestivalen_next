@@ -70,9 +70,6 @@ export default function Home() {
                   />                
               </div>
             </div>
-            
-
-
         </div>
 
         <Image
@@ -82,10 +79,6 @@ export default function Home() {
           width={2000}
           height={80}
         />
-
-
-        
-        
 
         <div className = {styles.pageContent}>
 
