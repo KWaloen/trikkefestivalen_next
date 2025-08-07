@@ -20,7 +20,8 @@
   width: 100%;
   max-width: 600px;
   margin: 20px auto;
-  justify-items: start;
+  justify-items: center;
+  text-align: center;
   padding: 0 10px;
   gap: 30px;
 

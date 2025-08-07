@@ -446,7 +446,7 @@
   display: flex;
   flex-direction: column;
   background-color: #DE6331;
-  width: 100%;
+  width: 100vw;
 
   overflow: visible;
 
@@ -478,7 +478,7 @@
 
 .seeArtists {
   background: #DE6331;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
