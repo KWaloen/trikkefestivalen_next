@@ -20,30 +20,50 @@
 .dropdown {
   position: relative;
   top: 50px;
-} 
+}
 
+/* 1) Always take up layout space, but start fully transparent & non‐interactive */
 .dropdownmenu {
-  display: none;
   position: absolute;
   right: 0;
-  background-color: rgb(12, 44, 44); 
+  background-color: rgb(12, 44, 44);
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.8);
   width: 200px;
   text-align: center;
+
+  /* replace display:none */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  /* when hiding, wait 1s before starting the fade-out */
+  transition:
+    opacity 0.2s ease-in 1s,
+    visibility 0s linear 1s,
+    pointer-events 0s linear 1s;
 }
 
+/* 2) On hover: make it visible immediately, fade in */
 .dropdown:hover .dropdownmenu {
-  display: block;
-  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+
+  /* override delays so show happens without wait */
+  transition:
+    opacity 0.2s ease-out 0s,
+    visibility 0s linear 0s,
+    pointer-events 0s linear 0s;
 }
 
-.dropdown a{
-  font-size: medium;  
+.dropdown a {
+  font-size: medium;
   display: flex;
   padding: 5px;
   justify-content: center;
   align-items: center;
 }
+
 
