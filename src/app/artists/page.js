@@ -14,8 +14,8 @@ export default async function Home() {
 
         <div className={styles.topRow}>
           <Image
-            className={styles.EXAMM}
-            src="/artists/EXAMM.png"
+            className={styles.LOGO_CREAM}
+            src="/artists/LOGO_CREAM.png"
             alt="tram_image"
             width={100}
             height={100}

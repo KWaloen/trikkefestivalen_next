@@ -42,8 +42,8 @@ export default function Home() {
       <div className={styles.linksGrid}>
         <Link href="/artists">
           <Image
-            className={styles.EXAMM}
-            src="/main/EXAMM.png"
+            className={styles.LOGO_CREAM}
+            src="/main/LOGO_CREAM.png"
             alt="artists_image"
             width={150}
             height={70}
