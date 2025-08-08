@@ -177,33 +177,7 @@ export default function Home() {
 
             </div>
 
-            <div className = {styles.image}>
-                <Image
-                  className = {styles.image}
-                  src="/faqs/tram1.png"
-                  alt="tram1"
-                  width={100}
-                  height={100}
-                />
-            </div>
-
-            <div className = {styles.banner}>
-                <Image 
-                    src="/artists/musicBanner.png"
-                    alt="banner"
-                    width={1000}
-                    height={50}
-                  />
-            </div>
-
-            <div className = {styles.imageLast}>
-                <Image 
-                    src="/artists/musikkpåskinner.png"
-                    alt="musikkpaskinner"
-                    width={1000}
-                    height={50}
-                  />
-            </div>
+            
 
         </div>
 

@@ -76,9 +76,10 @@
 .artists {
   position: absolute;
   font-family: var(--font-house-soft);
-  font-size: 30px;
+  font-size: 25px;
   left: 140px;
   top: 400px;
+  width: 400px;
 }
 
 .ticket {
@@ -90,7 +91,7 @@
 .events {
   position: absolute;
   font-family: var(--font-house-soft);
-  font-size: 30px;
+  font-size: 25px;
   left: 140px;
   top: 600px;
 }
@@ -98,7 +99,7 @@
 .faqs {
   position: absolute;
   font-family: var(--font-house-soft);
-  font-size: 30px;
+  font-size: 25px;
   right: 150px;
   top: 405px;
 }
@@ -124,8 +125,8 @@
 .volunteer {
   position: absolute;
   font-family: var(--font-house-soft);
-  font-size: 30px;
-  right: 110px;
+  font-size: 25px;
+  right: 140px;
   top: 600px;
 }
 

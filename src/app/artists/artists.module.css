@@ -10,7 +10,7 @@
   align-content: center;
   min-height: 30svh;
 
-  font-family: "House Soft Narrow", sans-serif;
+  font-family: var(--font-geist-sans);
   z-index: 1;
 }
 
