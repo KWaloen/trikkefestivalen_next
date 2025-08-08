@@ -19,11 +19,11 @@ export default function NavBar() {
           height={20}
         />
           <div className = {styles.dropdownmenu}>
-            <Link href="/">Home</Link>
-            <Link href="/artists">Artists</Link>
-            <Link href="/events">Events</Link>
-            <Link href="/volunteer">Volunteer</Link>
-            <Link href="/faqs">FAQS</Link>
+            <Link href="/">Hjem</Link>
+            <Link href="/artists">Artister & Program</Link>
+            <Link href="/events">Billetter & Om Festivalen</Link>
+            <Link href="/volunteer">Bli Frivillig!</Link>
+            <Link href="/faqs">Ofte stilte spørsmål</Link>
           </div>
       </div>
       </div>
