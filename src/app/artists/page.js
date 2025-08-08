@@ -35,28 +35,6 @@ export default async function Home() {
       <div className={styles.pageContent}>
 
         <div className={styles.experience}>Opplev musikk på den historiske trikken gjennom Bergen gater</div>
-        
-        <div className={styles.tripleTrikks}>
-          <Image className={styles.singleTrikk}
-            src="/artists/trikk1.png"
-            alt="trikk1"
-            width={180}
-            height={90}
-          />
-          <Image className={styles.singleTrikk}
-            src="/artists/trikk2.png"
-            alt="trikk2"
-            width={180}
-            height={100}
-          />
-          <Image className={styles.singleTrikk}
-            src="/artists/trikk3.png"
-            alt="trikk3"
-            width={180}
-            height={110}
-          />
-        </div>
-
 
         <div>
           <Image
