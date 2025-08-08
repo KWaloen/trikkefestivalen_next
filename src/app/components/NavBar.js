@@ -12,7 +12,7 @@ export default function NavBar() {
       <div className= {styles.navbarright}>
         <div className = {styles.dropdown}>
         <Image
-          className={styles.EXAMM}
+          className={styles.LOGO_CREAM}
           src="/navbar/hamburger.png"
           alt="dropdown"
           width={30}
