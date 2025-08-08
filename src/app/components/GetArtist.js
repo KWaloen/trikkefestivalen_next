@@ -23,8 +23,8 @@ export default async function GetArtist() {
           <Image
             src={`/artistInfo/${artist.Name}.png`}
             alt="artistImage"
-            width={300}
-            height={350}
+            width={400}
+            height={450}
           />
           <p>
             <strong>When:</strong> {artist.Time}
