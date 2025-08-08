@@ -1,10 +1,10 @@
 .navbar {
-    justify-self: stretch;
-    margin: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
+  justify-self: stretch;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
 }
 
 .navbarleft {

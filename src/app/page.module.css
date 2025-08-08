@@ -92,6 +92,7 @@
   position: absolute;
   font-family: var(--font-house-soft);
   font-size: 25px;
+  font-size: 25px;
   left: 140px;
   top: 600px;
 }
@@ -99,6 +100,7 @@
 .faqs {
   position: absolute;
   font-family: var(--font-house-soft);
+  font-size: 25px;
   font-size: 25px;
   right: 150px;
   top: 405px;
