@@ -8,9 +8,9 @@
   align-items: center;
   justify-items: center;
   align-content: center;
-  min-height: 50svh;
+  min-height: 30svh;
 
-  font-family: var(--font-geist-sans);
+  font-family: "House Soft Narrow", sans-serif;
   z-index: 1;
 }
 
@@ -101,6 +101,7 @@
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   column-gap: 100px;
+  margin-bottom: 60px;
 }
 
 .fifteenMin {
@@ -132,7 +133,7 @@
 
 .orangeBackground {
   display: grid;
-  background-color: #DE6331;
+  background-color: #ed5c10;
   width: 100vw;
 
   overflow: visible;

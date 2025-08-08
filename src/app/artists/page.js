@@ -34,8 +34,6 @@ export default async function Home() {
 
       <div className={styles.pageContent}>
 
-
-
         <div className={styles.experience}>Opplev musikk på den historiske trikken gjennom Bergen gater</div>
         
         <div className={styles.tripleTrikks}>
