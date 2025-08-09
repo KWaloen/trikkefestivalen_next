@@ -36,21 +36,21 @@
 .weAreVolunteers {
     color: #ed5c10;
     font-size: 50px;
-    padding-top: var(--nav-h);
+    padding: 25Px;
 }
 
 .supported {
     color: #ed5c10;
     font-size: 30px;
     font-family: var(--font-gravity-bold), sans-serif;
-    margin: 50 auto;
+    padding: 25px;
 }
 
 .tramFestival{
     color:black;
     font-size: 30px;
     font-family: var(--font-gravity-bold), sans-serif;
-    margin: 0 auto;
+    padding: 25px;
     text-align: center;
     max-width: 1000px;
 }
