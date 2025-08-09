@@ -2,9 +2,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-
-  --nav-h: 60px;
-
+  --nav-h: 60px; 
   --font-house-soft: "House Soft Narrow", sans-serif;
   --font-gravity-bold: "Gravity Bold", sans-serif;
 }
@@ -32,7 +30,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: var(--nav-h);
 }
 
 * {

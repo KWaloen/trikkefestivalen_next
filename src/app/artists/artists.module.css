@@ -1,15 +1,17 @@
 
+.body {
+  padding-top: var(--nav-h);
+}
+
 .page {
   position: relative;
   background:  #0099AD 40%;
-
   display: grid;
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
   align-content: center;
   min-height: 30svh;
-
   font-family: var(--font-geist-sans);
   z-index: 1;
 }
@@ -20,6 +22,7 @@
   left: 27%;
   z-index: 1;
   font-family: var(--font-gravity-bold);
+
 }
 
 .year {

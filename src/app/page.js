@@ -7,9 +7,6 @@ export default function Home() {
   return (
     <div className={styles.page}>
 
-      
-      <NavBar />
-
       <div className={styles.date}>Lørdag 06.September, 2025</div>
 
       <Image

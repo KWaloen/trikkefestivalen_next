@@ -96,7 +96,8 @@
 }
 
 .background {
-  background: #E7E7CE;
+  background: #ed5c10;
+  padding-top: 80px;
 }
 
 @media screen and (max-width: 1000px) {

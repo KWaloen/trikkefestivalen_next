@@ -2,7 +2,7 @@
   display: grid;
   position: relative;
   background:  black;
-
+  padding-top: var(--nav-h);  
   display: grid;
   grid-template-rows: 0px auto 0px;
   align-items: center;
@@ -13,6 +13,10 @@
 
   font-family: var(--font-geist-sans);
   z-index: 1;
+}
+
+.page.hasNav {
+  padding-top: var(--nav-h);
 }
 
 .background {
