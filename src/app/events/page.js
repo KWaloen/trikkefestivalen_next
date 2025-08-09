@@ -1,3 +1,4 @@
+// page.js for Events (no: "Billett & Om Festivalen")
 
 import Image from 'next/image'
 import styles from './events.module.css'
@@ -16,24 +17,17 @@ export default function Home() {
 
         <div>
           <div className={styles.title}>
-            EVENTS
+            BILLETTER & OM FESTIVALEN
           </div>
 
           <div className={styles.sequence}>
-            15 MINUTE CONCERT SEQUENCES
+            15 MINUTT LANGE KONSERTOPPLEVELSER PÅ DEN HISTORISKE TRIKKEN
           </div>
 
           <div className={styles.getongetoff}>
-            GET ON, ENJOY MUSIC, GET OFF
+            HOPP PÅ, NYT MUSIKKEN OG HOPP AV
           </div>
         </div>
-
-        <div className={styles.artists}>
-
-          <GetArtist />
-
-        </div>
-
 
         <div>
           <div className={styles.blackTram}>
@@ -47,46 +41,21 @@ export default function Home() {
 
           <div className={styles.tramText}>
             <div className={styles.sequence}>
-              WE START BY CAFE OPERA AND FOLLOW THE TRAM TO MØHLENPRIS
+              VI STARTER MED CAFÉ OPERA PÅ ENGEN OG AVSLUTTER MED TEKNISK MUSEUM PÅ MØHLENPRIS
             </div>
           </div>
         </div>
 
-
-
       </div>
 
-      <Image
-        className={styles.orangeWave}
-        src="/events/orangeWave.png"
-        alt="orangeWave"
-        width={2000}
-        height={80}
-      />
-
-
-
-
-
-      <div className={styles.pageContent}>
-
-        <Subscribe />
-
-        <div className={styles.banner}>
-          <Image
-            src="/artists/musicBanner.png"
-            alt="banner"
-            width={1000}
-            height={50}
-          />
-        </div>
-
-
-      </div>
-
-
-
-
+    {// Commenteted out code for Subscribe component, might want this later
+    }
+    {/*
+      // <div className={styles.pageContent}>
+      // <Subscribe />
+      // </div>
+    */
+    }
       <Footer />
     </div>
 
