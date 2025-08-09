@@ -56,16 +56,6 @@ export default function Home() {
             </div>
         </div>
 
-
-        <Image
-          className = {styles.blueWave}
-          src="/faqs/blueWave.png"
-          alt="blueWave"
-          width={2000}
-          height={60}
-        />
-
-
         <div className = {styles.pageContent}>
 
             <div className = {styles.questionGrid}>

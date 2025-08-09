@@ -17,7 +17,7 @@
 
 .title {
   position: relative;
-  top: 30px;
+  top: 140px;
   z-index: 1;
 }
 
@@ -45,16 +45,6 @@
   align-content: center;
   min-height: 50svh;
   margin: 50px;
-}
-
-.blueWave {
-  display: grid;
-  column-gap: 0;
-  overflow: hidden;
-  position: relative;
-  z-index: 2;
-  margin-top: -40px;
-  
 }
 
 .blueWaveBackground {
