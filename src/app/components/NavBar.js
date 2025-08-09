@@ -7,11 +7,11 @@ export default function NavBar() {
     <div className={styles.navbar}>
       
       <div className={styles.navbarright}>
-        <Link href="/">Home</Link>
-        <Link href="/artists">Artists</Link>
-        <Link href="/events">Events</Link>
-        <Link href="/volunteer">Volunteer</Link>
-        <Link href="/faqs">FAQS</Link>
+        <Link href="/">Hjemside</Link>
+        <Link href="/artists">Artister & Program</Link>
+        <Link href="/events">Billetter & Om Festivalen</Link>
+        <Link href="/volunteer">Bli Frivillig!</Link>
+        <Link href="/faqs">Ofte Stilte Spørsmål</Link>
       </div>
     </div>
   );
