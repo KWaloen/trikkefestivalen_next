@@ -85,6 +85,21 @@ export default function Home() {
                     </div>
                 </details>
 
+                <details className={styles.faqItem}>
+                    <summary className = {styles.question}>
+
+                        Hvor møter jeg opp?
+
+                    </summary>   
+                    <div className={styles.answer}>
+                        Har du kjøpt billett og vil se en eller flere artister er det lurt å sjekke programmet for å finne ut hvor konserten starter. 
+                        Én konsert gjelder for en enkelt trikkereise. 
+                        Det kan derfor være at du må møte opp ved Tekniske Museum på Møhlenpris eller ved Café Opera ved Den Nationale Scene. 
+                        Sjekk gjerne kartet (kommer snart) på nettsiden vår for å se hvor du skal møte opp. Ha klar billetten din før du skal ombord trikken.
+
+                    </div>
+                </details>
+
                  <details className={styles.faqItem}>
                     <summary className = {styles.question}>
 
@@ -129,6 +144,7 @@ export default function Home() {
                     </div>
                 </details>   
 
+
                  <details className={styles.faqItem}>
                     <summary className = {styles.question}>
 
@@ -140,18 +156,30 @@ export default function Home() {
                         Det vil si at det vil være begrenset plass til både publikum og artister. Vi anbefaler derfor å både kjøpe billett tidlig eller komme tidlig for å sikre seg plass, og å være forberedt på en intim konsertopplevelse.
                     </div>
                 </details> 
+                                 <details className={styles.faqItem}>
+                    <summary className = {styles.question}>
+
+                        Kan jeg ta med drikke og mat med ombord trikken?
+
+                    </summary>   
+                    <div className={styles.answer}>
+                        Dessverre nei. Det er lite plass på trikken, og vi ønsker å skape en hyggelig atmosfære for alle våre gjester. Det er ikke noe problem å ha med en vannflaske, men andre drikker. Du er hjertelig velkommen til å kjøpe og spise mat og drikke på Café Opera og Nobel Bopel før og etter konsertene.
+                        
+                    </div>
+                </details>   
 
                  <details className={styles.faqItem}>
                     <summary className = {styles.question}>
 
-                        Er festivalen barnevennlig?
+                        Er festivalen barnevennlig? Kan jeg ta med hund eller andre kjæledyr?
                     </summary>   
                     <div className={styles.answer}>
                         Ja, festivalen er barnevennlig! Vi oppfordrer familier til å ta med barna sine for en morsom og minneverdig opplevelse. Barn under 12 år kan delta gratis i følge med en betalende voksen. <br />
                         <br />
 
-                        <p>Grunnet trikkens begrensede plass, må alle barn ha en billett for å delta.
-                        Vi anbefaler at barn under 12 år sitter på fanget til en voksen.</p>
+                        Grunnet trikkens begrensede plass, må alle barn ha en billett for å delta.
+                        Vi anbefaler at barn under 12 år sitter på fanget til en voksen.
+                        Det er dessverre ikke mulig å ta med kjæledyr.
                     </div>
                 </details>
 
@@ -165,6 +193,7 @@ export default function Home() {
                     </div>
                 </details>
 
+
                 <details className={styles.faqItem}>
                     <summary className = {styles.question}>
 
@@ -177,33 +206,6 @@ export default function Home() {
 
             </div>
 
-            <div className = {styles.image}>
-                <Image
-                  className = {styles.image}
-                  src="/faqs/tram1.png"
-                  alt="tram1"
-                  width={100}
-                  height={100}
-                />
-            </div>
-
-            <div className = {styles.banner}>
-                <Image 
-                    src="/artists/musicBanner.png"
-                    alt="banner"
-                    width={1000}
-                    height={50}
-                  />
-            </div>
-
-            <div className = {styles.imageLast}>
-                <Image 
-                    src="/artists/musikkpåskinner.png"
-                    alt="musikkpaskinner"
-                    width={1000}
-                    height={50}
-                  />
-            </div>
 
         </div>
 

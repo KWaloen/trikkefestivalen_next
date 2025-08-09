@@ -36,12 +36,12 @@
 }
 
 .weAreVolunteers {
-    color: #de6331;
+    color: #ed5c10;
     font-size: 50px;
 }
 
 .supported {
-    color: #de6331;
+    color: #ed5c10;
     font-size: 30px;
     font-family: var(--font-gravity-bold), sans-serif;
     margin: 50 auto;
@@ -73,7 +73,7 @@
 .oval {
     margin: 2cap;
     color: black;
-    background-image: linear-gradient(to right, yellow 0%, #DE6331 100%);
+    background-image: linear-gradient(to right, yellow 0%, #ed5c10 100%);
     border-radius: 20px;
     padding: 20px;             
     width: max-content;         

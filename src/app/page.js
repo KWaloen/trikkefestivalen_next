@@ -12,7 +12,6 @@ export default function Home() {
 
       <div className={styles.date}>Lørdag 06.September, 2025</div>
 
-
       <Image
         className={styles.title}
         src="/main/trikkefestivalenLogo.png"
@@ -38,7 +37,6 @@ export default function Home() {
         height={700}
         />
 
-
       <div className={styles.linksGrid}>
         <Link href="/artists">
           <Image
@@ -49,7 +47,7 @@ export default function Home() {
             height={70}
           />
 
-          <div className={styles.artists}>Artister og program</div>
+          <div className={styles.artists}>Artister & Program</div>
         </Link>
 
         <Link href="/events">
@@ -71,7 +69,7 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <div className={styles.faqs}>Ofte stilte spørsmål</div>
+          <div className={styles.faqs}>Ofte Stilte Spørsmål</div>
         </Link>
 
         <Link href="/volunteer">
@@ -82,7 +80,7 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <div className={styles.volunteer}>Bli frivillig!</div>
+          <div className={styles.volunteer}>Bli Frivillig!</div>
         </Link>
       </div>
     </div>
