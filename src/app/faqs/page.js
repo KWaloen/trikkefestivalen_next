@@ -1,3 +1,6 @@
+// page.js for faqs (no: "Ofte Stilte Spørsmål")
+
+
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from './faqs.module.css'
