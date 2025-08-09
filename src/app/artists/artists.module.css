@@ -1,7 +1,4 @@
 
-.body {
-  padding-top: var(--nav-h);
-}
 
 .page {
   position: relative;
@@ -22,7 +19,6 @@
   left: 27%;
   z-index: 1;
   font-family: var(--font-gravity-bold);
-
 }
 
 .year {
@@ -34,7 +30,7 @@
 
 .LOGO_CREAM {
   position: absolute;
-  top: 60px;
+  top: 90px;
   left: 31%;
   z-index: 1;
   width: 100px;
@@ -43,7 +39,7 @@
 
 .logo {
   position: absolute;
-  top: 70px;
+  top: 90px;
   right: 30%;
   z-index: 1;
 }

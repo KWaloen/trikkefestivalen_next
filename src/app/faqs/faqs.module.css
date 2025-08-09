@@ -14,7 +14,7 @@
 
 .title {
   position: relative;
-  top: 140px;
+  top: 50px;
   z-index: 1;
 }
 
@@ -28,7 +28,7 @@
     position: absolute;
     z-index: 2;
     left: -300px;
-    top: -290px;
+    top: -380px;
     z-index: 0;
 }
 
@@ -46,7 +46,6 @@
 
 .blueWaveBackground {
     background: #E7E7CE;
-    padding-top: 30px;
 }
 
 .faqItem {

@@ -1,22 +1,16 @@
+
 .page {
   display: grid;
   position: relative;
-  background:  black;
-  padding-top: var(--nav-h);  
+  background:  black;  
   display: grid;
   grid-template-rows: 0px auto 0px;
   align-items: center;
   justify-items: center;
   align-content: center;
   min-height: min-content;
-
-
   font-family: var(--font-geist-sans);
   z-index: 1;
-}
-
-.page.hasNav {
-  padding-top: var(--nav-h);
 }
 
 .background {
@@ -42,6 +36,7 @@
 .weAreVolunteers {
     color: #ed5c10;
     font-size: 50px;
+    padding-top: var(--nav-h);
 }
 
 .supported {
