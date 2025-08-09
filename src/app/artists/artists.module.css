@@ -92,8 +92,8 @@
   font-size: 40px;
   font-family: var(--font-gravity-bold), sans-serif;
   max-width: 50%;
-  margin: 50 auto;
   text-align: center;
+  padding: 50px;
 }
 
 .tripleTrikks {
