@@ -20,20 +20,20 @@
   border: 1px solid #ccc;
   border-radius: 20px;
   width: 300px;           
-  color: #DE6331;
+  color: #ed5c10;
   background-color: white;
-  border-color: #DE6331;
+  border-color: #ed5c10;
   
 }
 
 .subscribeInput::placeholder {
-    color: #DE6331;
+    color: #ed5c10;
 }
 
 .subscribeButton {
   padding: 8px 16px;
   font-size: 1rem;
-  background-color: #DE6331;
+  background-color: #ed5c10;
   color: white;
   border: none;
   border-radius: 20px;

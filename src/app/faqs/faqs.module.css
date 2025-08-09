@@ -76,7 +76,7 @@
 
 .question {
   color: #E7E7CE;
-  background: #DE6331;
+  background: #ed5c10;
   padding: 20px;             
   width: max-content;         
   height: 55px;
@@ -93,7 +93,7 @@
 
 .answer {
   padding: 10px 20px;
-  color: #DE6331;
+  color: #ed5c10;
   font-family: "Winky Rough", sans-serif;
   background: #f5f5f5;
   border-radius: 0 0 10px 10px;
@@ -103,7 +103,7 @@
 }
 
 .answer a{
-  color: #DE6331;
+  color: #ed5c10;
   text-decoration: underline;
 }
 
@@ -206,7 +206,7 @@
 
 .question {
   color: #E7E7CE;
-  background: #DE6331;
+  background: #ed5c10;
   padding: 20px;             
   width: max-content;         
   height: auto;
