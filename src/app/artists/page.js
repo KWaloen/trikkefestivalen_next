@@ -63,7 +63,11 @@ export default async function Home() {
           <GetArtist />
 
         </div>
-
+        <div className={styles.experience}>
+            <p>
+                Mer informasjon om festivalprogrammet kommer snart!
+            </p>
+        </div>
 
       </div>
 
