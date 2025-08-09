@@ -8,7 +8,7 @@ export default async function Home() {
 
 
   return (
-    <div>
+    <div className={styles.body}>
       <div className={styles.page}>
         <NavBar />
 

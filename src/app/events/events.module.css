@@ -1,14 +1,12 @@
 .page {
   position: relative;
   background:  #ed5c10 40%;
-
   display: grid;
   grid-auto-rows: min-content;
   align-items: center;
   justify-items: center;
   align-content: center;
   min-height: 60svh;
-
   z-index: 1;
 }
 
@@ -96,7 +94,7 @@
 }
 
 .background {
-  background: #E7E7CE;
+  background: #ed5c10;
 }
 
 @media screen and (max-width: 1000px) {

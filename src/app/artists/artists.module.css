@@ -1,15 +1,14 @@
 
+
 .page {
   position: relative;
   background:  #0099AD 40%;
-
   display: grid;
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
   align-content: center;
   min-height: 30svh;
-
   font-family: var(--font-geist-sans);
   z-index: 1;
 }
@@ -31,7 +30,7 @@
 
 .LOGO_CREAM {
   position: absolute;
-  top: 60px;
+  top: 90px;
   left: 31%;
   z-index: 1;
   width: 100px;
@@ -40,7 +39,7 @@
 
 .logo {
   position: absolute;
-  top: 70px;
+  top: 90px;
   right: 30%;
   z-index: 1;
 }

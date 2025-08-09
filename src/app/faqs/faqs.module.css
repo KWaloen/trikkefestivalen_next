@@ -2,22 +2,19 @@
   display: grid;
   position: relative;
   background:  #0099AD 40%;
-
   display: grid;
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
   align-content: center;
   min-height: 40svh;
-
-
   font-family: "Winky Rough", sans-serif;
   z-index: 1;
 }
 
 .title {
   position: relative;
-  top: 140px;
+  top: 50px;
   z-index: 1;
 }
 
@@ -31,7 +28,7 @@
     position: absolute;
     z-index: 2;
     left: -300px;
-    top: -290px;
+    top: -380px;
     z-index: 0;
 }
 
