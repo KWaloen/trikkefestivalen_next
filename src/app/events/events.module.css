@@ -19,6 +19,29 @@
   font-size: 40px;
 }
 
+.boxContainer {
+  position: relative;
+  padding: 20px;             
+  width: ;         
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.box {
+  background-color: #e5e7cc;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  font-family: "Winky Rough", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 10 auto;
+
+}
+
 .sequence {
   position: relative;
   z-index: 1;
@@ -100,6 +123,28 @@
 }
 
 @media screen and (max-width: 1000px) {
+
+.boxContainer {
+  position: relative;
+  padding: 20px;             
+  width: 800px;         
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.box {
+  background-color: #e5e7cc;
+  padding: 10px;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+  font-family: "Winky Rough", sans-serif;
+  font-size: 20px;
+  margin: 10 auto;
+
+}
 
 .page {
   background:  #ed5c10;
