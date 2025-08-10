@@ -36,3 +36,49 @@
 .logo {
   height: auto;
 }
+
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+  position: sticky;        
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;               /* Explicit height so we can offset content */
+  background-color: #ed5c10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 9999999999;
+}
+
+.navbarleft {
+  display: flex;
+  align-items: center;
+}
+
+.navbarright {
+  display: flex;
+  align-items: center; /* vertical centering */
+  justify-content: center; /* optional: horizontal centering */
+  height: 100%; /* make sure it matches navbar height */
+}
+
+.navbarright a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  transition: color 0.2s ease-in-out;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbarright a:hover {
+  color: #622b16;
+}
+
+.logo {
+  height: auto;
+}
+}
