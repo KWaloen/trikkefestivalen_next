@@ -60,7 +60,9 @@
 
 .navbarright {
   display: flex;
-  gap: 20px;
+  align-items: center; /* vertical centering */
+  justify-content: center; /* optional: horizontal centering */
+  height: 100%; /* make sure it matches navbar height */
 }
 
 .navbarright a {

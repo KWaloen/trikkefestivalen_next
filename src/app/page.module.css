@@ -14,6 +14,7 @@
 @media (prefers-color-scheme: dark) {
   .page {
     background-color: #ed5c10 40%;
+    max-height: 100px;
   }
 }
 
@@ -137,26 +138,19 @@
   bottom: 10px;
 }
 
-
 @media screen and (max-width: 1000px) {
   .page {
     position: relative;
-    background: linear-gradient(to top, #ed5c10, 90%, #0A9EDE);
-
+    background: linear-gradient(to top, #ed5c10 90%, #0A9EDE);
+    
     display: grid;
     grid-template-rows: 20px 1fr 20px;
     align-items: center;
     justify-items: center;
-    min-height: 100svh;
+    max-height: fit-content;
     gap: 64px;
     font-family: var(--font-geist-sans);
   }
-
-@media (prefers-color-scheme: dark) {
-  .page {
-    background-color: linear-gradient(to bottom, orange, rgb(10, 10, 45));
-  }
-}
 
 .main {
   display: flex;
@@ -167,10 +161,17 @@
 
 .tram {
   position: absolute;
-  width: 100%;
+  width: 350px;
   height: auto;
-  margin-bottom: 50px;
+  top: 21%;
   
+}
+
+.date {
+  position: absolute;
+  font-family: var(--font-gravity-bold), sans-serif;
+  font-size: 20px;   /* adjust as you like */
+
 }
 
 .music {
@@ -186,13 +187,15 @@
   width: fit-content;
   z-index: 2;
   pointer-events: none;
+  max-height: 70%;
 }
 
 .title {
   position: absolute;
-  width: 80%;
+  width: 300px;
   height: auto;
   margin-bottom: 50px;
+  top: 20%;
 }
 
 .date {
@@ -205,33 +208,48 @@
   position: static;
   align-items: center;
   justify-items: center;
-  width: auto;
+  width: 7%;
+  height: 15%;
   z-index: 1;
+
 }
 
 .artists {
   position: static;
   z-index: 1;
+  font-size: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .ticket {
   position: static;
   z-index: 1;
+  width: 10%;
+  height: 20%;
 }
 
 .events {
   position: static;
   z-index: 1;
+  font-size: 20px;
 }
 
 .faqs {
   position: static;
   z-index: 1;
+  font-size: 20px;
 }
 
 .letter {
   position: static;
   z-index: 1;
+  width: 10%;
+  height: 20%;
 }
 
 .contact {
@@ -242,22 +260,36 @@
 .notes {
   position: static;
   z-index: 1;
+  width: 20%;
+  height: 40%;
 }
 
 .volunteer {
   position: static;
   z-index: 1;
+  font-size: 20px;
 }
+
+
 
 .linksGrid {
   display: grid;
-  flex-direction: column;
+  grid-template-columns: 1fr; /* two columns: icon | text */
+  gap: 40px;                  /* row-gap col-gap */
   width: 100%;
-  gap: 30px;
-  margin-top: 100%;
-  align-items: center;
-  justify-items: center;
+  margin: 40px 50px -1100px;             /* auto left/right centers it */
+  align-items: center;             /* center vertically within rows */
+  justify-items: start;            /* align items to the left in each cell */
+  background-color: #ed5c10;
 }
-  
+
+
+.cardLink {
+  gap: 80px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+}
+
 }
 
