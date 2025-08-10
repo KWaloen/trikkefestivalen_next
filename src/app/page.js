@@ -40,8 +40,8 @@ export default function Home() {
               className={styles.LOGO_CREAM}
               src="/main/LOGO_CREAM.png"
               alt="artister_og_program_image"
-              width={80}
-              height={40}
+              width={150}
+              height={70}
             />
             <span className={styles.artister_og_program}>Artister & Program</span>
           </div>
