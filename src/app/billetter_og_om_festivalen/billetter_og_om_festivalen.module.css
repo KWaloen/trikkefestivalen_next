@@ -128,8 +128,8 @@
 
 .boxContainer {
   position: relative;
-  padding: 20px;             
-  width: 800px;         
+  padding: 10px;             
+  width: 100%;         
   margin: auto;
   align-items: center;
   justify-items: center;
@@ -138,14 +138,13 @@
 
 .box {
   background-color: #e5e7cc;
-  padding: 10px;
   border-radius: 30px;
   position: relative;
   z-index: 1;
   font-family: "Winky Rough", sans-serif;
   font-size: 20px;
-  margin: 10 auto;
-
+  margin: 10px;
+  min-width: 100%;
 }
 
 .box a{
@@ -170,24 +169,25 @@
   position: static;
   margin: 10px auto;
   text-align: center;
+  font-size: 20px;
 }
 
 .sequence {
   position: static;
   margin: 10px auto;
   text-align: center;
-}
-
-.date {
-  position: static;
-  margin: 10px auto;
-  text-align: center;
+  font-size: 14px;
 }
 
 .getongetoff {
   position: static;
   margin: 10px auto;
   text-align: center;
+  font-size: 16px;
+}
+
+.moreInfo {
+  font-size: 16px;
 }
 
 .artister_og_program {
@@ -202,12 +202,14 @@
   position: static;
   margin: 10px 0;
   text-align: center;
+  justify-content: center;
 }
 
 .tramText {
   position: static;
-  margin: 10px 0;
+  padding: 10px;
   text-align: center;
+  width: 100%;
 }
 
 .pageContent {
@@ -233,4 +235,5 @@
 .background {
   background: #E7E7CE;
 }
+
 } 
