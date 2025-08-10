@@ -1,16 +1,15 @@
-
 .page {
-  display: grid;
-  position: relative;
-  background:  black;  
-  display: grid;
-  grid-template-rows: 0px auto 0px;
-  align-items: center;
-  justify-items: center;
-  align-content: center;
-  min-height: min-content;
-  font-family: var(--font-geist-sans);
-  z-index: 1;
+    display: grid;
+    position: relative;
+    background: black;
+    display: grid;
+    grid-template-rows: 0px auto 0px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    min-height: min-content;
+    font-family: var(--font-geist-sans);
+    z-index: 1;
 }
 
 .background {
@@ -46,25 +45,31 @@
     padding: 25px;
 }
 
-.tramFestival{
-    color:black;
+.tramFestival {
+    color: black;
     font-size: 30px;
     font-family: var(--font-gravity-bold), sans-serif;
     padding: 25px;
     text-align: center;
     max-width: 1000px;
-    list-style-type: disc; /* restore bullets */
-    list-style-position: outside; /* bullets in the left margin */
-    margin-left: 1.5rem; /* space between bullets and container edge */
+    list-style-type: disc;
+    /* restore bullets */
+    list-style-position: outside;
+    /* bullets in the left margin */
+    margin-left: 1.5rem;
+    /* space between bullets and container edge */
     padding-left: 1.5rem;
 }
 
-.tramFestival ul{
+.tramFestival ul {
     list-style-type: disc;
     list-style-position: outside;
-    padding-left: 1.5rem;      /* restore default indent */
-    margin: 0;                 /* optional: remove extra margin */
-    text-align: left;          /* override the container centering */
+    padding-left: 1.5rem;
+    /* restore default indent */
+    margin: 0;
+    /* optional: remove extra margin */
+    text-align: left;
+    /* override the container centering */
     display: inline-block;
     text-align: left;
 }
@@ -88,8 +93,8 @@
     color: black;
     background-image: linear-gradient(to right, yellow 0%, #ed5c10 100%);
     border-radius: 20px;
-    padding: 20px;             
-    width: max-content;         
+    padding: 20px;
+    width: max-content;
     height: auto;
     width: 300px;
     text-align: center;
@@ -99,15 +104,15 @@
 .trikk {
     position: relative;
     height: auto;
-}   
+}
 
 .tram {
     position: relative;
     height: auto;
-}   
+}
 
 .age {
-    color:black;
+    color: black;
     font-size: 30px;
     font-family: var(--font-gravity-bold), sans-serif;
     margin: 0 auto;
@@ -139,7 +144,7 @@
 }
 
 .roles {
-    color:black;
+    color: black;
     font-size: 30px;
     font-family: var(--font-gravity-bold), sans-serif;
     margin: 20 auto;
@@ -148,7 +153,7 @@
 }
 
 .apply {
-    color:black;
+    color: black;
     font-size: 30px;
     font-family: var(--font-gravity-bold), sans-serif;
     margin: 20 auto;
@@ -157,3 +162,83 @@
 
 }
 
+@media screen and (max-width: 1000px) {
+
+
+    .page {
+        display: grid;
+        position: relative;
+        background: black;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        min-height: min-content;
+        font-family: var(--font-geist-sans);
+        z-index: 1;
+    }
+
+    .background {
+        background: #E7E7CE;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bli_frivilligText {
+        position: absolute;
+        height: auto;
+        z-index: 2;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .weArebli_frivilligs {
+        color: #ed5c10;
+        font-size: 25px;
+        padding-top: 50px;
+    }
+
+    .supported {
+        color: #ed5c10;
+        font-size: 20px;
+        font-family: var(--font-gravity-bold), sans-serif;
+    }
+
+    .tramFestival {
+        color: black;
+        font-size: 20px;
+        font-family: var(--font-gravity-bold), sans-serif;
+        
+        text-align: center;
+        list-style-type: disc;
+        /* restore bullets */
+        list-style-position: outside;
+        /* bullets in the left margin */
+        margin-left: 1.5rem;
+        /* space between bullets and container edge */
+        padding-left: 1.5rem;
+    }
+
+    .tramFestival ul {
+        list-style-type: disc;
+        list-style-position: outside;
+        /* restore default indent */
+        margin: 0;
+        /* optional: remove extra margin */
+        text-align: start;
+        /* override the container centering */
+        display: inline-block;
+    }
+
+
+    .pageContent {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+   
+
+
+}
