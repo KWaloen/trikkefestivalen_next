@@ -60,17 +60,18 @@ export default function Home() {
           </div>
         </Link>
 
-        <Link href="/ofte_stilte_spm" className={styles.cardLink}>
-          <div className={styles.link}>
-            <Image
-              className={styles.letter}
-              src="/main/letter.png"
-              alt="letter"
-              width={80}
-              height={50}
-            />
-            <span className={styles.ofte_stilte_spm}>Ofte Stilte Spørsmål</span>
-          </div>
+        <Link href="/ofte_stilte_spm">
+          <Image
+            className={styles.letter}
+            src="/main/black_question.png"
+            alt="letter"
+            height={0}
+            width={30}
+            style={{ height: 'auto' }}
+
+          />
+          <div className={styles.ofte_stilte_spm}>Ofte Stilte Spørsmål</div>
+
         </Link>
 
         <Link href="/bli_frivillig" className={styles.cardLink}>

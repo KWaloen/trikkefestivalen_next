@@ -41,6 +41,8 @@
   top: -35px;
 }
 
+
+
 .title {
   position: absolute;
 
@@ -111,6 +113,8 @@
   position: absolute;
   right: 150px;
   top: 345px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
 
 .contact {
@@ -248,8 +252,9 @@
 .letter {
   position: static;
   z-index: 1;
-  width: 10%;
-  height: 20%;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+
 }
 
 .contact {

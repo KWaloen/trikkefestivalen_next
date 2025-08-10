@@ -17,9 +17,15 @@
   font-size: 40px;
 }
 
+.img_invert {
+  filter: invert(1);
+  width: 100px;
+  height: auto;
+}
+
 .boxContainer {
   position: relative;
-  padding: 20px; 
+  padding: 20px;             
   margin: auto;
   align-items: center;
   justify-items: center;
