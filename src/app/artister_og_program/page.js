@@ -2,7 +2,7 @@
 
 
 import Image from 'next/image'
-import styles from './artists.module.css'
+import styles from './artister_og_program.module.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import GetArtist from '../components/GetArtist'
@@ -18,14 +18,14 @@ export default async function Home() {
         <div className={styles.topRow}>
           <Image
             className={styles.LOGO_CREAM}
-            src="/artists/LOGO_CREAM.png"
+            src="/artister_og_program/LOGO_CREAM.png"
             alt="tram_image"
             width={100}
             height={100}
           />
           <Image
             className={styles.logo}
-            src="/artists/logo.png"
+            src="/artister_og_program/logo.png"
             alt="logo"
             width={200}
             height={100}
@@ -42,7 +42,7 @@ export default async function Home() {
         <div>
           <Image
             className={styles.yellow}
-            src="/artists/yellow.png"
+            src="/artister_og_program/yellow.png"
             alt="yellow"
             width={2000}
             height={50}
@@ -51,13 +51,13 @@ export default async function Home() {
 
         <div className={styles.orangeBackground}>
 
-          <div className={styles.artistsTitle}>
+          <div className={styles.artister_og_programTitle}>
 
-            <div className={styles.artistsText}>ARTISTER</div>
+            <div className={styles.artister_og_programText}>ARTISTER</div>
 
             <Image
-              src="/artists/artistsNotes.png"
-              alt="artistsNotes"
+              src="/artister_og_program/artister_og_programNotes.png"
+              alt="artister_og_programNotes"
               width={180}
               height={80}
             />

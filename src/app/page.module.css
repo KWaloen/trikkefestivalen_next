@@ -74,7 +74,7 @@
   width: auto;
 }
 
-.artists {
+.artister_og_program {
   position: absolute;
   font-family: var(--font-house-soft);
   font-size: 25px;
@@ -89,7 +89,7 @@
   top: 540px;
 }
 
-.events {
+.billetter_og_om_festivalen {
   position: absolute;
   font-family: var(--font-house-soft);
   font-size: 25px;
@@ -98,7 +98,7 @@
   top: 600px;
 }
 
-.faqs {
+.ofte_stilte_spm {
   position: absolute;
   font-family: var(--font-house-soft);
   font-size: 25px;
@@ -125,7 +125,7 @@
   top: 540px;
 }
 
-.volunteer {
+.bli_frivillig {
   position: absolute;
   font-family: var(--font-house-soft);
   font-size: 25px;
@@ -214,7 +214,7 @@
 
 }
 
-.artists {
+.artister_og_program {
   position: static;
   z-index: 1;
   font-size: 20px;
@@ -233,13 +233,13 @@
   height: 20%;
 }
 
-.events {
+.billetter_og_om_festivalen {
   position: static;
   z-index: 1;
   font-size: 20px;
 }
 
-.faqs {
+.ofte_stilte_spm {
   position: static;
   z-index: 1;
   font-size: 20px;
@@ -264,7 +264,7 @@
   height: 40%;
 }
 
-.volunteer {
+.bli_frivillig {
   position: static;
   z-index: 1;
   font-size: 20px;

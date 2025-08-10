@@ -1,9 +1,9 @@
-// page.js for faqs (no: "Ofte Stilte Spørsmål")
+// page.js for ofte_stilte_spm (no: "Ofte Stilte Spørsmål")
 
 
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from './faqs.module.css'
+import styles from './ofte_stilte_spm.module.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
@@ -17,7 +17,7 @@ export default function Home() {
           <NavBar/> 
             <div className={styles.title}>
                 <Image
-                  src="/faqs/faqs.png"
+                  src="/ofte_stilte_spm/ofte_stilte_spm.png"
                   alt="faqsTitle"
                   width={200}
                   height={50}
@@ -26,7 +26,7 @@ export default function Home() {
                 <div>
                     <Image
                       className = {styles.artistNotes}
-                      src="/faqs/artistsNotes.png"
+                      src="/ofte_stilte_spm/artistsNotes.png"
                       alt="notes"
                       width={100}
                       height={70}
@@ -34,7 +34,7 @@ export default function Home() {
 
                     <Image
                       className = {styles.notesGif}
-                      src="/faqs/notesGif.gif"
+                      src="/ofte_stilte_spm/notesGif.gif"
                       alt="notes"
                       width={800}
                       height={800}
@@ -50,7 +50,7 @@ export default function Home() {
 
             <div className = {styles.questionGrid}>
 
-                <details className={styles.faqItem}>
+                <details className={styles.ofte_stilte_spmItem}>
                     <summary className = {styles.question}>
 
                         Hva er Trikkefestivalen?
@@ -65,7 +65,7 @@ export default function Home() {
                     </div>
                 </details>
 
-                <details className={styles.faqItem}>
+                <details className={styles.ofte_stilte_spmItem}>
                     <summary className = {styles.question}>
 
                         Hvor møter jeg opp?
@@ -80,7 +80,7 @@ export default function Home() {
                     </div>
                 </details>
 
-                 <details className={styles.faqItem}>
+                 <details className={styles.ofte_stilte_spmItem}>
                     <summary className = {styles.question}>
 
                         Hva slags fordeler er det med billetten?
@@ -91,7 +91,7 @@ export default function Home() {
                     </div>
                 </details>
 
-                                 <details className={styles.faqItem}>
+                                 <details className={styles.ofte_stilte_spmItem}>
                     <summary className = {styles.question}>
 
                         Hvor starter festivalen?
@@ -102,7 +102,7 @@ export default function Home() {
                     </div>
                 </details>
 
-                <details className={styles.faqItem}>
+                <details className={styles.ofte_stilte_spmItem}>
                     <summary className = {styles.question}>
 
                         Hvor mye vil en billett koste?
@@ -113,7 +113,7 @@ export default function Home() {
                     </div>
                 </details>   
 
-                 <details className={styles.faqItem}>
+                 <details className={styles.ofte_stilte_spmItem}>
                     <summary className = {styles.question}>
 
                         Hvordan betaler man for billett?
@@ -125,7 +125,7 @@ export default function Home() {
                 </details>   
 
 
-                 <details className={styles.faqItem}>
+                 <details className={styles.ofte_stilte_spmItem}>
                     <summary className = {styles.question}>
 
                         Hvordan fungerer festivalen? Er ikke trikken veldig liten?
@@ -136,7 +136,7 @@ export default function Home() {
                         Det vil si at det vil være begrenset plass til både publikum og artister. Vi anbefaler derfor å både kjøpe billett tidlig eller komme tidlig for å sikre seg plass, og å være forberedt på en intim konsertopplevelse.
                     </div>
                 </details> 
-                                 <details className={styles.faqItem}>
+                                 <details className={styles.ofte_stilte_spmItem}>
                     <summary className = {styles.question}>
 
                         Kan jeg ta med drikke og mat med ombord trikken?
@@ -148,7 +148,7 @@ export default function Home() {
                     </div>
                 </details>   
 
-                 <details className={styles.faqItem}>
+                 <details className={styles.ofte_stilte_spmItem}>
                     <summary className = {styles.question}>
 
                         Er festivalen barnevennlig? Kan jeg ta med hund eller andre kjæledyr?
@@ -163,7 +163,7 @@ export default function Home() {
                     </div>
                 </details>
 
-                 <details className={styles.faqItem}>
+                 <details className={styles.ofte_stilte_spmItem}>
                     <summary className = {styles.question}>
 
                         Er festivalen tilgjengelig for personer med nedsatt funksjonsevne?
@@ -174,7 +174,7 @@ export default function Home() {
                 </details>
 
 
-                <details className={styles.faqItem}>
+                <details className={styles.ofte_stilte_spmItem}>
                     <summary className = {styles.question}>
 
                         Jeg har spørsmål om festivalen, hvordan kan jeg kontakte dere?

@@ -34,20 +34,20 @@ export default function Home() {
       />
 
       <div className={styles.linksGrid}>
-        <Link href="/artists" className={styles.cardLink}>
+        <Link href="/artister_og_program" className={styles.cardLink}>
           <div className={styles.link}>
             <Image
               className={styles.LOGO_CREAM}
               src="/main/LOGO_CREAM.png"
-              alt="artists_image"
+              alt="artister_og_program_image"
               width={80}
               height={40}
             />
-            <span className={styles.artists}>Artister & Program</span>
+            <span className={styles.artister_og_program}>Artister & Program</span>
           </div>
         </Link>
 
-        <Link href="/events" className={styles.cardLink}>
+        <Link href="/billetter_og_om_festivalen" className={styles.cardLink}>
           <div className={styles.link}>
             <Image
               className={styles.ticket}
@@ -56,11 +56,11 @@ export default function Home() {
               width={80}
               height={40}
             />
-            <span className={styles.events}>Billetter & Om Festivalen</span>
+            <span className={styles.billetter_og_om_festivalen}>Billetter & Om Festivalen</span>
           </div>
         </Link>
 
-        <Link href="/faqs" className={styles.cardLink}>
+        <Link href="/ofte_stilte_spm" className={styles.cardLink}>
           <div className={styles.link}>
             <Image
               className={styles.letter}
@@ -69,11 +69,11 @@ export default function Home() {
               width={80}
               height={50}
             />
-            <span className={styles.faqs}>Ofte Stilte Spørsmål</span>
+            <span className={styles.ofte_stilte_spm}>Ofte Stilte Spørsmål</span>
           </div>
         </Link>
 
-        <Link href="/volunteer" className={styles.cardLink}>
+        <Link href="/bli_frivillig" className={styles.cardLink}>
           <div className={styles.link}>
             <Image
               className={styles.notes}
@@ -82,7 +82,7 @@ export default function Home() {
               width={80}
               height={50}
             />
-            <span className={styles.volunteer}>Bli Frivillig!</span>
+            <span className={styles.bli_frivillig}>Bli Frivillig!</span>
           </div>
         </Link>
       </div>

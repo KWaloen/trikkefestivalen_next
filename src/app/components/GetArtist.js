@@ -14,11 +14,11 @@ export default async function GetArtist() {
 
   // Parse CSV safely
   const parsed = Papa.parse(textRaw, { header: true, skipEmptyLines: true });
-  const artists = parsed.data;
+  const artister_og_program = parsed.data;
 
   return (
-    <div className={styles.artists}>
-      {artists.map((artist, i) => (
+    <div className={styles.artister_og_program}>
+      {artister_og_program.map((artist, i) => (
         <div key={i} className={styles.artistCard}>
           <Image
             src={`/artistInfo/${artist.Name}.png`}
