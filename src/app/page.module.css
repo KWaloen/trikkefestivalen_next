@@ -277,7 +277,7 @@
   grid-template-columns: 1fr; /* two columns: icon | text */
   gap: 40px;                  /* row-gap col-gap */
   width: 100%;
-  margin: 40px 50px -1100px;             /* auto left/right centers it */
+  margin: 40px 50px -1000px;             /* auto left/right centers it */
   align-items: center;             /* center vertically within rows */
   justify-items: start;            /* align items to the left in each cell */
   background-color: #ed5c10;
@@ -287,7 +287,6 @@
 .cardLink {
   gap: 80px;
   margin-left: 20px;
-  margin-bottom: 10px;
 
 }
 
