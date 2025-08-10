@@ -41,22 +41,47 @@ export default function Home() {
 
           <div className={styles.tramText}>
             <div className={styles.boxContainer}>
-            <div className={styles.box}>
-            <div className={styles.getongetoff}>
-              BILLETTINFORMASJON
-            </div>
-              På denne siden kommer informasjon om hvordan man kjøper billetter, samt praktisk informasjon om festivalen.
+              <div className={styles.box}>
+                <div className={styles.getongetoff}>
+                  BILLETTINFORMASJON
+                </div>
+                På denne siden kommer informasjon om hvordan man kjøper billetter, samt praktisk informasjon om festivalen.
             </div>
             <div className={styles.boxContainer}>
               <div className={styles.box}>
-              <div className={styles.getongetoff}>
-                Hva er Trikkefestivalen?
+                <div className={styles.getongetoff}>
+                  Hva er Trikkefestivalen?
+                </div>
+                <div >
+                  I år (2025) arrangerer vi for første gang Trikkefestivalen, en lokal musikkfestival hvor vi kombinerer den historiske trikken med moderne musikk! Seks lokale, unge artister vil i løpet av en dag fremføre musikk mens trikken beveger seg til og fra Café Opera over Høyden til Teknisk Museum på Møhlenpris
+                  <br />
+                  <br />
+                  Festivalen drives med støtte fra Bergen Kommune og Studentradioen i Bergen. Vi har også partnerskap med Bergen Elektriske Sporvei, som drifter trikken og Café Opera og Nobel Bopel.
+                </div>
               </div>
-              I år (2025) arrangerer vi for første gang Trikkefestivalen, en lokal musikkfestival hvor vi kombinerer den historiske trikken med moderne musikk! Seks lokale, unge artister vil i løpet av en dag fremføre musikk mens trikken beveger seg til og fra Café Opera over Høyden til Teknisk Museum på Møhlenpris
-              <br />
-              <br />
-              Festivalen drives med støtte fra Bergen Kommune og Studenradioen i Bergen. Vi har også partnerskap med Bergen Elektriske Sporvei, som drifter trikken og Café Opera og Nobel Bopel.
+            </div>
+                        <div className={styles.boxContainer}>
+              <div className={styles.box}>
+                <div className={styles.getongetoff}>
+                  Om denne nettsiden & Anerkjennelser
+                </div>
+                <div >
+                 Grafisk profil av trikkefestivalen.no og resten av festivalens grafiske profilering er laget av Henriette Nådland, og nettsiden er utviklet av Kai Waløen (<a href="www.kwal.no">www.kwal.no</a>, med bidrag fra Malin Bjørkli, Anne Hognaland, Illimar Rekand og Robin Garen Aaberg.
+                  <br />
+                  <br />
+                Denne nettsiden er laget med Next.js, React og Tailwind CSS. Den er åpen kildekode og lisensiert under en MIT-lisens og kan finnes på <a href="https://github.com/KWaloen/trikkefestivalen_next">https://github.com/KWaloen/trikkefestivalen_next</a>. Vi setter pris på bidrag gjennom Pull Requests!
+                </div>
               </div>
+                          <div className={styles.boxContainer}>
+              <div className={styles.box}>
+                <div className={styles.getongetoff}>
+                  Kontakt
+                </div>
+                <div >
+                  Om du skulle ønske å komme i kontakt med oss, kan du sende en e-post til <a href="mailto:trikkfestivalen@gmail.com">trikkfestivalen@gmail.com</a>, <a href="mailto:janina.wildermuth@uib.no">janina.wildermuth@uib.no</a> eller  <a href="mailto:illimar.rekand@gmail.com">illimar.rekand@gmail.com</a>.
+                </div>
+              </div>
+            </div>
             </div>
             </div>
           </div>
