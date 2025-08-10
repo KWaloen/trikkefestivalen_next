@@ -119,31 +119,43 @@ export default function Home() {
                 Denne nettsiden er laget med Next.js og React. Den er åpen kildekode og lisensiert under en MIT-lisens og kan finnes på <a href="https://github.com/KWaloen/trikkefestivalen_next">https://github.com/KWaloen/trikkefestivalen_next</a>. Vi setter pris på bidrag gjennom Pull Requests!
                 </div>
               </div>
-                          <div className={styles.boxContainer}>
-              <div className={styles.box}>
-                <div className={styles.getongetoff}>
-                  Kontakt
+              <div className={styles.boxContainer}>
+                <div className={styles.box}>
+                  <div className={styles.getongetoff}>
+                    Om denne nettsiden & Anerkjennelser
+                  </div>
+                  <div className={styles.moreInfo}>
+                    Den grafiske profilingen av Trikkefestivalen og trikkefestivalen.no er laget av Henriette Nådland (IG: <a href="https://www.instagram.com/studionaad/">@studionaad</a>, webside: <a href="https://www.studionaad.com">www.studionaad.com</a>), og nettsiden er utviklet av Kai Waløen (<a href="www.kwal.no">www.kwal.no</a>), med bidrag fra Malin Bjørkli, Anne Hognaland, Illimar Rekand og Robin Garen Aaberg.
+                    <br />
+                    <br />
+                    Denne nettsiden er laget med Next.js og React. Den er åpen kildekode og lisensiert under en MIT-lisens og kan finnes på <a href="https://github.com/KWaloen/trikkefestivalen_next">https://github.com/KWaloen/trikkefestivalen_next</a>. Vi setter pris på bidrag gjennom Pull Requests!
+                  </div>
                 </div>
-                <div >
-                  Om du skulle ønske å komme i kontakt med oss, kan du sende en e-post til <a href="mailto:trikkfestivalen@gmail.com">trikkfestivalen@gmail.com</a>, <a href="mailto:janina.wildermuth@uib.no">janina.wildermuth@uib.no</a> eller  <a href="mailto:illimar.rekand@gmail.com">illimar.rekand@gmail.com</a>.
+                <div className={styles.boxContainer}>
+                  <div className={styles.box}>
+                    <div className={styles.getongetoff}>
+                      Kontakt
+                    </div>
+                    <div className={styles.moreInfo}>
+                      Om du skulle ønske å komme i kontakt med oss, kan du sende en e-post til <a href="mailto:trikkfestivalen@gmail.com">trikkfestivalen@gmail.com</a>, <a href="mailto:janina.wildermuth@uib.no">janina.wildermuth@uib.no</a> eller  <a href="mailto:illimar.rekand@gmail.com">illimar.rekand@gmail.com</a>.
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            </div>
             </div>
           </div>
         </div>
 
       </div>
 
-    {// Commenteted out code for Subscribe component, might want this later
-    }
-    {/*
+      {// Commenteted out code for Subscribe component, might want this later
+      }
+      {/*
       // <div className={styles.pageContent}>
       // <Subscribe />
       // </div>
     */
-    }
+      }
       <Footer />
     </div>
 
