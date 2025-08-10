@@ -14,6 +14,8 @@
 
 .background {
     background: #E7E7CE;
+    width: 100%;
+    text-align: center;
 }
 
 .concert {
@@ -46,20 +48,19 @@
 }
 
 .tramFestival {
-    color: black;
-    font-size: 30px;
-    font-family: var(--font-gravity-bold), sans-serif;
-    padding: 25px;
-    text-align: center;
-    max-width: 1000px;
-    list-style-type: disc;
-    /* restore bullets */
-    list-style-position: outside;
-    /* bullets in the left margin */
-    margin-left: 1.5rem;
-    /* space between bullets and container edge */
-    padding-left: 1.5rem;
-}
+        color: black;
+        font-size: 30px;
+        font-family: var(--font-gravity-bold), sans-serif;
+        
+        text-align: center;
+        list-style-type: disc;
+        /* restore bullets */
+        list-style-position: outside;
+        /* bullets in the left margin */
+        margin-left: 1.5rem;
+        /* space between bullets and container edge */
+        padding-left: 1.5rem;
+    }
 
 .tramFestival ul {
     list-style-type: disc;

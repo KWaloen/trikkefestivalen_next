@@ -42,9 +42,9 @@ export default function Home() {
             Trykk her for å bli med oss på vår Discord-server:
           </div>
           <Image
-            src={"/bli_frivillig/Discord-Symbol-Blurple.png"}
+            src={"/volunteer/Discord-Symbol-Blurple.png"}
             alt="logo"
-            width={60}
+            width={55}
             height={35}
           />
         </Link>
