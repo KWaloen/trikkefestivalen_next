@@ -60,10 +60,12 @@ export default function Home() {
         <Link href="/ofte_stilte_spm">
           <Image
             className={styles.letter}
-            src="/main/letter.png"
+            src="/main/black_question.png"
             alt="letter"
-            width={80}
-            height={50}
+            height={0}
+            width={30}
+            style={{ height: 'auto' }}
+
           />
           <div className={styles.ofte_stilte_spm}>Ofte Stilte Spørsmål</div>
         </Link>
