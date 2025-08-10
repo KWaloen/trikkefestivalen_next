@@ -39,6 +39,11 @@
 
 }
 
+.box a{
+  color: #ed5c10;
+  text-decoration: underline;
+}
+
 .sequence {
   position: relative;
   z-index: 1;
@@ -141,6 +146,11 @@
   font-size: 20px;
   margin: 10 auto;
 
+}
+
+.box a{
+  color: #ed5c10;
+  text-decoration: underline;
 }
 
 .page {
