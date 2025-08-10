@@ -47,6 +47,7 @@ export default function Home() {
                 </div>
                 På denne siden kommer informasjon om hvordan man kjøper billetter, samt praktisk informasjon om festivalen.
             </div>
+            </div>
             <div className={styles.boxContainer}>
               <div className={styles.box}>
                 <div className={styles.getongetoff}>
