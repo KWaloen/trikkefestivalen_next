@@ -142,7 +142,7 @@
   align-content: center;
 }
 
-.artistsTitle {
+.artister_og_programTitle {
   display: grid;              
   grid-template-columns: repeat(2, 2fr);
   align-items: center;
@@ -152,12 +152,12 @@
   min-height: 120px;
 }
 
-.artistsText{
+.artister_og_programText{
   font-size: 50px;
   color: yellow;
 }
 
-.artists {
+.artister_og_program {
   display: grid;              
   grid-template-columns: repeat(3, 1fr);
   width: 30%;
@@ -166,7 +166,7 @@
   
 }
 
-.seeArtists {
+.seeartister_og_program {
   background: #ed5c10;
   width: 100vw;
   text-align: center;
@@ -248,7 +248,7 @@
   margin-bottom: 20px;
 }
 
-.volunteer {
+.bli_frivillig {
   display: grid;
   place-items: center;
   margin: auto;
@@ -256,7 +256,7 @@
   
 }
 
-.volunteerTitle {
+.bli_frivilligTitle {
   font-size: 30px;
   font-family: "House Soft Narrow", sans-serif;
   color: #ed5c10;
@@ -265,7 +265,7 @@
 }
 
 
-.volunteerText {
+.bli_frivilligText {
   font-size: 15px;
   font-family: var(--font-gravity-bold);
   color: #ed5c10;
@@ -456,7 +456,7 @@
  
 }
 
-.artistsTitle {
+.artister_og_programTitle {
   display: grid;              
   grid-template-columns: repeat(2, 2fr);
   align-items: center;
@@ -467,7 +467,7 @@
   min-height: 100px;
 }
 
-.artists {
+.artister_og_program {
   display: grid;              
   grid-template-columns: repeat(3, 1fr);
   width: 30%;
@@ -476,7 +476,7 @@
   
 }
 
-.seeArtists {
+.seeartister_og_program {
   background: #ed5c10;
   width: 100vw;
   text-align: center;
@@ -556,14 +556,14 @@
   margin-bottom: 20px;
 }
 
-.volunteer {
+.bli_frivillig {
   display: grid;
   place-items: center;
   margin: auto;
   position: relative;
 }
 
-.volunteerText {
+.bli_frivilligText {
   font-size: 10px;
   
 }

@@ -1,4 +1,4 @@
-.artists {
+.artister_og_program {
   display: grid;              
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1000px) {
 
-.artists {
+.artister_og_program {
   display: grid;              
   grid-template-columns: 1fr;
   width: 100%;

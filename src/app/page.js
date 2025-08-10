@@ -34,19 +34,19 @@ export default function Home() {
         />
 
       <div className={styles.linksGrid}>
-        <Link href="/artists">
+        <Link href="/artister_og_program">
           <Image
             className={styles.LOGO_CREAM}
             src="/main/LOGO_CREAM.png"
-            alt="artists_image"
+            alt="artister_og_program_image"
             width={150}
             height={70}
           />
 
-          <div className={styles.artists}>Artister & Program</div>
+          <div className={styles.artister_og_program}>Artister & Program</div>
         </Link>
 
-        <Link href="/events">
+        <Link href="/billetter_og_om_festivalen">
           <Image
             className={styles.ticket}
             src="/main/ticket.png"
@@ -54,10 +54,10 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <div className={styles.events}>Billetter & Om Festivalen</div>
+          <div className={styles.billetter_og_om_festivalen}>Billetter & Om Festivalen</div>
         </Link>
 
-        <Link href="/faqs">
+        <Link href="/ofte_stilte_spm">
           <Image
             className={styles.letter}
             src="/main/letter.png"
@@ -65,10 +65,10 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <div className={styles.faqs}>Ofte Stilte Spørsmål</div>
+          <div className={styles.ofte_stilte_spm}>Ofte Stilte Spørsmål</div>
         </Link>
 
-        <Link href="/volunteer">
+        <Link href="/bli_frivillig">
           <Image
             className={styles.notes}
             src="/main/notes.png"
@@ -76,7 +76,7 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <div className={styles.volunteer}>Bli Frivillig!</div>
+          <div className={styles.bli_frivillig}>Bli Frivillig!</div>
         </Link>
       </div>
     </div>

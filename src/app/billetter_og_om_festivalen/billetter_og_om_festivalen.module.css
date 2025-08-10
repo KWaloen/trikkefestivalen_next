@@ -63,7 +63,7 @@
   color: black;
 }
 
-.artists {
+.artister_og_program {
   width: 100%;
   row-gap: 50px;
   margin: auto;
@@ -181,7 +181,7 @@
   text-align: center;
 }
 
-.artists {
+.artister_og_program {
   display: grid;
   place-items: center;      /* shorthand for align-items:center + justify-items:center */
   width: 100%;               
