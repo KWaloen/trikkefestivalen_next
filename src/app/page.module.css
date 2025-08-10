@@ -88,7 +88,7 @@
   top: 540px;
 }
 
-.billetter_og_program {
+.billetter_og_om_festivalen {
   position: absolute;
   font-family: var(--font-house-soft);
   font-size: 25px;
@@ -185,7 +185,7 @@
   position: absolute;
   width: fit-content;
   z-index: 2;
-  pointer-billetter_og_program: none;
+  pointer-billetter_og_om_festivalen: none;
 }
 
 .title {
@@ -219,7 +219,7 @@
   z-index: 1;
 }
 
-.billetter_og_program {
+.billetter_og_om_festivalen {
   position: static;
   z-index: 1;
 }

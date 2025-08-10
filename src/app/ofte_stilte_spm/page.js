@@ -18,7 +18,7 @@ export default function Home() {
             <div className={styles.title}>
                 <Image
                   src="/ofte_stilte_spm/ofte_stilte_spm.png"
-                  alt="ofte_stilte_spmTitle"
+                  alt="faqsTitle"
                   width={200}
                   height={50}
                 />
@@ -26,7 +26,7 @@ export default function Home() {
                 <div>
                     <Image
                       className = {styles.artistNotes}
-                      src="/ofte_stilte_spm/artister_og_programNotes.png"
+                      src="/ofte_stilte_spm/artistsNotes.png"
                       alt="notes"
                       width={100}
                       height={70}

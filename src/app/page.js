@@ -46,7 +46,7 @@ export default function Home() {
           <div className={styles.artister_og_program}>Artister & Program</div>
         </Link>
 
-        <Link href="/billetter_og_program">
+        <Link href="/billetter_og_om_festivalen">
           <Image
             className={styles.ticket}
             src="/main/ticket.png"
@@ -54,7 +54,7 @@ export default function Home() {
             width={80}
             height={50}
           />
-          <div className={styles.billetter_og_program}>Billetter & Om Festivalen</div>
+          <div className={styles.billetter_og_om_festivalen}>Billetter & Om Festivalen</div>
         </Link>
 
         <Link href="/ofte_stilte_spm">

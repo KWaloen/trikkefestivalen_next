@@ -1,7 +1,7 @@
-// page.js for billetter_og_program (no: "Billett & Om Festivalen")
+// page.js for billetter_og_om_festivalen (no: "Billett & Om Festivalen")
 
 import Image from 'next/image'
-import styles from './billetter_og_program.module.css'
+import styles from './billetter_og_om_festivalen.module.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import Subscribe from '../components/Subscribe'
@@ -32,7 +32,7 @@ export default function Home() {
         <div>
           <div className={styles.blackTram}>
             <Image
-              src="/billetter_og_program/blackTram.gif"
+              src="/billetter_og_om_festivalen/blackTram.gif"
               alt="blackTram"
               width={150}
               height={100}
