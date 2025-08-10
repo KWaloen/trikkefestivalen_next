@@ -32,7 +32,7 @@ export default function Footer() {
 
         <div className={styles.footercenter}>
           <ul>Get Involved</ul>
-          <ul>Volunteer</ul>
+          <ul>bli_frivillig</ul>
         </div>
         
       

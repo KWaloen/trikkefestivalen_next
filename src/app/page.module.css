@@ -73,7 +73,7 @@
   width: auto;
 }
 
-.artists {
+.artister_og_program {
   position: absolute;
   font-family: var(--font-house-soft);
   font-size: 25px;
@@ -88,7 +88,7 @@
   top: 540px;
 }
 
-.events {
+.billetter_og_program {
   position: absolute;
   font-family: var(--font-house-soft);
   font-size: 25px;
@@ -97,7 +97,7 @@
   top: 600px;
 }
 
-.faqs {
+.ofte_stilte_spm {
   position: absolute;
   font-family: var(--font-house-soft);
   font-size: 25px;
@@ -124,7 +124,7 @@
   top: 540px;
 }
 
-.volunteer {
+.bli_frivillig {
   position: absolute;
   font-family: var(--font-house-soft);
   font-size: 25px;
@@ -185,7 +185,7 @@
   position: absolute;
   width: fit-content;
   z-index: 2;
-  pointer-events: none;
+  pointer-billetter_og_program: none;
 }
 
 .title {
@@ -209,7 +209,7 @@
   z-index: 1;
 }
 
-.artists {
+.artister_og_program {
   position: static;
   z-index: 1;
 }
@@ -219,12 +219,12 @@
   z-index: 1;
 }
 
-.events {
+.billetter_og_program {
   position: static;
   z-index: 1;
 }
 
-.faqs {
+.ofte_stilte_spm {
   position: static;
   z-index: 1;
 }
@@ -244,7 +244,7 @@
   z-index: 1;
 }
 
-.volunteer {
+.bli_frivillig {
   position: static;
   z-index: 1;
 }

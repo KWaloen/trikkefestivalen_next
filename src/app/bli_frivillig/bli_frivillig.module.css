@@ -22,7 +22,7 @@
     height: auto;
 }
 
-.volunteerText {
+.bli_frivilligText {
     position: absolute;
     width: 100%;
     height: auto;
@@ -33,7 +33,7 @@
     font-size: 160px;
 }
 
-.weAreVolunteers {
+.weArebli_frivilligs {
     color: #ed5c10;
     font-size: 50px;
     padding: 25Px;
@@ -53,9 +53,23 @@
     padding: 25px;
     text-align: center;
     max-width: 1000px;
+    list-style-type: disc; /* restore bullets */
+    list-style-position: outside; /* bullets in the left margin */
+    margin-left: 1.5rem; /* space between bullets and container edge */
+    padding-left: 1.5rem;
 }
 
-.volunteerImages {
+.tramFestival ul{
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 1.5rem;      /* restore default indent */
+    margin: 0;                 /* optional: remove extra margin */
+    text-align: left;          /* override the container centering */
+    display: inline-block;
+    text-align: left;
+}
+
+.bli_frivilligImages {
     height: auto;
     margin: 30px;
 }
