@@ -81,15 +81,13 @@ export default function Home() {
                       height={400} // original height
                       style={{ width: '100px', height: 'auto' }} // smaller
                     />
-                    <div className={styles.img_invert}>
                       <Image
-                        src="/billetter_og_om_festivalen/bstvlogo_white_grey.png"
+                        src="/billetter_og_om_festivalen/BSTV_Svart_midtstilt.png"
                         alt="BSTV logo"
                         width={600} // original width
                         height={400} // original height
                         style={{ width: '110px', height: 'auto' }} // smaller
                       />
-                    </div>
                     <Image
                       src="/billetter_og_om_festivalen/CafeOpera_logo-svart.png"
                       alt="Cafe Opera logo"
