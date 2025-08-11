@@ -30,14 +30,14 @@
     bottom: -5px;
     z-index: 2;
     margin: 0 auto;
-    text-align: center;
     font-size: 160px;
+    padding-top: 20px;
 }
 
 .weArebli_frivilligs {
     color: #ed5c10;
     font-size: 50px;
-    padding: 25Px;
+    padding-top: 50px;
 }
 
 .supported {
@@ -51,15 +51,10 @@
         color: black;
         font-size: 30px;
         font-family: var(--font-gravity-bold), sans-serif;
-        
-        text-align: center;
         list-style-type: disc;
-        /* restore bullets */
         list-style-position: outside;
-        /* bullets in the left margin */
-        margin-left: 1.5rem;
-        /* space between bullets and container edge */
-        padding-left: 1.5rem;
+        padding: 50px;
+      
     }
 
 .tramFestival ul {
