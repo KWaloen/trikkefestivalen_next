@@ -307,12 +307,13 @@
   position: relative;
   background:  #0099AD 40%;
 
-  display: grid;
-  grid-template-rows: 20px 1fr 20px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-items: center;
   align-content: center;
-  min-height: 50svh;
+  min-height: 20svh;
+  width: 100%;
 
   font-family: var(--font-geist-sans);
   z-index: 1;
@@ -328,6 +329,9 @@
 
 .date {
   position: static;
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px 0;
   z-index: 1;
   bottom: auto;
 }
@@ -337,12 +341,14 @@
   position: static;
   z-index: 1;
   height: auto;
-  width: 80;
+  width: 80px;
 }
 
 .logo {
   position: static;
   z-index: 1;
+  height: auto;
+  width: 80px;
 }
 
 .trikk {
@@ -363,13 +369,13 @@
   z-index: 1;
   align-items: center;
   justify-content: center;
-  min-height: 50svh;
+  min-height: 20svh;
   max-width: 100vw;
   overflow-x: hidden;
   padding: 0 1rem; /* Optional spacing */
   box-sizing: border-box;
+  width: 100%;
 }
-
 
 .gap {
   background: #E7E7CE;
@@ -398,15 +404,22 @@
 
 .experience {
   position: static;
-  max-width: 100%;
+  max-width: 90%;
+  font-size: 1.2rem;
+  padding: 20px;
   height: auto;
+  text-align: center;
 }
 
 .tripleTrikks {
   height: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  column-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr; /* Single column for small screens */
+  gap: 20px;
+  width: 90%;
+  align-items: center;
+  width: 100%;
   margin-bottom: 50px;
 }
 
@@ -418,7 +431,10 @@
 
 .fifteenMin {
   position: static;
-  max-width: 100%;
+  max-width: 90%;
+  font-size: 1.2rem;
+  padding: 20px;
+  text-align: center;
   height: auto;
 }
 
@@ -458,21 +474,27 @@
 
 .artister_og_programTitle {
   display: grid;              
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: 1fr;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  text-align: center;
   align-items: center;
   justify-items: center;
   align-content: center;
+  font-weight: bold;
   width: 98%;
   margin: 0 auto;
   min-height: 100px;
+  margin-bottom: 20px;
 }
 
 .artister_og_program {
   display: grid;              
-  grid-template-columns: repeat(3, 1fr);
-  width: 30%;
-  margin: 80px;
-  row-gap: 50px;
+  grid-template-columns: 1fr;
+  width: 100%;               
+  margin: 40px auto;         
+  gap: 30px;
+  row-gap: 40px;
+  text-align: center;
   
 }
 
@@ -487,15 +509,19 @@
 .oval {
   background: yellow;
   border-radius: 10px;
-  padding: 20px;             
-  width: max-content;         
+  font-size: 0.9rem;
+  padding: 10px;             
+  width: 160px;         
   height: 55px;
   width: 200px;
 }
 
 .tramAndDate {
   position: relative;   
-  width: 800px;         
+  width: 100%;
+  max-width: 500px;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;       
 }
 
@@ -509,6 +535,8 @@
 
 .tramDate {
   position: absolute;    
+  font-size: 1rem;
+  text-align: center;
   top: 50%;             
   left: 50%;             
   transform: translate(-50%, -50%);
@@ -518,7 +546,8 @@
 .tripleTrams {
   height: auto;
   display: flex;
-  grid-template-columns: repeat(3, 2fr);
+  flex-direction: column;
+  align-items: center;
   column-gap: 10px;
   margin-bottom: 50px;
   width: 100%;
@@ -528,6 +557,9 @@
   top: 50px;
   position: relative;
   min-height: 200px;
+  font-size: clamp(1rem, 3.5vw, 1.4rem);
+  line-height: 1.4;
+  padding: 0 10px;
 }
 
 .wavyOrange {
@@ -537,8 +569,10 @@
 }
 
 .moreInfo {
-  display: grid;              
-  grid-template-columns: repeat(1, 1fr);
+  display: flex;   
+  flex-direction: column;           
+  grid-template-columns: 1fr;
+  gap: 20px;
   width: 100%;
   margin: 0 auto;
   row-gap: 100px;
