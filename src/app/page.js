@@ -66,8 +66,8 @@ export default function Home() {
               className={styles.letter}
               src="/main/black_question.png"
               alt="letter"
-              height={10}
-              width={10}
+              height={80}
+              width={50}
             />
             <span className={styles.ofte_stilte_spm}>Ofte Stilte Spørsmål</span>
           </div>
