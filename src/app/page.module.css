@@ -115,6 +115,9 @@
   top: 345px;
   -webkit-filter: invert(1);
   filter: invert(1);
+  margin: 12px;
+  height: 5%;
+  width: 2%;
 }
 
 .contact {
