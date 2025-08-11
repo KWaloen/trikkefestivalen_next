@@ -18,9 +18,27 @@
 }
 
 
+.img_invert {
+  filter: invert(1);
+  height: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+}
+
+.grid img {
+  width: 100px;
+  height: auto;
+}
+
 .boxContainer {
   position: relative;
-  padding: 20px;             
+  padding: 20px; 
   margin: auto;
   align-items: center;
   justify-items: center;
@@ -196,6 +214,20 @@
   width: 100%;               
   height: 100vh;            /* fill the viewport height */
   background-color: #ed5c10;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  padding: 20px;
+}
+
+.grid img {
+  width: 100px;
+  height: auto;
 }
 
 .blackTram {

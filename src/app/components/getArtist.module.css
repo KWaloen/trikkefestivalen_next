@@ -12,6 +12,14 @@
   
 }
 
+.artistCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
 @media screen and (max-width: 1000px) {
 
 .artister_og_program {
@@ -25,6 +33,23 @@
   padding: 0 10px;
   gap: 30px;
 
+}
+
+.artistCard {
+  width: 100%;           /* Make cards full width on mobile */
+  max-width: 350px;      /* Limit max width so content doesn’t stretch too wide */
+  margin: 0 auto;        /* Center horizontally */
+}
+
+.artistCard > div {
+  width: 100% !important;  /* force image wrapper div to full width */
+  max-width: 350px;        /* same max width as card */
+}
+
+.artistCard img {
+  width: 100% !important;   /* make image responsive */
+  height: auto !important;
+  border-radius: 8px;
 }
 
 }

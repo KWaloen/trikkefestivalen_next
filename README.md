@@ -37,3 +37,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 Figma design specification:
 https://www.figma.com/design/dgjE4RtQjacuq7Q7Y9cc0L/trikkefestivalen?node-id=0-1&t=VVy0jyqUWDCf8b6y-1 
+
+## LICENSE & REUSE
+
+* The code for Trikkefestivalen.no is licensed under an open MIT license
+* The code for the graphical assets are licensed under an open CC-BY 4.0 license

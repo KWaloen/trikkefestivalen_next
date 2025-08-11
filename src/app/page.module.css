@@ -142,6 +142,161 @@
   bottom: 10px;
 }
 
+@media screen and (max-width: 800px) {
+  .page {
+    position: relative;
+    background: linear-gradient(to top, #ed5c10 90%, #0A9EDE);
+    
+    display: grid;
+    grid-template-rows: 20px 1fr 20px;
+    align-items: center;
+    justify-items: center;
+    max-height: fit-content;
+    gap: 64px;
+    font-family: var(--font-geist-sans);
+  }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* center them horizontally */
+  grid-row-start: 2;      /* keep it in your 1fr row */
+}
+
+.tram {
+  position: absolute;
+  width: 350px;
+  height: auto;
+  top: 21%;
+  
+}
+
+.date {
+  position: absolute;
+  font-family: var(--font-gravity-bold), sans-serif;
+  font-size: 20px;   /* adjust as you like */
+
+}
+
+.music {
+  position: block;
+  top: 11%;
+  left: -8%;
+  height: auto;
+  width: 100%;
+}
+
+.clouds {
+  position: absolute;
+  width: fit-content;
+  z-index: 2;
+  pointer-events: none;
+  max-height: 70%;
+}
+
+.title {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  margin-bottom: 50px;
+  top: 20%;
+}
+
+.date {
+  position: absolute;
+  width: fit-content;
+  height: auto;
+}
+  
+.LOGO_CREAM {
+  position: static;
+  align-items: center;
+  justify-items: center;
+  width: 7%;
+  height: 15%;
+  z-index: 1;
+
+}
+
+.artister_og_program {
+  position: static;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.ticket {
+  position: static;
+  z-index: 1;
+  width: 10%;
+  height: 20%;
+}
+
+.billetter_og_om_festivalen {
+  position: static;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.ofte_stilte_spm {
+  position: static;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.letter {
+  position: static;
+  z-index: 1;
+  width: 5%;
+  height: 5%;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  margin: 12px;
+}
+
+.contact {
+  position: static;
+  z-index: 1;
+}
+
+.notes {
+  position: static;
+  z-index: 1;
+  width: 20%;
+  height: 40%;
+}
+
+.bli_frivillig {
+  position: static;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.linksGrid {
+  display: grid;
+  grid-template-columns: 1fr; /* two columns: icon | text */
+  gap: 40px;                  /* row-gap col-gap */
+  width: 100%;
+  margin: 40px 50px -1000px;             /* auto left/right centers it */
+  align-items: center;             /* center vertically within rows */
+  justify-items: start;            /* align items to the left in each cell */
+  background-color: #ed5c10;
+}
+
+
+.cardLink {
+  gap: 80px;
+  margin-left: 20px;
+
+}
+
+}
+
 @media screen and (max-width: 1000px) {
   .page {
     position: relative;
@@ -252,9 +407,11 @@
 .letter {
   position: static;
   z-index: 1;
+  width: 5%;
+  height: 5%;
   -webkit-filter: invert(1);
   filter: invert(1);
-
+  margin: 12px;
 }
 
 .contact {
@@ -275,14 +432,13 @@
   font-size: 20px;
 }
 
-
-
 .linksGrid {
   display: grid;
   grid-template-columns: 1fr; /* two columns: icon | text */
-  gap: 40px;                  /* row-gap col-gap */
+  gap: 40px;                /* row-gap col-gap */
   width: 100%;
-  margin: 40px 50px -1000px;             /* auto left/right centers it */
+  padding-left: 230px;
+  margin: 100px 100px -1200px;             /* auto left/right centers it */
   align-items: center;             /* center vertically within rows */
   justify-items: start;            /* align items to the left in each cell */
   background-color: #ed5c10;
@@ -296,4 +452,3 @@
 }
 
 }
-

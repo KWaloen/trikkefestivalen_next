@@ -54,24 +54,23 @@ export default function Home() {
               src="/main/ticket.png"
               alt="ticket"
               width={80}
-              height={40}
+              height={0}
             />
             <span className={styles.billetter_og_om_festivalen}>Billetter & Om Festivalen</span>
           </div>
         </Link>
 
-        <Link href="/ofte_stilte_spm">
-          <Image
-            className={styles.letter}
-            src="/main/black_question.png"
-            alt="letter"
-            height={0}
-            width={30}
-            style={{ height: 'auto' }}
-
-          />
-          <div className={styles.ofte_stilte_spm}>Ofte Stilte Spørsmål</div>
-
+        <Link href="/ofte_stilte_spm" className={styles.cardLink}>
+          <div className={styles.link}>
+            <Image
+              className={styles.letter}
+              src="/main/black_question.png"
+              alt="letter"
+              height={10}
+              width={10}
+            />
+            <span className={styles.ofte_stilte_spm}>Ofte Stilte Spørsmål</span>
+          </div>
         </Link>
 
         <Link href="/bli_frivillig" className={styles.cardLink}>
