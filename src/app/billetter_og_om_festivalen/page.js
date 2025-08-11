@@ -45,26 +45,24 @@ export default function Home() {
                 <div className={styles.getongetoff}>
                   BILLETTINFORMASJON
                 </div>
-                <div className={styles.moreInfo}>
-                  På denne siden kommer informasjon om hvordan man kjøper billetter, samt praktisk informasjon om festivalen.
-                </div>
-              </div>
+                På denne siden kommer informasjon om hvordan man kjøper billetter, samt praktisk informasjon om festivalen.
+            </div>
             </div>
             <div className={styles.boxContainer}>
               <div className={styles.box}>
                 <div className={styles.getongetoff}>
                   Hva er Trikkefestivalen?
                 </div>
-                <div className={styles.moreInfo}>
+                <div >
                   I år (2025) arrangerer vi for første gang Trikkefestivalen, en lokal musikkfestival hvor vi kombinerer den historiske trikken med moderne musikk! Seks lokale, unge artister vil i løpet av en dag fremføre musikk mens trikken beveger seg til og fra Café Opera over Høyden til Teknisk Museum på Møhlenpris
                   <br />
                   <br />
                   Festivalen blir planlagt og koordinert av Janina Wildermuth og Illimar Rekand etter et ønske om å lage en festival som kombinerer det historiske med det moderne, og som kan gi unge artister en scene for å vise frem sitt talent i musikkbyen Bergen.
                   <br />
                   <br />
-                  <div className={styles.getongetoff}>
-                    Hvem er våre støttepartnere?
-                  </div>
+                <div className={styles.getongetoff}>
+                  Hvem er våre støttepartnere?
+                </div>
                   Festivalen drives med støtte fra Bergen Kommune og Studentradioen i Bergen. Vi har også partnerskap med Bergen Elektriske Sporvei. Nobel Bopel og Café Opera tilbyr med rabatt til innehavere av billetter til Trikkefestivalen, og sistnevnte stiller også med lokaler for konserter. Bergen Student-TV bistår med utlån av utstyr.
 
                 </div>
@@ -90,34 +88,37 @@ export default function Home() {
                         height={400} // original height
                         style={{ width: '110px', height: 'auto' }} // smaller
                       />
-
                     <Image
-                      src="/billetter_og_om_festivalen/bstvlogo_white_grey.png"
-                      alt="BSTV logo"
-                      width={600} // original width
+                      src="/billetter_og_om_festivalen/CafeOpera_logo-svart.png"
+                      alt="Cafe Opera logo"
+                      width={400} // original width
                       height={400} // original height
-                      style={{ width: '200px', height: 'auto' }} // smaller
+                      style={{ width: '100px', height: 'auto' }} // smaller
+                    />
+                    <Image
+                      src="/billetter_og_om_festivalen/nobel_bopel_logo.png"
+                      alt="Nobel Bopel logo"
+                      width={400} // original width
+                      height={400} // original height
+                      style={{ width: '100px', height: 'auto' }} // smaller
                     />
                   </div>
-                  <Image
-                    src="/billetter_og_om_festivalen/CafeOpera_logo-svart.png"
-                    alt="Cafe Opera logo"
-                    width={400} // original width
-                    height={400} // original height
-                    style={{ width: '100px', height: 'auto' }} // smaller
-                  />
-                  <Image
-                    src="/billetter_og_om_festivalen/nobel_bopel_logo.png"
-                    alt="Nobel Bopel logo"
-                    width={400} // original width
-                    height={400} // original height
-                    style={{ width: '100px', height: 'auto' }} // smaller
-                  />
+                </div>
+              
+            </div>
+              <div className={styles.boxContainer}>
+              <div className={styles.box}>
+                <div className={styles.getongetoff}>
+                  Om denne nettsiden & Anerkjennelser
+                </div>
+                <div >
+                 Den grafiske profilingen av Trikkefestivalen og trikkefestivalen.no er laget av Henriette Nådland (IG: <a href="https://www.instagram.com/studionaad/">@studionaad</a>, webside: <a href="https://www.studionaad.com">www.studionaad.com</a>), og nettsiden er utviklet av Kai Waløen (<a href="www.kwal.no">www.kwal.no</a>), med bidrag fra Robin Garen Aaberg, Malin Bjørkli, Anne Hognaland og Illimar Rekand.
+                  <br />
+                  <br />
+                Denne nettsiden er laget med Next.js og React. Den er åpen kildekode og lisensiert under en MIT-lisens og kan finnes på <a href="https://github.com/KWaloen/trikkefestivalen_next">https://github.com/KWaloen/trikkefestivalen_next</a>. Vi setter pris på bidrag gjennom Pull Requests!
                 </div>
               </div>
-
             </div>
-            
             <div className={styles.boxContainer}>
               <div className={styles.box}>
                 <div className={styles.getongetoff}>
