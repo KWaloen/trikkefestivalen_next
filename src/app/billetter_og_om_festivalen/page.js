@@ -4,8 +4,6 @@ import Image from 'next/image'
 import styles from './billetter_og_om_festivalen.module.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-import Subscribe from '../components/Subscribe'
-import GetArtist from '../components/GetArtist'
 
 export default function Home() {
   return (
