@@ -297,7 +297,7 @@
 
 }
 
-@media screen and (max-width: 1000px) {
+@media (min-width: 800px) and (max-width: 1100px) {
   .page {
     position: relative;
     background: linear-gradient(to top, #ed5c10 90%, #0A9EDE);
