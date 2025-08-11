@@ -68,22 +68,29 @@ export default function Home() {
                   Festivalen drives med støtte fra Bergen Kommune og Studentradioen i Bergen. Vi har også partnerskap med Bergen Elektriske Sporvei. Nobel Bopel og Café Opera tilbyr med rabatt til innehavere av billetter til Trikkefestivalen, og sistnevnte stiller også med lokaler for konserter. Bergen Student-TV bistår med utlån av utstyr.
 
                 </div>
-                <div className={styles.grid}>
-                  <Image
-                    src="/billetter_og_om_festivalen/Logo-RGB-hoyde-Bergenkommune.png"
-                    alt="Bergen Kommune Logo"
-                    width={500} // original width
-                    height={200} // original height
-                    style={{ width: '100px', height: 'auto' }}
-                  />
-                  <Image
-                    src="/billetter_og_om_festivalen/SRIB-grnn-grnn_bakgrunn-01.png"
-                    alt="SRIB Logo"
-                    width={400} // original width
-                    height={400} // original height
-                    style={{ width: '100px', height: 'auto' }} // smaller
-                  />
-                  <div className={styles.img_invert}>
+                  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem' }}>
+                    <Image
+                      src="/billetter_og_om_festivalen/Logo-RGB-hoyde-Bergenkommune.png"
+                      alt="Bergen Kommune Logo"
+                      width={500} // original width
+                      height={200} // original height
+                      style={{ width: '150px', height: 'auto' }}
+                    />
+                    <Image
+                      src="/billetter_og_om_festivalen/SRIB-grnn-grnn_bakgrunn-01.png"
+                      alt="SRIB Logo"
+                      width={400} // original width
+                      height={400} // original height
+                      style={{ width: '100px', height: 'auto' }} // smaller
+                    />
+                      <Image
+                        src="/billetter_og_om_festivalen/BSTV_Svart_midtstilt.png"
+                        alt="BSTV logo"
+                        width={600} // original width
+                        height={400} // original height
+                        style={{ width: '110px', height: 'auto' }} // smaller
+                      />
+
                     <Image
                       src="/billetter_og_om_festivalen/bstvlogo_white_grey.png"
                       alt="BSTV logo"

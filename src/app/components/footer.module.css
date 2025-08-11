@@ -12,16 +12,19 @@
 }
 
 .footer {
+    color: white;
     display: flex;    
     gap: 150px;
     align-items: center;
 }
+
 
 .footerleft {
     display: grid;
     gap: 15px;
     flex-direction: row;
 }
+
 
 .footercenter {
     display: grid;
@@ -33,6 +36,16 @@
     display: grid;
     gap: 15px;
     flex-direction: row;
+}
+
+.footerlink {
+    color: white;
+    text-decoration: none;
+}
+
+.footerlink:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .logo {
