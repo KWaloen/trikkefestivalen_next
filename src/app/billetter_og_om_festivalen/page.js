@@ -4,8 +4,6 @@ import Image from 'next/image'
 import styles from './billetter_og_om_festivalen.module.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-import Subscribe from '../components/Subscribe'
-import GetArtist from '../components/GetArtist'
 
 export default function Home() {
   return (
@@ -53,7 +51,7 @@ export default function Home() {
                 <div className={styles.getongetoff}>
                   Hva er Trikkefestivalen?
                 </div>
-                <div >
+                <div className={styles.moreInfo}>
                   I år (2025) arrangerer vi for første gang Trikkefestivalen, en lokal musikkfestival hvor vi kombinerer den historiske trikken med moderne musikk! Seks lokale, unge artister vil i løpet av en dag fremføre musikk mens trikken beveger seg til og fra Café Opera over Høyden til Teknisk Museum på Møhlenpris
                   <br />
                   <br />
@@ -66,45 +64,47 @@ export default function Home() {
                   Festivalen drives med støtte fra Bergen Kommune og Studentradioen i Bergen. Vi har også partnerskap med Bergen Elektriske Sporvei. Nobel Bopel og Café Opera tilbyr med rabatt til innehavere av billetter til Trikkefestivalen, og sistnevnte stiller også med lokaler for konserter. Bergen Student-TV bistår med utlån av utstyr.
 
                 </div>
-                  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem' }}>
+                <div className={styles.grid}>
+                  <Image
+                    src="/billetter_og_om_festivalen/Logo-RGB-hoyde-Bergenkommune.png"
+                    alt="Bergen Kommune Logo"
+                    width={500} // original width
+                    height={200} // original height
+                    style={{ width: '100px', height: 'auto' }}
+                  />
+                  <Image
+                    src="/billetter_og_om_festivalen/SRIB-grnn-grnn_bakgrunn-01.png"
+                    alt="SRIB Logo"
+                    width={400} // original width
+                    height={400} // original height
+                    style={{ width: '100px', height: 'auto' }} // smaller
+                  />
+                  <div className={styles.img_invert}>
                     <Image
-                      src="/billetter_og_om_festivalen/Logo-RGB-hoyde-Bergenkommune.png"
-                      alt="Bergen Kommune Logo"
-                      width={500} // original width
-                      height={200} // original height
-                      style={{ width: '150px', height: 'auto' }}
-                    />
-                    <Image
-                      src="/billetter_og_om_festivalen/SRIB-grnn-grnn_bakgrunn-01.png"
-                      alt="SRIB Logo"
-                      width={400} // original width
+                      src="/billetter_og_om_festivalen/BSTV_Svart_midtstilt.png"
+                      alt="BSTV logo"
+                      width={600} // original width
                       height={400} // original height
-                      style={{ width: '100px', height: 'auto' }} // smaller
-                    />
-                      <Image
-                        src="/billetter_og_om_festivalen/BSTV_Svart_midtstilt.png"
-                        alt="BSTV logo"
-                        width={600} // original width
-                        height={400} // original height
-                        style={{ width: '110px', height: 'auto' }} // smaller
-                      />
-                    <Image
-                      src="/billetter_og_om_festivalen/CafeOpera_logo-svart.png"
-                      alt="Cafe Opera logo"
-                      width={400} // original width
-                      height={400} // original height
-                      style={{ width: '100px', height: 'auto' }} // smaller
-                    />
-                    <Image
-                      src="/billetter_og_om_festivalen/nobel_bopel_logo.png"
-                      alt="Nobel Bopel logo"
-                      width={400} // original width
-                      height={400} // original height
-                      style={{ width: '100px', height: 'auto' }} // smaller
+                      style={{ width: '200px', height: 'auto' }} // smaller
                     />
                   </div>
+                  <Image
+                    src="/billetter_og_om_festivalen/CafeOpera_logo-svart.png"
+                    alt="Cafe Opera logo"
+                    width={400} // original width
+                    height={400} // original height
+                    style={{ width: '100px', height: 'auto' }} // smaller
+                  />
+                  <Image
+                    src="/billetter_og_om_festivalen/nobel_bopel_logo.png"
+                    alt="Nobel Bopel logo"
+                    width={400} // original width
+                    height={400} // original height
+                    style={{ width: '100px', height: 'auto' }} // smaller
+                  />
                 </div>
-              
+              </div>
+
             </div>
               <div className={styles.boxContainer}>
               <div className={styles.box}>
