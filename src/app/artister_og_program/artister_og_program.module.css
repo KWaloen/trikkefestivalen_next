@@ -28,6 +28,8 @@
   z-index: 1;
 }
 
+
+
 .LOGO_CREAM {
   position: absolute;
   top: 90px;
@@ -64,6 +66,8 @@
   padding: 1rem;
   overflow-x: hidden;
 }
+
+
 
 .gap {
   background: #E7E7CE;
@@ -310,7 +314,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-items: center;
+  justify-items: center; /* Center items horizontally - might remove */
   align-content: center;
   min-height: 20svh;
   width: 100%;
@@ -333,7 +337,7 @@
   text-align: center;
   margin: 10px 0;
   z-index: 1;
-  bottom: auto;
+  bottom: auto; /* reset bottom positioning - might remove*/
 }
 
 
@@ -353,7 +357,7 @@
 
 .trikk {
   position: relative;
-  top: 330px;
+  top: 330px; /* adjust as needed - might remove*/
   z-index: 1;
   width: 100%;
   top: 50px;
@@ -373,7 +377,7 @@
   max-width: 100vw;
   overflow-x: hidden;
   padding: 0 1rem; 
-  box-sizing: border-box;
+  box-sizing: border-box; /* ensure padding is included in width - might remove*/
   width: 100%;
 }
 
@@ -407,19 +411,18 @@
   max-width: 90%;
   font-size: 1.2rem;
   padding: 20px;
-  height: auto;
+  height: auto; /* adjust as needed  - might remove*/
   text-align: center;
 }
 
 .tripleTrikks {
-  height: auto;
+  height: auto; /* adjust as needed - might remove */
   display: flex;
   flex-direction: column;
-  grid-template-columns: 1fr; /* Single column for small screens */
+  grid-template-columns: 1fr; /* Single column for small screens - might remove*/
   gap: 20px;
-  width: 90%;
-  align-items: center;
   width: 100%;
+  align-items: center;
   margin-bottom: 50px;
 }
 
@@ -435,7 +438,7 @@
   font-size: 1.2rem;
   padding: 20px;
   text-align: center;
-  height: auto;
+  height: auto; /* adjust as needed - might remove*/
 }
 
 .yellow {
@@ -466,17 +469,51 @@
 
   overflow: visible;
 
-  align-items: center;
-  justify-items: center;
+  align-items: center; /* Center items vertically - might remove*/
+  justify-items: center; /* Center items horizontally - might remove*/
   align-content: center;
- 
+}
+
+.table {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 1rem 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  thead {
+    background-color: #222;
+    color: #fff;
+  }
+
+  th, td {
+    padding: 12px 16px;
+    text-align: left;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+
+  tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.2s ease;
+  }
+
+  th {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
 }
 
 .artister_og_programTitle {
-  display: grid;              
+  display: grid; /* might change to flex for better responsiveness - might remove*/        
   grid-template-columns: 1fr;
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   text-align: center;
+  /* Might remove everything below in this container */
   align-items: center;
   justify-items: center;
   align-content: center;
@@ -491,26 +528,23 @@
 }
 
 .artister_og_program {
-  display: grid;              
-  grid-template-columns: 1fr;
+  display: flex;            
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+  justify-items: center;
   width: 100%;      
   max-width: 90%;         
-  margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto;         
+  margin: 0 auto;        
   gap: 20px;
   row-gap: 30px;
-  text-align: center;  
 }
 
-.artister_og_program img {
+.artister_og_program img { /* might remove if not needed */
   display: block;              
-  width: 100%;      
+  width: auto;      
   max-width: 100%;         
-  margin: 0 auto;    
-  margin-left: auto;
-  margin-right: auto;     
+  margin: 0 auto;       
   height: auto;
   border-radius: 8px; 
 }
@@ -518,12 +552,11 @@
 .seeartister_og_program {
   background: #ed5c10;
   width: 100vw;
-  max-width: 90%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .oval {
@@ -547,10 +580,13 @@
 
 .tramPic {
   display: block;
-  width: 100%;
+  width: auto;
   height: auto;
-  position: relative;
-  z-index: 1;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  /*position: relative; */
+  /*z-index: 1; */
 }
 
 .tramDate {
@@ -564,27 +600,23 @@
 }
 
 .tripleTrams {
-  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  column-gap: 10px;
+  justify-content: center;
+  /*column-gap: 10px; */
+  gap: 20px;
   margin-bottom: 50px;
   width: 100%;
 }
 
 .artistNames {
-  top: 50px;
-  position: relative;
-  min-height: 200px;
-  font-size: clamp(0.9rem, 3vw, 1.2rem);
-  line-height: 1.4;
-  padding: 0 10px;
+  position: static;
   margin-top: 10px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 90%;
+  font-size: clamp(0.9rem, 3vw, 1.2rem);
+  width: 100%;
 }
 
 .wavyOrange {
