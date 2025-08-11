@@ -54,7 +54,7 @@ export default function Home() {
               src="/main/ticket.png"
               alt="ticket"
               width={80}
-              height={0}
+              height={50}
             />
             <span className={styles.billetter_og_om_festivalen}>Billetter & Om Festivalen</span>
           </div>
