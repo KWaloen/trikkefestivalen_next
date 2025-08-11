@@ -310,7 +310,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-items: center;
+  justify-items: center; /* Center items horizontally - might remove */
   align-content: center;
   min-height: 20svh;
   width: 100%;
@@ -333,7 +333,7 @@
   text-align: center;
   margin: 10px 0;
   z-index: 1;
-  bottom: auto;
+  bottom: auto; /* reset bottom positioning - might remove*/
 }
 
 
@@ -353,7 +353,7 @@
 
 .trikk {
   position: relative;
-  top: 330px;
+  top: 330px; /* adjust as needed - might remove*/
   z-index: 1;
   width: 100%;
   top: 50px;
@@ -373,7 +373,7 @@
   max-width: 100vw;
   overflow-x: hidden;
   padding: 0 1rem; 
-  box-sizing: border-box;
+  box-sizing: border-box; /* ensure padding is included in width - might remove*/
   width: 100%;
 }
 
@@ -407,19 +407,18 @@
   max-width: 90%;
   font-size: 1.2rem;
   padding: 20px;
-  height: auto;
+  height: auto; /* adjust as needed  - might remove*/
   text-align: center;
 }
 
 .tripleTrikks {
-  height: auto;
+  height: auto; /* adjust as needed - might remove */
   display: flex;
   flex-direction: column;
-  grid-template-columns: 1fr; /* Single column for small screens */
+  grid-template-columns: 1fr; /* Single column for small screens - might remove*/
   gap: 20px;
-  width: 90%;
-  align-items: center;
   width: 100%;
+  align-items: center;
   margin-bottom: 50px;
 }
 
@@ -435,7 +434,7 @@
   font-size: 1.2rem;
   padding: 20px;
   text-align: center;
-  height: auto;
+  height: auto; /* adjust as needed - might remove*/
 }
 
 .yellow {
@@ -466,17 +465,17 @@
 
   overflow: visible;
 
-  align-items: center;
-  justify-items: center;
+  align-items: center; /* Center items vertically - might remove*/
+  justify-items: center; /* Center items horizontally - might remove*/
   align-content: center;
- 
 }
 
 .artister_og_programTitle {
-  display: grid;              
+  display: grid; /* might change to flex for better responsiveness - might remove*/        
   grid-template-columns: 1fr;
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   text-align: center;
+  /* Might remove everything below in this container */
   align-items: center;
   justify-items: center;
   align-content: center;
@@ -491,7 +490,7 @@
 }
 
 .artister_og_program {
-  display: grid;              
+  display: grid; /* might change to flex for better responsiveness - might remove*/            
   grid-template-columns: 1fr;
   text-align: center;
   width: 100%;      
@@ -504,7 +503,7 @@
   text-align: center;  
 }
 
-.artister_og_program img {
+.artister_og_program img { /* might remove if not needed */
   display: block;              
   width: 100%;      
   max-width: 100%;         
@@ -518,12 +517,11 @@
 .seeartister_og_program {
   background: #ed5c10;
   width: 100vw;
-  max-width: 90%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .oval {
