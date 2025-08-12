@@ -1,7 +1,7 @@
 .page {
   position: relative;
 
-  background: linear-gradient(to top, #ed5c10 10%, #0A9EDE);    
+  background: #ed5c10;  
 
   display: grid;
   grid-template-rows: 20px 1fr 20px;
@@ -148,7 +148,7 @@
 @media screen and (max-width: 800px) {
   .page {
     position: relative;
-    background: linear-gradient(to top, #ed5c10 90%, #0A9EDE);
+    background: #ed5c10;
     
     display: grid;
     grid-template-rows: 20px 1fr 20px;
