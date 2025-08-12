@@ -66,6 +66,8 @@ export default function Home() {
                 </div>
                 <div className={styles.grid}>
                   <Image
+                    loading="lazy"
+                    decoding="async"
                     src="/billetter_og_om_festivalen/Logo-RGB-hoyde-Bergenkommune.png"
                     alt="Bergen Kommune Logo"
                     width={500} // original width
@@ -73,6 +75,8 @@ export default function Home() {
                     style={{ width: '100px', height: 'auto' }}
                   />
                   <Image
+                    loading="lazy"
+                    decoding="async"
                     src="/billetter_og_om_festivalen/SRIB-grnn-grnn_bakgrunn-01.png"
                     alt="SRIB Logo"
                     width={400} // original width
@@ -81,6 +85,8 @@ export default function Home() {
                   />
                   <div className={styles.img_invert}>
                     <Image
+                      loading="lazy"
+                      decoding="async"
                       src="/billetter_og_om_festivalen/BSTV_Svart_midtstilt.png"
                       alt="BSTV logo"
                       width={600} // original width
@@ -89,6 +95,8 @@ export default function Home() {
                     />
                   </div>
                   <Image
+                    loading="lazy"
+                    decoding="async"
                     src="/billetter_og_om_festivalen/CafeOpera_logo-svart.png"
                     alt="Cafe Opera logo"
                     width={400} // original width
@@ -96,6 +104,8 @@ export default function Home() {
                     style={{ width: '100px', height: 'auto' }} // smaller
                   />
                   <Image
+                    loading="lazy"
+                    decoding="async"
                     src="/billetter_og_om_festivalen/nobel_bopel_logo.png"
                     alt="Nobel Bopel logo"
                     width={400} // original width
