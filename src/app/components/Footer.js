@@ -55,7 +55,7 @@ export default function Footer() {
                     <Image
                       loading="lazy"
                       decoding="async"
-                      src="/billetter_og_om_festivalen/SRIB-grnn-grnn_bakgrunn-01.png"
+                      src="/billetter_og_om_festivalen/SRIB-grnn-grnn_bakgrunn-01-smaller.png"
                       alt="SRIB Logo"
                       width={400} // original width
                       height={400} // original height
