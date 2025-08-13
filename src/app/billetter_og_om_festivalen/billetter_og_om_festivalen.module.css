@@ -230,6 +230,7 @@
   margin: 10px 0;
   text-align: center;
   justify-content: center;
+  width: 100%;
 }
 
 .tramText {
@@ -261,6 +262,8 @@
 
 .background {
   background: #E7E7CE;
+  align-items: center;
+  justify-items: center;
 }
 
 } 

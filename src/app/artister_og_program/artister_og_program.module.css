@@ -374,7 +374,7 @@
   align-items: center;
   justify-content: center;
   min-height: 20svh;
-  max-width: 100vw;
+  max-width: 100%;
   overflow-x: hidden;
   padding: 0 1rem; 
   box-sizing: border-box; /* ensure padding is included in width - might remove*/
@@ -452,13 +452,13 @@
 .yellowTop {
   margin-top: -10px;
   margin-bottom: -30px;
-  width: 100vw;
+  width: 100%;
 }
 
 .yellowBottom {
   margin-top: -30px;
   margin-bottom: -10px;
-  width: 100vw;
+  width: 100%;
 }
 
 .orangeBackground {
@@ -466,9 +466,8 @@
   flex-direction: column;
   background-color: #ed5c10;
   width: 100vw;
-
   overflow: visible;
-
+  
   align-items: center; /* Center items vertically - might remove*/
   justify-items: center; /* Center items horizontally - might remove*/
   align-content: center;
