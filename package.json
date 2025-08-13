@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@million/lint": "^1.0.14",
     "@tailwindcss/postcss": "^4.1.11",
+    "ios-webkit-debug-proxy": "^0.0.3",
     "next": "^15.3.3",
     "normalize.css": "^8.0.1",
     "papaparse": "^5.5.3",
