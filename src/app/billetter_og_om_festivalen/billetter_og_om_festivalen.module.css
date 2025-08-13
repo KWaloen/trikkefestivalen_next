@@ -261,6 +261,8 @@
 
 .background {
   background: #E7E7CE;
+  align-items: center;
+  justify-items: center;
 }
 
 } 
