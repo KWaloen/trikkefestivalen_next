@@ -66,6 +66,18 @@
   align-content: center;
 }
 
+.logoGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* two equal columns */
+  gap: 1rem; /* space between images */
+  justify-items: center; /* center images in their cells */
+  align-items: center;
+}
+
+.img_invert img {
+  filter: invert(1);
+}
+
 @media screen and (max-width: 1000px) {
 
 .page {
@@ -112,7 +124,7 @@
 
 .images {
   display: grid;              
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 3fr);
   width: 100%;
   margin: 0 auto;
   row-gap: 10px;
@@ -122,5 +134,18 @@
   justify-items: center;
   align-content: center;
 }
+
+.logoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* two equal columns */
+  gap: 1rem; /* space between images */
+  justify-items: center; /* center images in their cells */
+  align-items: center;
+}
+
+.img_invert img {
+  filter: invert(1);
+}
+
 
 }

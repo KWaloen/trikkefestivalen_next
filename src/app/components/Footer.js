@@ -41,15 +41,14 @@ export default function Footer() {
           <ul className={styles.footerlink}><a href='mailto:trikkfestivalen@gmail.com'>Kontakt</a></ul>
         </div>
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem' }}>
-
+      <div className={styles.logoGrid}>
         <Image
           loading="lazy"
           decoding="async"
           src="/billetter_og_om_festivalen/Logo-RGB-hoyde-Bergenkommune.png"
           alt="Bergen Kommune Logo"
-          width={500} // original width
-          height={200} // original height
+          width={500}
+          height={200}
           style={{ width: '150px', height: 'auto' }}
         />
         <Image
@@ -57,9 +56,9 @@ export default function Footer() {
           decoding="async"
           src="/billetter_og_om_festivalen/SRIB-grnn-grnn_bakgrunn-01-smaller.png"
           alt="SRIB Logo"
-          width={400} // original width
-          height={400} // original height
-          style={{ width: '100px', height: 'auto' }} // smaller
+          width={400}
+          height={400}
+          style={{ width: '100px', height: 'auto' }}
         />
         <div className={styles.img_invert}>
           <Image
@@ -67,9 +66,9 @@ export default function Footer() {
             decoding="async"
             src="/billetter_og_om_festivalen/BSTV_Svart_midtstilt.png"
             alt="BSTV logo"
-            width={600} // original width
-            height={400} // original height
-            style={{ width: '150px', height: 'auto' }} // smaller
+            width={600}
+            height={400}
+            style={{ width: '150px', height: 'auto' }}
           />
         </div>
         <Image
@@ -77,20 +76,21 @@ export default function Footer() {
           decoding="async"
           src="/billetter_og_om_festivalen/CafeOpera_logo-svart.png"
           alt="Cafe Opera logo"
-          width={400} // original width
-          height={400} // original height
-          style={{ width: '100px', height: 'auto' }} // smaller
+          width={400}
+          height={400}
+          style={{ width: '100px', height: 'auto' }}
         />
         <Image
           loading="lazy"
           decoding="async"
           src="/billetter_og_om_festivalen/nobel_bopel_logo.png"
           alt="Nobel Bopel logo"
-          width={400} // original width
-          height={400} // original height
-          style={{ width: '100px', height: 'auto' }} // smaller
+          width={400}
+          height={400}
+          style={{ width: '100px', height: 'auto' }}
         />
       </div>
+
     </div>
   )
 }
