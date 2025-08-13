@@ -465,10 +465,9 @@
   display: flex;
   flex-direction: column;
   background-color: #ed5c10;
-  width: 100%;
-  box-sizing: border-box;
+  width: 100vw;
   overflow: visible;
-  padding-inline: env(safe-area-inset-left) env(safe-area-inset-right);
+  
   align-items: center; /* Center items vertically - might remove*/
   justify-items: center; /* Center items horizontally - might remove*/
   align-content: center;
@@ -518,8 +517,6 @@
   justify-items: center;
   align-content: center;
   font-weight: bold;
-  box-sizing: border-box;
-  padding-inline: env(safe-area-inset-left) env(safe-area-inset-right);
   width: 98%;
   max-width: 90%;
   margin: 0 auto;
@@ -553,12 +550,22 @@
 
 .seeartister_og_program {
   background: #ed5c10;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
   margin: 0;
   box-sizing: border-box;
+}
+
+.oval {
+  background: yellow;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  padding: 10px;             
+  width: 160px;         
+  height: 55px;
+  width: 200px;
 }
 
 .tramAndDate {
@@ -614,7 +621,7 @@
 .wavyOrange {
   z-index: 2;
   margin-top: -20px;
-  margin-bottom: 100%;
+  margin-bottom: 100px;
 }
 
 .moreInfo {
@@ -623,6 +630,7 @@
   grid-template-columns: 1fr;
   gap: 20px;
   width: 100%;
+  max-width: 500px;
   margin: 0 auto 50px auto;
   padding: 0 15px;
   row-gap: 100px;
