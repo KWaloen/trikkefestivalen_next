@@ -1,7 +1,6 @@
 // page.js for ofte_stilte_spm (no: "Ofte Stilte Spørsmål")
 
 
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from './ofte_stilte_spm.module.css'
 import NavBar from '../components/NavBar'
@@ -9,27 +8,19 @@ import Footer from '../components/Footer'
 
 export default function Home() {
     return (
-
-
-
         <div className={styles.blueWaveBackground}>
             <div className={styles.page}>
                 <NavBar />
                 <div className={styles.title}>
-                    <Image
-                        src="/ofte_stilte_spm/ofte_stilte_spm.png"
-                        alt="faqsTitle"
-                        width={200}
-                        height={50}
-                    />
+                    <p>OFTE STILTE <br /> SPØRSMÅL </p>
 
                     <div>
                         <Image
                             className={styles.artistNotes}
                             src="/ofte_stilte_spm/artistsNotes.png"
                             alt="notes"
-                            width={100}
-                            height={70}
+                            width={120}
+                            height={80}
                         />
 
                         <Image
@@ -39,7 +30,8 @@ export default function Home() {
                             width={800}
                             height={800}
                         />
-
+                    <br />
+                    <br />
 
                     </div>
 
