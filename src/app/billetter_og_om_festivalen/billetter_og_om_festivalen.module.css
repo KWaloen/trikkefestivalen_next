@@ -1,6 +1,6 @@
 .page {
   position: relative;
-  background:  #ed5c10 40%;
+  background: #ed5c10 40%;
   display: grid;
   grid-auto-rows: min-content;
   align-items: center;

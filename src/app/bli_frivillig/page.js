@@ -11,36 +11,39 @@ export default function Home() {
 
       <NavBar />
 
-        <div className={styles.weArebli_frivilligs}>
+      <div className={styles.page}>
+
+        <div className={styles.bli_frivillig}>
           VI ER FRIVILLIGE
         </div>
 
       <div className={styles.supported}>
         DETTE ARRANGEMENTET ER LAGT TIL RETTE OG STØTTET GJENNOM FRIVILLIG ARBEID
       </div>
-
-      <div className={styles.tramFestival}>
-        <p>
-          TRIKKEFESTIVALEN ER ET FRIVILLIG INITIATIV HVOR VI ØNSKER Å ARRANGERE EN MUSIKKFESTIVAL PÅ DEN HISTORISKE TRIKKEN SOM GÅR FRA CAFÉ OPERA TIL TEKNISK MUSEUM PÅ MØHLENPRIS
-        </p>
-        <br />
-        <p>
-          Vi trenger frivillige til blant annet: <br />
-        </p>
-        <br />
-        <ul>
-          <li>Billetter</li>
-          <li> SoMe & Foto</li>
-          <li> Lydteknikk </li>
-          <li> Arrangementskoordinering</li>
-          <li> Annet</li>
-        </ul>
+      <div className ={styles.boxContainer}>
+        <div className={styles.box}>
+            Trikkefestivalen er et frivillig initiativ hvor vi ønsker å arrangere en musikkfestival på den historiske trikken som går fra Café Opera til Teknisk Museum på Møhlenpris
+           <br /> 
+          <br />
+            Vi trenger frivillige til blant annet: <br />
+          <br />
+          <ul>
+            <li>Billetter</li>
+            <li> SoMe & Foto</li>
+            <li> Lydteknikk </li>
+            <li> Arrangementskoordinering</li>
+            <li> Websideutvikling</li>
+            <li> +++ </li>
+          </ul>
+        </div>
       </div>
-      <div className={styles.tramFestival}>
+      <div className={styles.box}>
         <Link href="https://discord.gg/2Zb9xaUmjU">
           <div>
             Trykk her for å bli med oss på vår Discord-server:
-          </div>
+            <br />
+            <br />
+         </div>
           <Image
             src={"/volunteer/Discord-Symbol-Blurple.png"}
             alt="logo"
@@ -51,7 +54,7 @@ export default function Home() {
         <div> Alternativt kan du sende oss en direktemelding på Instagram (@Trikkefestivalen) eller kontakt oss på e-post (trikkfestivalen@gmail.com)</div>
         <br />
       </div>
-
+      </div>
       <Footer />
     </div>
 

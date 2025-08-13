@@ -1,21 +1,19 @@
 .page {
-    display: grid;
-    position: relative;
-    background: black;
-    display: grid;
-    grid-template-rows: 0px auto 0px;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    min-height: min-content;
-    font-family: var(--font-geist-sans);
-    z-index: 1;
+  position: relative;
+  background: #ed5c10 40%;
+  color: white;
+  font-family: var(--font-geist-sans);
+  display: grid;
+  grid-auto-rows: min-content;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  min-height: 60svh;
+  z-index: 1;
 }
 
 .background {
-    background: #E7E7CE;
-    width: 100%;
-    text-align: center;
+  background: #ed5c10;
 }
 
 .concert {
@@ -23,10 +21,39 @@
     height: auto;
 }
 
+.boxContainer {
+  position: relative;
+  padding: 20px; 
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.box {
+  background-color: #e5e7cc;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-gravity-bold), sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 10 auto;
+
+}
+
+.box a{
+  color: #ed5c10;
+  text-decoration: underline;
+}
+
 .bli_frivilligText {
     position: absolute;
     width: 100%;
     height: auto;
+    color: black;
     bottom: -5px;
     z-index: 2;
     margin: 0 auto;
@@ -34,14 +61,14 @@
     padding-top: 20px;
 }
 
-.weArebli_frivilligs {
-    color: #ed5c10;
+.bli_frivillig {
+    color: white;
     font-size: 50px;
     padding-top: 50px;
 }
 
 .supported {
-    color: #ed5c10;
+    color: white;
     font-size: 30px;
     font-family: var(--font-gravity-bold), sans-serif;
     padding: 25px;
@@ -57,7 +84,7 @@
       
     }
 
-.tramFestival ul {
+.box ul {
     list-style-type: disc;
     list-style-position: outside;
     padding-left: 1.5rem;
@@ -149,7 +176,7 @@
 }
 
 .apply {
-    color: black;
+    color: black 40%;
     font-size: 30px;
     font-family: var(--font-gravity-bold), sans-serif;
     margin: 20 auto;
@@ -164,7 +191,7 @@
     .page {
         display: grid;
         position: relative;
-        background: black;
+        background: #ed5c10 40%;;
         align-items: center;
         justify-items: center;
         align-content: center;
@@ -174,9 +201,36 @@
     }
 
     .background {
-        background: #E7E7CE;
+        background: white;
         width: 100%;
         text-align: center;
+        }
+
+    .boxContainer {
+          position: relative;
+          padding: 20px; 
+          margin: auto;
+          align-items: center;
+          justify-items: center;
+          align-content: center;
+        }
+
+    .box {
+            background-color: #e5e7cc;
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+            position: relative;
+            z-index: 1;
+            font-family: var(--font-gravity-bold), sans-serif;
+            font-size: 20px;
+            font-weight: 100;
+            margin: 10 auto;
+        }
+
+    .box a{
+      color: #ed5c10;
+      text-decoration: underline;
     }
 
     .bli_frivilligText {
@@ -195,7 +249,7 @@
     }
 
     .supported {
-        color: #ed5c10;
+        color: white;
         font-size: 20px;
         font-family: var(--font-gravity-bold), sans-serif;
     }
@@ -215,7 +269,7 @@
         padding-left: 1.5rem;
     }
 
-    .tramFestival ul {
+    .box ul {
         list-style-type: disc;
         list-style-position: outside;
         /* restore default indent */
