@@ -1,4 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+It stores the files necessary to rum the website for [Trikkefestivalen.no](trikkefestivalen.no), a website for a music festival in Bergen, Norway.
+It is hosted for the first time in September 6, 2025.
 
 ## Getting Started
 
