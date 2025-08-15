@@ -28,16 +28,16 @@ export default function Home() {
           </div>
         </div>
 
-
-        <div className={styles.blackTram}>
-          <Image
-            src="/billetter_og_om_festivalen/blackTram.gif"
-            alt="blackTram"
-            width={150}
-            height={100}
-          />
-        </div>
         <div>
+          <div className={styles.blackTram}>
+            <Image
+              src="/billetter_og_om_festivalen/blackTram.gif"
+              alt="blackTram"
+              width={150}
+              height={100}
+            />
+          </div>
+
           <div className={styles.tramText}>
             <div className={styles.boxContainer}>
               <div className={styles.box}>
