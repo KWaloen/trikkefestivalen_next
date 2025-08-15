@@ -141,6 +141,151 @@
   background: #ed5c10;
 }
 
+@media screen and (max-width: 1000px) {
+
+.page {
+  position: relative;
+  background: #ed5c10 40%;
+  display: grid;
+  grid-auto-rows: min-content;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  min-height: 60svh;
+  z-index: 1;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+}
+
+.grid img {
+  width: 100px;
+  height: auto;
+}
+
+.boxContainer {
+  position: relative;
+  padding: 20px; 
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.box {
+  background-color: #e5e7cc;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  font-family: "Winky Rough", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 10 auto;
+
+}
+
+.box a{
+  color: #ed5c10;
+  text-decoration: underline;
+}
+
+.sequence {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-gravity-bold), sans-serif;
+  font-size: 20px;
+  margin: 10 auto;
+}
+
+.date {
+  position: relative;
+  top: -10px;
+  left: -200px;
+  z-index: 1;
+}
+
+.getongetoff {
+  position: relative;
+  z-index: 1;
+  font-family: "House Soft Narrow", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.artister_og_program {
+  width: 100%;
+  row-gap: 50px;
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  
+}
+
+.blackTram {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0 auto;
+  z-index: 1;
+  height: auto;
+}
+
+.tramText {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-gravity-bold), sans-serif;
+  font-size: 10px;
+  margin: 10 auto;
+  color: black;
+}
+
+.pageContent {
+  background: #E7E7CE;
+  color: black;
+  z-index: 1;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  min-height: min-content;
+  margin: 50px;
+}
+
+.orangeWave {
+  display: grid;
+  column-gap: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  margin-top: -40px; 
+}
+
+.banner {
+  background: #E7BD08 no-repeat center/cover;
+  transform: rotate(-4deg);
+  padding: 10px;
+}
+
+.background {
+  background: #ed5c10;
+}
+
 .grid {
   grid-template-columns: 1fr;
   gap: 16px;
@@ -180,4 +325,5 @@
   font-size: 14px;
   line-height: 1.4;
   text-align: center;
+}
 }
