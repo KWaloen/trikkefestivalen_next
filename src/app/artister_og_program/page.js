@@ -44,7 +44,7 @@ export default async function Home() {
             className={styles.yellow}
             src="/artister_og_program/yellow.png"
             alt="yellow"
-            width={2000}
+            width={4000}
             height={50}
           />
         </div>
