@@ -27,7 +27,7 @@ export default async function GetArtist() {
             height={450}
           />
           <p>
-            <strong>When:</strong> {artist.Time}
+            <strong>Når:</strong> {artist.Time}
           </p>
           <p>{artist.ShortBio}</p>
         </div>

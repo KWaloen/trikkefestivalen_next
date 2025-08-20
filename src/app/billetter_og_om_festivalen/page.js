@@ -65,7 +65,7 @@ export default function Home() {
           </div>
 
           Billetter kan betales med kort eller Vipps. Det anbefales å kjøpe billetter på forhånd for å sikre plass.
-          Sjekk ut programmet lenger nede på denne siden for mer informasjon om tidspunktene og startplass for konsertene.
+          Sjekk ut programmet for mer informasjon om tidspunktene og startplass for konsertene.
           
         
         </div>
