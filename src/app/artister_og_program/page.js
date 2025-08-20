@@ -66,62 +66,58 @@ export default async function Home() {
           <GetArtist />
 
         </div>
-        <div className={styles.experience}>
-            <p>
-                Mer informasjon om festivalprogrammet kommer snart!
-            </p>
-        </div>
-
+      
         {/*
         <div className={styles.table}>
-          <table border="1" cellPadding="80" cellSpacing="100">
+          <table>
             <thead>
               <tr>
                 <th>Artist name</th>
-                <th>Time</th>
+                <th>Locale</th>
                 <th>Concert start</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>Artist 1</td>
-                <td>12:00</td>
+                <td>Place</td>
                 <td>12:15</td>
               </tr>
               <tr>
                 <td>Artist 2</td>
-                <td>12:30</td>
+                <td>Place</td>
                 <td>12:45</td>
               </tr>
               <tr>
                 <td>Artist 3</td>
-                <td>13:00</td>
+                <td>Place</td>
                 <td>13:15</td>
               </tr>
               <tr>
                 <td>Artist 4</td>
-                <td>13:30</td>
+                <td>Place</td>
                 <td>13:45</td>
               </tr>
               <tr>
                 <td>Artist 5</td>
-                <td>14:00</td>
+                <td>Place</td>
                 <td>14:15</td>
               </tr>
               <tr>
                 <td>Artist 6</td>
-                <td>14:30</td>
+                <td>Place</td>
                 <td>14:45</td>
               </tr>
               <tr>
                 <td>Artist 7</td>
-                <td>15:00</td>
+                <td>Place</td>
                 <td>15:15</td>
               </tr>
             </tbody>
           </table>
         </div>
         */}
+       
       </div>
 
       <Footer />
