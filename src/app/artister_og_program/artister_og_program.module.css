@@ -233,6 +233,9 @@
 .artister_og_programText {
   font-size: 50px;
   color: yellow;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
 }
 
 .artister_og_program {
