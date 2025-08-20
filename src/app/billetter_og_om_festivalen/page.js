@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.background}>
       {/* Load the Billetto widget script on the client */}
       <Script src="https://billetto.no/widget.js" strategy="afterInteractive" />
-
+    
       <NavBar />
       <div className={styles.page}>
 
@@ -48,27 +48,27 @@ export default function Home() {
                   BILLETTER
                 </div>
                 <div className={styles.moreInfo}>
-                          <div className={styles.boxContainer}>
-          <div className={styles.box}>
-            <billetto-widget
-              type="event"
-              event="1522099"
-              organization="billetto.no"
-              lang="no"
-              theme="light"
-              color="#ed5c10"
-              button-style="rounded"
-              font-family='"Trebuchet MS", sans-serif'
-              whitelabel hide-banners
-              background-color="white"
-            />
-          </div>
+                  <div className={styles.boxContainer}>
+                    <div className={styles.box}>
+                      <billetto-widget
+                        type="event"
+                        event="1522099"
+                        organization="billetto.no"
+                        lang="no"
+                        theme="light"
+                        color="#ed5c10"
+                        button-style="rounded"
+                        font-family='"Trebuchet MS", sans-serif'
+                        whitelabel hide-banners
+                        background-color="white"
+                      />
+                    </div>
 
-          Billetter kan betales med kort eller Vipps. Det anbefales å kjøpe billetter på forhånd for å sikre plass.
-          Sjekk ut programmet lenger nede på denne siden for mer informasjon om tidspunktene og startplass for konsertene.
-          
-        
-        </div>
+                    Billetter kan betales med kort eller Vipps. Det anbefales å kjøpe billetter på forhånd for å sikre plass.
+                    Sjekk ut programmet lenger nede på denne siden for mer informasjon om tidspunktene og startplass for konsertene.
+
+
+                  </div>
                 </div>
               </div>
             </div>
