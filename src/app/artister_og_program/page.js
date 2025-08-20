@@ -65,59 +65,65 @@ export default async function Home() {
 
           <GetArtist />
 
-        </div>
       
-        {/*
+        </div>
+        <div className={styles.artister_og_programText}style={{ color: '#ed5c10' }}>PROGRAM</div>
+
+
         <div className={styles.table}>
           <table>
             <thead>
               <tr>
-                <th>Artist name</th>
-                <th>Locale</th>
-                <th>Concert start</th>
+                <th>Artistnavn</th>
+                <th>Konserten starter hvor:</th>
+                <th>Konserten starter når:</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Artist 1</td>
-                <td>Place</td>
-                <td>12:15</td>
+                <td>HIN</td>
+                <td>Bergens Tekniske Museum</td>
+                <td>13:00</td>
               </tr>
               <tr>
-                <td>Artist 2</td>
-                <td>Place</td>
-                <td>12:45</td>
+                <td>SPARKESYKKEL</td>
+                <td>Engen, foran DNS</td>
+                <td>14:00</td>
               </tr>
               <tr>
-                <td>Artist 3</td>
-                <td>Place</td>
-                <td>13:15</td>
+                <td>EMBLA</td>
+                <td>Bergens Tekniske Museum</td>
+                <td>15:00</td>
               </tr>
               <tr>
-                <td>Artist 4</td>
-                <td>Place</td>
-                <td>13:45</td>
+                <td>SKANKY</td>
+                <td>Engen, foran DNS</td>
+                <td>16:00</td>
               </tr>
               <tr>
-                <td>Artist 5</td>
-                <td>Place</td>
-                <td>14:15</td>
+                <td>BEINGAMONKEY</td>
+                <td>Bergens Tekniske Museum</td>
+                <td>17:00</td>
               </tr>
               <tr>
-                <td>Artist 6</td>
-                <td>Place</td>
-                <td>14:45</td>
-              </tr>
-              <tr>
-                <td>Artist 7</td>
-                <td>Place</td>
-                <td>15:15</td>
+                <td>JULIE GREVE</td>
+                <td>Engen, foran DNS</td>
+                <td>18:00</td>
               </tr>
             </tbody>
           </table>
         </div>
-        */}
-       
+        
+      <div className={styles.boxContainer}>
+          <div className={styles.artister_og_programText}style={{ color: '#ed5c10', textAlign: 'center' , fontSize: '30px'}}>
+            GRATISKONSERT PÅ CAFÉ OPERA
+          </div>
+          <div className={styles.box}>
+            Raa Duo, Kathy Long og Hin spiller en ekstra, gratis konsert på Café Opera klokken 19:00. <br /><br />
+            Vi får også et foredrag om den historiske trikken fra Carl Harbitz-Rasmussen, som er styreleder for Bergen Elektriske Sporvei. 
+          </div>
+      </div>
+
       </div>
 
       <Footer />
