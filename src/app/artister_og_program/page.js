@@ -119,7 +119,7 @@ export default async function Home() {
             GRATISKONSERT PÅ CAFÉ OPERA
           </div>
           <div className={styles.box}>
-            Raa Duo, Kathy Long og Hin spiller en ekstra, gratis konsert på Café Opera klokken 19:00 om kvelden. <br /><br />
+            Raa Duo, Kathy Long og Hin spiller en ekstra, gratis konsert på Café Opera klokken 19:00. <br /><br />
             Vi får også et foredrag om den historiske trikken fra Carl Harbitz-Rasmussen, som er styreleder for Bergen Elektriske Sporvei. 
           </div>
       </div>

@@ -10,10 +10,15 @@
   align-content: center;
   min-height: 60svh;
   z-index: 1;
+  max-width: 1000px;
+;
 }
 
 .background {
   background: #ed5c10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* centers the .page block itself */
 }
 
 .concert {
