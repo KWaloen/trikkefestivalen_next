@@ -11,6 +11,35 @@
   z-index: 1;
 }
 
+.boxContainer {
+  position: relative;
+  padding: 20px; 
+  margin: auto;
+  color:#ed5c10;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.box {
+  background-color: white;
+  max-width: 1000px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  font-family: "Winky Rough", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 10 auto;
+
+}
+
+.box a{
+  color: #ed5c10;
+  text-decoration: underline;
+}
+
 .date {
   position: absolute;
   top: 220px;
@@ -69,7 +98,7 @@
   table {
     width: 100%;
     border-collapse: collapse;
-    font-family: Arial, sans-serif;
+    font-family: var(--font-gravity-bold), sans-serif;
     margin: 2rem 0;
   }
 
@@ -352,6 +381,41 @@
 
 @media screen and (max-width: 1000px) {
 
+    .boxContainer {
+    position: relative;
+    padding: 20px; 
+    margin: auto;
+    color:#ed5c10;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .box {
+    background-color: white;
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    font-family: "Winky Rough", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10 auto;
+
+  }
+
+  .box a{
+    color: #ed5c10;
+    text-decoration: underline;
+  }
+
+
+  .artister_og_programText {
+  font-size: 30px;
+  color: yellow;
+  }
+
   .page {
     position: relative;
     background: #0099AD 40%;
@@ -535,7 +599,8 @@
     table {
       width: 100%;
       border-collapse: collapse;
-      font-family: Arial, sans-serif;
+      font-family: var(--font-gravity-bold), sans-serif;
+      font-weight: bold;
       margin: 2rem 0;
     }
 
@@ -584,14 +649,13 @@
     display: grid;
     /* might change to flex for better responsiveness - might remove*/
     grid-template-columns: 1fr;
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-size: clamp(1.3rem, 2vw, 2.5rem);
     text-align: center;
     /* Might remove everything below in this container */
     align-items: center;
     justify-items: center;
     align-content: center;
     font-weight: bold;
-    color: ;
     width: 98%;
     max-width: 90%;
     margin: 0 auto;

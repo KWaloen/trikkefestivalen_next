@@ -114,7 +114,16 @@ export default async function Home() {
           </table>
         </div>
         
-       
+      <div className={styles.boxContainer}>
+          <div className={styles.artister_og_programText}style={{ color: '#ed5c10', textAlign: 'center' , fontSize: '30px'}}>
+            GRATISKONSERT PÅ CAFÉ OPERA
+          </div>
+          <div className={styles.box}>
+            Raa Duo, Kathy Long og Hin spiller en ekstra, gratis konsert på Café Opera klokken 19:00 om kvelden. <br /><br />
+            Vi får også et foredrag om den historiske trikken fra Carl Harbitz-Rasmussen, som er styreleder for Bergen Elektriske Sporvei. 
+          </div>
+      </div>
+
       </div>
 
       <Footer />
