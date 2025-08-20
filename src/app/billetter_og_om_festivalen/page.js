@@ -23,7 +23,7 @@ export default function Home() {
           </div>
 
           <div className={styles.sequence}>
-            15 MINUTT LANGE KONSERTOPPLEVELSER PÅ DEN HISTORISKE TRIKKEN
+            30 MINUTT LANGE KONSERTOPPLEVELSER PÅ DEN HISTORISKE TRIKKEN
           </div>
 
           <div className={styles.getongetoff}>
