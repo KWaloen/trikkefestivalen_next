@@ -44,14 +44,14 @@ export default async function Home() {
             className={styles.yellow}
             src="/artister_og_program/yellow.png"
             alt="yellow"
-            width={2000}
+            width={4000}
             height={50}
           />
         </div>
 
         <div className={styles.orangeBackground}>
 
-          <div className={styles.artister_og_programTitle}>
+         
 
             <div className={styles.artister_og_programText}>ARTISTER</div>
 
@@ -61,7 +61,7 @@ export default async function Home() {
               width={180}
               height={80}
             />
-          </div>
+      
 
           <GetArtist />
 
@@ -109,6 +109,21 @@ export default async function Home() {
                 <td>JULIE GREVE</td>
                 <td>Engen, foran DNS</td>
                 <td>18:00</td>
+              </tr>
+              <tr>
+                <td>RAA DUO</td>
+                <td>Café Opera</td>
+                <td>19:00</td>
+              </tr>
+              <tr>
+                <td>KATHY LONG</td>
+                <td>Café Opera</td>
+                <td>19:30</td>
+              </tr>
+              <tr>
+                <td>HIN</td>
+                <td>Café Opera</td>
+                <td>20:00</td>
               </tr>
             </tbody>
           </table>
