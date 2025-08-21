@@ -51,8 +51,10 @@ export default function Home() {
                     <div className={styles.widgetShell}>
                       <BillettoWidget />
                     </div>
+                    <div className={styles.moreInfo}>
                     Billetter kjøpes på <a href='https://billetto.no/e/trikkefestivalen-2025-billetter-1522099?utm_source=organiser&utm_medium=share&utm_campaign=copy_link&utm_content=1'>billetto.no</a> og kan betales med kort eller Vipps. Det anbefales å kjøpe billetter på forhånd for å sikre plass.
                     Sjekk ut programmet for mer informasjon om tidspunktene og startplass for konsertene.
+                    </div>
                   </div>
                 </div>
               </div>
