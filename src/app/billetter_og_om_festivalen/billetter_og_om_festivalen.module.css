@@ -5,10 +5,11 @@
   grid-auto-rows: min-content;
   align-items: center;
   justify-items: center;
-  align-content: center;
+  align-content: start;
   min-height: 60svh;
-  z-index: 1;
+  z-index: 0;
   max-width: 1000px;
+  isolation: isolate;
   width: 100%;
   margin: 0 auto;
   padding-inline: 16px;
@@ -59,6 +60,24 @@
   color: #ed5c10;
   text-decoration: underline;
 }
+
+.widgetShell {
+  position: relative;        /* creates a stacking context for the widget */
+  z-index: 999;              /* higher than your many z-index:1 siblings */
+  isolation: isolate;        /* guards against parent transforms/overlays */
+  overflow: visible;         /* don’t clip the widget or its iframe */
+}
+
+.widgetShell BillettoWidget { display: block; 
+  min-height: 56px; 
+display: block !important;
+  min-height: 64px !important;
+  width: 100% !important;
+  position: relative !important;
+  z-index: 9999 !important;  /* inside the .page stacking context */
+  will-change: transform;    /* force its own composited layer in Chrome */
+}
+
 
 .sequence {
   position: relative;
@@ -138,6 +157,8 @@
   background: #E7BD08 no-repeat center/cover;
   transform: rotate(-4deg);
   padding: 10px;
+  pointer-events: none;
+  z-index: 0;
 }
 
 .background {
@@ -182,6 +203,7 @@
 }
 
 .boxContainer {
+  overflow: visible !important;
   position: relative;
   padding: 20px; 
   margin: auto;

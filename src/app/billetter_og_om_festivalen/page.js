@@ -3,16 +3,15 @@
 import Image from 'next/image'
 import styles from './billetter_og_om_festivalen.module.css'
 import NavBar from '../components/NavBar'
+import BillettoWidget from '../components/BillettoButton'
 import Footer from '../components/Footer'
-import Script from 'next/script'
 
 export default function Home() {
   return (
 
     <div className={styles.background}>
       {/* Load the Billetto widget script on the client */}
-      <Script src="https://billetto.no/widget.js" strategy="afterInteractive" />
-    
+
       <NavBar />
       <div className={styles.page}>
 
@@ -47,41 +46,13 @@ export default function Home() {
                 <div className={styles.getongetoff}>
                   BILLETTER
                 </div>
-<<<<<<< Updated upstream
-                <div className={styles.moreInfo}>
-                  <div className={styles.boxContainer}>
-                    <div className={styles.box}>
-                      <billetto-widget
-                        type="event"
-                        event="1522099"
-                        organization="billetto.no"
-                        lang="no"
-                        theme="light"
-                        color="#ed5c10"
-                        button-style="rounded"
-                        font-family='"Trebuchet MS", sans-serif'
-                        whitelabel hide-banners
-                        background-color="white"
-                      />
+                <div className={styles.boxContainer}>
+                  <div className={styles.box}>
+                    <div className={styles.widgetShell}>
+                      <BillettoWidget />
                     </div>
-
-                    Billetter kan betales med kort eller Vipps. Det anbefales å kjøpe billetter på forhånd for å sikre plass.
-                    Sjekk ut programmet lenger nede på denne siden for mer informasjon om tidspunktene og startplass for konsertene.
-
-
-=======
-                
-                  <div className={styles.boxContainer}>
-                    <div className={styles.box}>
-                      <div className={styles.widgetShell}>
-                        <BillettoWidget />
-                      </div>
-                    
-
                     Billetter kjøpes på <a href='https://billetto.no/e/trikkefestivalen-2025-billetter-1522099?utm_source=organiser&utm_medium=share&utm_campaign=copy_link&utm_content=1'>billetto.no</a> og kan betales med kort eller Vipps. Det anbefales å kjøpe billetter på forhånd for å sikre plass.
                     Sjekk ut programmet for mer informasjon om tidspunktene og startplass for konsertene.
-
->>>>>>> Stashed changes
                   </div>
                 </div>
               </div>
