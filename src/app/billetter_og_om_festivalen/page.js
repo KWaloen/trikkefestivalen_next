@@ -47,6 +47,7 @@ export default function Home() {
                 <div className={styles.getongetoff}>
                   BILLETTER
                 </div>
+<<<<<<< Updated upstream
                 <div className={styles.moreInfo}>
                   <div className={styles.boxContainer}>
                     <div className={styles.box}>
@@ -68,6 +69,19 @@ export default function Home() {
                     Sjekk ut programmet lenger nede på denne siden for mer informasjon om tidspunktene og startplass for konsertene.
 
 
+=======
+                
+                  <div className={styles.boxContainer}>
+                    <div className={styles.box}>
+                      <div className={styles.widgetShell}>
+                        <BillettoWidget />
+                      </div>
+                    
+
+                    Billetter kjøpes på <a href='https://billetto.no/e/trikkefestivalen-2025-billetter-1522099?utm_source=organiser&utm_medium=share&utm_campaign=copy_link&utm_content=1'>billetto.no</a> og kan betales med kort eller Vipps. Det anbefales å kjøpe billetter på forhånd for å sikre plass.
+                    Sjekk ut programmet for mer informasjon om tidspunktene og startplass for konsertene.
+
+>>>>>>> Stashed changes
                   </div>
                 </div>
               </div>
