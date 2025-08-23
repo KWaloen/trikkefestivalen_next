@@ -64,9 +64,9 @@ export default function Home() {
 
                         </summary>
                         <div className={styles.answer}>
-                            Har du kjøpt billett og vil se en eller flere artister er det lurt å sjekke programmet for å finne ut hvor konserten starter.
-                            Én konsert gjelder for en enkelt trikkereise.
-                            Det kan derfor være at du må møte opp ved Tekniske Museum på Møhlenpris eller ved Café Opera ved Den Nationale Scene.
+                            Har du kjøpt billett og vil se en eller flere artister er det lurt å sjekke programmet for å finne ut hvor konserten starter. <br /> <br />
+                            Én konsert gjelder for en enkelt trikkereise. <br /> <br />
+                            Det kan derfor være at du må møte opp ved Bergens Tekniske Museum på Møhlenpris eller ved Café Opera ved Den Nationale Scene.
                             Sjekk gjerne kartet (kommer snart) på nettsiden vår for å se hvor du skal møte opp. Ha klar billetten din før du skal ombord trikken.
 
                         </div>
@@ -79,7 +79,7 @@ export default function Home() {
 
                         </summary>
                         <div className={styles.answer}>
-                            Billetten gir deg en enkeltgangs rabatt på mat og drikke på Café Opera og Nobel Bopel, samt en gratis trikketur til og fra festivalen. I tillegg til å få en unik konsertopplevelse på trikken, får du også gratis transport fra Engen til Møhlenpris og tilbake igjen.
+                            Billetten gir deg en enkeltgangs rabatt på mat og drikke på Café Opera og rabatt på drikke hos Nobel Bopel.I tillegg til å få en unik konsertopplevelse på trikken, får du også gratis transport fra Engen til Møhlenpris og tilbake igjen.
                         </div>
                     </details>
 
@@ -90,7 +90,7 @@ export default function Home() {
 
                         </summary>
                         <div className={styles.answer}>
-                            Festivalen starter og ender hvor trikken vanligivis starter og ender, nemlig på Engen (foran DNS, i nærheten av Café Opera) eller foran Teknisk Museum på Møhlenpris. Sjekk programmet vårt for mer informasjon om hvilken strekning artist spiller.
+                            Festivalen starter og ender hvor trikken vanligivis starter og ender, nemlig på Engen (foran DNS, i nærheten av Café Opera) eller foran Bergens Tekniske Museum på Møhlenpris. Sjekk programmet vårt for mer informasjon om hvilken strekning artist spiller.
                         </div>
                     </details>
 
@@ -101,18 +101,18 @@ export default function Home() {
 
                         </summary>
                         <div className={styles.answer}>
-                            Vi jobber med å finne en løsning for billettpriser. Hold øynene åpne for mer informasjon!
+                            Billetter koster 90 kr per konsert, som tilsvarer enten en strekning fra Engen til Møhlenpris eller <i>vice versa.</i>
                         </div>
                     </details>
 
                     <details className={styles.ofte_stilte_spmItem}>
                         <summary className={styles.question}>
 
-                            Hvordan betaler man for billett?
+                            Hvordan betaler man for en billett?
 
                         </summary>
                         <div className={styles.answer}>
-                            Billetter kan kjøpes på nettsiden vår på forhånd eller foran trikken før hver konsert. Vi holder på å fikse en løsning for dette, så hold øynene åpne for mer informasjon!
+                            Billetter kan kjøpes på nettsiden vår på forhånd (sjekk <a href="https://trikkefestivalen.no/billetter_og_om_festivalen/">her</a>) eller foran trikken før hver konsert. Du kan betale med kort eller Vipps.
                         </div>
                     </details>
 
@@ -161,7 +161,7 @@ export default function Home() {
                             Er festivalen tilgjengelig for personer med nedsatt funksjonsevne?
                         </summary>
                         <div className={styles.answer}>
-                            Vi holder på å utrede dette. Hvis du har spesifikke behov eller spørsmål, vennligst ta kontakt med oss på trikkfestivalen@gmail.com, så skal vi gjøre vårt beste for å imøtekomme dem.
+                            Vi holder på å utrede dette. Hvis du har spesifikke behov eller spørsmål, vennligst ta kontakt med oss på <a href='mailto:trikkfestivalen@gmail.com'>trikkfestivalen@gmail.com</a>, så skal vi gjøre vårt beste for å imøtekomme dem.
                         </div>
                     </details>
 
@@ -172,7 +172,7 @@ export default function Home() {
                             Jeg har spørsmål om festivalen, hvordan kan jeg kontakte dere?
                         </summary>
                         <div className={styles.answer}>
-                            Du kan kontakte oss på trikkfestivalen@gmail.com for spørsmål om festivalen.
+                            Du kan kontakte oss på <a href='mailto:trikkfestivalen@gmail.com'>trikkfestivalen@gmail.com</a> for spørsmål om festivalen.
                         </div>
                     </details>
                 </div>
