@@ -89,6 +89,16 @@ export default function Footer() {
           height={400}
           style={{ width: '100px', height: 'auto' }}
         />
+        <Image
+          loading="lazy"
+          decoding="async"
+          src="/billetter_og_om_festivalen/draumstudiologo.png"
+          alt="Draum Studio logo"
+          width={400}
+          height={400}
+          style={{ width: '100px', height: 'auto' }}
+        />
+        
       </div>
 
     </div>
