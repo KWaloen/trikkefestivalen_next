@@ -136,6 +136,15 @@ export default function Home() {
                     height={400}
                     style={{ width: '100px', height: 'auto' }}
                   />
+                  <Image
+                    loading="lazy"
+                    decoding="async"
+                    src="/billetter_og_om_festivalen/d-production_logo.png"
+                    alt="D-Production logo"
+                    width={400}
+                    height={400}
+                    style={{ width: '100px', height: 'auto' }}
+                  />
                 </div>
               </div>
 
