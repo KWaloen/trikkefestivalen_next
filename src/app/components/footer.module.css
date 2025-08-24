@@ -68,7 +68,7 @@
 
 .logoGrid {
   display: grid;
-  grid-template-columns: repeat(3, 2fr); /* two equal columns */
+  grid-template-columns: repeat(4, 2fr); /* two equal columns */
   gap: 1rem; /* space between images */
   justify-items: center; /* center images in their cells */
   align-items: center;
