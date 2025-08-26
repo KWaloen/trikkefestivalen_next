@@ -7,15 +7,14 @@
   justify-items: center;
   align-content: center;
   min-height: 30svh;
-  font-family: var(--font-geist-sans);
   z-index: 1;
 }
 
 .boxContainer {
   position: relative;
-  padding: 20px; 
+  padding: 20px;
   margin: auto;
-  color:#ed5c10;
+  color: #ed5c10;
   align-items: center;
   justify-items: center;
   align-content: center;
@@ -35,7 +34,7 @@
 
 }
 
-.box a{
+.box a {
   color: #ed5c10;
   text-decoration: underline;
 }
@@ -168,10 +167,17 @@
 .experience {
   position: relative;
   font-size: 40px;
-  font-family: var(--font-gravity-bold), sans-serif;
   max-width: 50%;
   text-align: center;
   padding: 50px;
+  color: #ed5c10;
+
+  text-shadow:
+    -1px -1px 0 #b8480b,  
+     1px -1px 0 #b8480b,
+    -1px  1px 0 #b8480b,
+     1px  1px 0 #b8480b,
+
 }
 
 .tripleTrikks {
@@ -236,6 +242,7 @@
   align-items: center;
   justify-items: center;
   align-content: center;
+  margin-top: 25px;
 }
 
 .artister_og_program {
@@ -384,11 +391,11 @@
 
 @media screen and (max-width: 1000px) {
 
-    .boxContainer {
+  .boxContainer {
     position: relative;
-    padding: 20px; 
+    padding: 20px;
     margin: auto;
-    color:#ed5c10;
+    color: #ed5c10;
     align-items: center;
     justify-items: center;
     align-content: center;
@@ -408,15 +415,15 @@
 
   }
 
-  .box a{
+  .box a {
     color: #ed5c10;
     text-decoration: underline;
   }
 
 
   .artister_og_programText {
-  font-size: 30px;
-  color: yellow;
+    font-size: 30px;
+    color: yellow;
   }
 
   .page {
@@ -431,8 +438,6 @@
     align-content: center;
     min-height: 20svh;
     width: 100%;
-
-    font-family: var(--font-geist-sans);
     z-index: 1;
   }
 
@@ -445,6 +450,7 @@
     gap: 50px;
     /* space between items */
     align-items: center;
+    padding: 15px;
   }
 
   .date {
@@ -530,9 +536,16 @@
     max-width: 90%;
     font-size: 1.2rem;
     padding: 20px;
+    color:  #ed5c10;
     height: auto;
     /* adjust as needed  - might remove*/
     text-align: center;
+
+    text-shadow:
+    -1px -1px 0 #b8480b,  
+     1px -1px 0 #b8480b,
+    -1px  1px 0 #b8480b,
+     1px  1px 0 #b8480b,
   }
 
   .tripleTrikks {
@@ -614,7 +627,7 @@
 
     th,
     td {
-      padding: 14px 18px;
+      padding: 14px 10px;
       text-align: center;
       /* <-- center horizontally */
       vertical-align: middle;

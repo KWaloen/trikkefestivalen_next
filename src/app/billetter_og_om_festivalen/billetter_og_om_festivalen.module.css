@@ -288,7 +288,6 @@
     position: relative;
     z-index: 1;
     font-family: var(--font-gravity-bold), sans-serif;
-    font-size: 10px;
     margin: 10 auto;
     color: black;
   }
@@ -359,7 +358,7 @@
   .sequence,
   .getongetoff,
   .moreInfo {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.4;
     text-align: center;
   }

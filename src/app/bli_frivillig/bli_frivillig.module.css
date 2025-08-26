@@ -1,25 +1,25 @@
 .page {
-  position: relative;
-  background: #ed5c10 40%;
-  display: grid;
-  grid-auto-rows: min-content;
-  align-items: center;
-  justify-items: center;
-  align-content: center;
-  min-height: 60svh;
-  z-index: 1;
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-  padding-inline: 16px;
+    position: relative;
+    background: #ed5c10 40%;
+    display: grid;
+    grid-auto-rows: min-content;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    min-height: 60svh;
+    z-index: 1;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding-inline: 16px;
 }
 
 
 .background {
-  background: #ed5c10;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;     
+    background: #ed5c10;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .concert {
@@ -28,32 +28,32 @@
 }
 
 .boxContainer {
-  position: relative;
-  padding: 20px; 
-  margin: auto;
-  align-items: center;
-  justify-items: center;
-  align-content: center;
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    font-family: var(--font-gravity-bold), sans-serif;
 }
 
 .box {
-  background-color: #e5e7cc;
-  color: black;
-  padding: 10px;
-  border-radius: 10px;
-  position: relative;
-  z-index: 1;
-  font-family: var(--font-gravity-bold), sans-serif;
-  font-size: 20px;
-  font-weight: 100;
-  margin: 10 auto;
-  max-width: 900px;
+    background-color: #e5e7cc;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10 auto;
+    max-width: 900px;
 
 }
 
-.box a{
-  color: #ed5c10;
-  text-decoration: underline;
+.box a {
+    color: #ed5c10;
+    text-decoration: underline;
 }
 
 .bli_frivilligText {
@@ -82,14 +82,14 @@
 }
 
 .tramFestival {
-        color: black;
-        font-size: 30px;
-        font-family: var(--font-gravity-bold), sans-serif;
-        list-style-type: disc;
-        list-style-position: outside;
-        padding: 50px;
-      
-    }
+    color: black;
+    font-size: 30px;
+    font-family: var(--font-gravity-bold), sans-serif;
+    list-style-type: disc;
+    list-style-position: outside;
+    padding: 50px;
+
+}
 
 .box ul {
     list-style-type: disc;
@@ -198,7 +198,8 @@
     .page {
         display: grid;
         position: relative;
-        background: #ed5c10 40%;;
+        background: #ed5c10 40%;
+        ;
         align-items: center;
         justify-items: center;
         align-content: center;
@@ -211,34 +212,33 @@
         background: white;
         width: 100%;
         text-align: center;
-        }
+    }
 
     .boxContainer {
-          position: relative;
-          padding: 20px; 
-          margin: auto;
-          align-items: center;
-          justify-items: center;
-          align-content: center;
-        }
+        position: relative;
+        padding: 20px;
+        margin: auto;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+    }
 
     .box {
-            background-color: #e5e7cc;
-            color: black;
-            padding: 10px;
-            border-radius: 10px;
-            position: relative;
-            z-index: 1;
-            font-family: var(--font-gravity-bold), sans-serif;
-            font-size: 20px;
-            font-weight: 100;
-            margin: 10 auto;
-            max-width: 400px;
-        }
+        background-color: #e5e7cc;
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+        position: relative;
+        z-index: 1;
+        font-family: var(--font-gravity), sans-serif;
+        font-size: 20px;
+        margin: 10 auto;
+        max-width: 400px;
+    }
 
-    .box a{
-      color: #ed5c10;
-      text-decoration: underline;
+    .box a {
+        color: #ed5c10;
+        text-decoration: underline;
     }
 
     .bli_frivilligText {
@@ -266,7 +266,7 @@
         color: black;
         font-size: 20px;
         font-family: var(--font-gravity-bold), sans-serif;
-        
+
         text-align: center;
         list-style-type: disc;
         /* restore bullets */
@@ -296,7 +296,7 @@
         align-content: center;
     }
 
-   
+
 
 
 }
