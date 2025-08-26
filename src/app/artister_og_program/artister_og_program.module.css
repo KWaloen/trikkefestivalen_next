@@ -242,6 +242,7 @@
   align-items: center;
   justify-items: center;
   align-content: center;
+  margin-top: 25px;
 }
 
 .artister_og_program {
@@ -626,7 +627,7 @@
 
     th,
     td {
-      padding: 14px 18px;
+      padding: 14px 10px;
       text-align: center;
       /* <-- center horizontally */
       vertical-align: middle;
