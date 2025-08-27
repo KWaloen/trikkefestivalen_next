@@ -401,6 +401,12 @@
     align-content: center;
   }
 
+  .boxContainer img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+  }
+
   .box {
     background-color: white;
     max-width: 1000px;
