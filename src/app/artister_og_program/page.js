@@ -9,6 +9,8 @@ import GetArtist from '../components/GetArtist'
 
 export default async function Home() {
 
+  const scaling_factor = 1.1;
+
 
   return (
     <div className={styles.body}>
@@ -50,8 +52,6 @@ export default async function Home() {
         </div>
 
         <div className={styles.orangeBackground}>
-
-         
 
             <div className={styles.artister_og_programText}>ARTISTER</div>
 
@@ -128,7 +128,16 @@ export default async function Home() {
             </tbody>
           </table>
         </div>
-        
+
+
+        <div className={styles.boxContainer}>
+          <Image
+            src="/artister_og_program/TrikkefestivalKart.png"
+            alt="tram_image"
+            width={500*scaling_factor}
+            height={600*scaling_factor}
+          />
+        </div>
       <div className={styles.boxContainer}>
           <div className={styles.artister_og_programText}style={{ color: '#ed5c10', textAlign: 'center' , fontSize: '30px'}}>
             GRATISKONSERT PÅ CAFÉ OPERA

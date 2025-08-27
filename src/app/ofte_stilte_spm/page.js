@@ -161,7 +161,7 @@ export default function Home() {
                             Er festivalen tilgjengelig for personer med nedsatt funksjonsevne?
                         </summary>
                         <div className={styles.answer}>
-                            Vi holder på å utrede dette. Hvis du har spesifikke behov eller spørsmål, vennligst ta kontakt med oss på <a href='mailto:trikkfestivalen@gmail.com'>trikkfestivalen@gmail.com</a>, så skal vi gjøre vårt beste for å imøtekomme dem.
+                            Hvis du har spesifikke behov eller spørsmål, vennligst ta kontakt med oss på <a href='mailto:trikkfestivalen@gmail.com'>trikkfestivalen@gmail.com</a>, så skal vi gjøre vårt beste for å imøtekomme dem.
                         </div>
                     </details>
 
