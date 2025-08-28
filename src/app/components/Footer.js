@@ -107,6 +107,15 @@ export default function Footer() {
           height={400}
           style={{ width: '100px', height: 'auto' }}
         />
+        <Image
+          loading="lazy"
+          decoding="async"
+          src="/billetter_og_om_festivalen/livesupply.png"
+          alt="Livesupply logo"
+          width={400}
+          height={400}
+          style={{ width: '100px', height: 'auto' }}
+        />
       </div>
 
     </div>
