@@ -145,6 +145,15 @@ export default function Home() {
                     height={400}
                     style={{ width: '100px', height: 'auto' }}
                   />
+                  <Image
+                    loading="lazy"
+                    decoding="async"
+                    src="/billetter_og_om_festivalen/livesupply.png"
+                    alt="Livesupply logo"
+                    width={400}
+                    height={400}
+                    style={{ width: '100px', height: 'auto' }}
+                  />
                 </div>
               </div>
 
@@ -155,7 +164,7 @@ export default function Home() {
                   Om denne nettsiden & Anerkjennelser
                 </div>
                 <div className={styles.moreInfo}>
-                  Den grafiske profilingen av Trikkefestivalen og trikkefestivalen.no er laget av Henriette Nådland (IG: <a href="https://www.instagram.com/studionaad/">@studionaad</a>, webside: <a href="https://www.studionaad.com">www.studionaad.com</a>), og nettsiden er utviklet av Kai Waløen (<a href="www.kwal.no">www.kwal.no</a>), med bidrag fra Robin Garen Aaberg, Malin Bjørkli, Anne Hognaland og Illimar Rekand.
+                  Den grafiske profilingen av Trikkefestivalen og trikkefestivalen.no er laget av Henriette Nådland (IG: <a href="https://www.instagram.com/studionaad/">@studionaad</a>, webside: <a href="https://www.studionaad.com">www.studionaad.com</a>), og nettsiden er utviklet av Kai Waløen (<a href="https://www.kwal.no">www.kwal.no</a>), med bidrag fra Robin Garen Aaberg, Malin Bjørkli, Anne Hognaland og Illimar Rekand.
                   <br />
                   <br />
                   Denne nettsiden er laget med Next.js og React. Den er åpen kildekode og lisensiert under en MIT-lisens og kan finnes på <a href="https://github.com/KWaloen/trikkefestivalen_next">https://github.com/KWaloen/trikkefestivalen_next</a>. Vi setter pris på bidrag gjennom Pull Requests!
