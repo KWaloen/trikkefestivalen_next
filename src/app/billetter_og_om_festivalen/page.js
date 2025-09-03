@@ -104,6 +104,8 @@ export default function Home() {
                       />
                     </div>
                   </div>
+                  <br />
+                  <br />
 
                   <div className={styles.getongetoff}>
                     Hvem er våre støttepartnere?
