@@ -50,7 +50,7 @@ export default function Home() {
                         </summary>
                         <div className={styles.answer}>
                             I år (2025) arrangerer vi for første gang Trikkefestivalen, en lokal musikkfestival hvor vi kombinerer den historiske trikken med moderne musikk!
-                            Seks lokale, unge artister vil i løpet av en dag fremføre musikk mens trikken beveger seg til og fra Café Opera over Høyden til Teknisk museum på Møhlenpris
+                            Åtte lokale, unge artister vil i løpet av en dag fremføre musikk mens trikken beveger seg til og fra Café Opera over Høyden til Teknisk museum på Møhlenpris
                             <br />
                             <br />
                             Festivalen drives med støtte fra Bergen Kommune og Studenradioen i Bergen. Vi har også partnerskap med <a href="https://besporvei.net/">Bergen Elektriske Sporvei</a>, som drifter trikken og <a href="https://cafeopera.org/">Café Opera</a> og <a href="https://nobelbopel.no/">Nobel Bopel</a>.
