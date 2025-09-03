@@ -65,7 +65,7 @@ export default function Home() {
                   Hva er Trikkefestivalen?
                 </div>
                 <div className={styles.moreInfo}>
-                  I år (2025) arrangerer vi for første gang Trikkefestivalen, en lokal musikkfestival hvor vi kombinerer den historiske trikken med moderne musikk! Seks lokale, unge artister vil i løpet av en dag fremføre musikk mens trikken beveger seg til og fra Café Opera over Høyden til Teknisk Museum på Møhlenpris
+                  I år (2025) arrangerer vi for første gang Trikkefestivalen, en lokal musikkfestival hvor vi kombinerer den historiske trikken med moderne musikk! Å lokale, unge artister vil i løpet av en dag fremføre musikk mens trikken beveger seg til og fra Café Opera over Høyden til Teknisk Museum på Møhlenpris
                   <br />
                   <br />
                   Festivalen blir planlagt og koordinert av Janina Wildermuth og Illimar Rekand etter et ønske om å lage en festival som kombinerer det historiske med det moderne, og som kan gi unge artister en scene for å vise frem sitt talent i musikkbyen Bergen.
@@ -76,7 +76,7 @@ export default function Home() {
                   </div>
 
                   <div className={styles.moreInfo}>
-                    Vi har gleden av å presentere seks spennende artister som skal opptre på Trikkefestivalen 2025. Sjekk ut siden "Artister & Program" for mer informasjon om artistene og deres musikk.
+                    Vi har gleden av å presentere åtte spennende artister som skal opptre på Trikkefestivalen 2025. Sjekk ut siden "Artister & Program" for mer informasjon om artistene og deres musikk.
                     Vi har også laget en spilleliste med artistene som skal spille på Trikkefestivalen som du kan finne under: <br /><br />
                     
                     <div className={styles.playlistBox}>
