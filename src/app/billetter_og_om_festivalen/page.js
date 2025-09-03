@@ -72,6 +72,40 @@ export default function Home() {
                   <br />
                   <br />
                   <div className={styles.getongetoff}>
+                    Hvem skal spille?
+                  </div>
+
+                  <div className={styles.moreInfo}>
+                    Vi har gleden av å presentere seks spennende artister som skal opptre på Trikkefestivalen 2025. Sjekk ut siden "Artister & Program" for mer informasjon om artistene og deres musikk.
+                    Vi har også laget en spilleliste med artistene som skal spille på Trikkefestivalen som du kan finne under: <br /><br />
+                    
+                    <div className={styles.playlistBox}>
+                      <iframe
+                        src="https://open.spotify.com/embed/playlist/1aPOyUCTREZZSjgk3JHOX0?utm_source=generator"
+                        width="100%"
+                        height="352"
+                        frameBorder={0}
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        allowFullScreen
+                        loading="lazy"
+                        title="Spotify playlist"
+                      />
+                    </div>
+
+                    <div className={styles.playlistBox}>
+                      <iframe
+                        src="https://embed.tidal.com/playlists/7cfccb76-66a4-4d7f-ad69-cbec751ef5c0"
+                        width="100%"
+                        height="352"
+                        allow="encrypted-media; fullscreen; clipboard-write https://embed.tidal.com; web-share"
+                        sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox"
+                        style={{ colorScheme: "light dark" }}
+                        title="TIDAL Embed Player"
+                      />
+                    </div>
+                  </div>
+
+                  <div className={styles.getongetoff}>
                     Hvem er våre støttepartnere?
                   </div>
 
