@@ -7,6 +7,9 @@ import BillettoWidget from '../components/BillettoButton'
 import Footer from '../components/Footer'
 
 export default function Home() {
+
+    const scaling_factor = 1.1;
+
   return (
 
     <div className={styles.background}>
@@ -106,6 +109,89 @@ export default function Home() {
                   </div>
                   <br />
                   <br />
+                <div className={styles.getongetoff}>
+                  Praktisk informasjon
+                </div>
+                <div className={styles.moreInfo}>
+                  Konsertene starter på to forskjellige lokasjoner. Sørg for at du møter opp til riktig tid og riktig sted for at du skal få rekke å få med deg konserten.
+
+
+        <div className={styles.table}>
+          <table>
+            <thead>
+              <tr>
+                <th>Artistnavn</th>
+                <th>Konserten starter hvor:</th>
+                <th>Konserten starter når:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HIN</td>
+                <td>Bergens Tekniske Museum</td>
+                <td>13:00</td>
+              </tr>
+              <tr>
+                <td>SPARKESYKKEL</td>
+                <td>Engen, foran DNS</td>
+                <td>14:00</td>
+              </tr>
+              <tr>
+                <td>EMBLA</td>
+                <td>Bergens Tekniske Museum</td>
+                <td>15:00</td>
+              </tr>
+              <tr>
+                <td>SKANKY</td>
+                <td>Engen, foran DNS</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <td>BEINGAMONKEY</td>
+                <td>Bergens Tekniske Museum</td>
+                <td>17:00</td>
+              </tr>
+              <tr>
+                <td>JULIE GREVE</td>
+                <td>Engen, foran DNS</td>
+                <td>18:00</td>
+              </tr>
+              <tr>
+                <td>RAA DUO</td>
+                <td>Café Opera</td>
+                <td>19:00</td>
+              </tr>
+              <tr>
+                <td>KATHY LONG</td>
+                <td>Café Opera</td>
+                <td>19:30</td>
+              </tr>
+              <tr>
+                <td>HIN</td>
+                <td>Café Opera</td>
+                <td>20:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+                Konsertene starter og ender på Engen, foran DNS og Bergens Tekniske Museum. De tre siste opptredene tar sted på gratiskonserten på Café Opera.
+                <div>            
+                            <Image
+                              src="/artister_og_program/TrikkefestivalKart.png"
+                              alt="tram_image"
+                              width={500*scaling_factor}
+                              height={600*scaling_factor}
+                            />
+
+                  < /div>
+                  </div>                
+                  
+                  </div>
+                  </div>
+                  </div>
+
+                  <div className={styles.boxContainer}>
+                    <div className={styles.box}>
 
                   <div className={styles.getongetoff}>
                     Hvem er våre støttepartnere?
@@ -114,7 +200,6 @@ export default function Home() {
                   <div className={styles.moreInfo}>
                     Festivalen drives med støtte fra Bergen Kommune og Studentradioen i Bergen. Vi har også partnerskap med Bergen Elektriske Sporvei. Nobel Bopel og Café Opera tilbyr med rabatt til innehavere av billetter til Trikkefestivalen, og sistnevnte stiller også med lokaler for konserter. Bergen Student-TV bistår med utlån av utstyr.
                   </div>
-                </div>
                 <div className={styles.grid}>
                   <Image
                     loading="lazy"
@@ -191,9 +276,10 @@ export default function Home() {
                     style={{ width: '100px', height: 'auto' }}
                   />
                 </div>
+                </div>
               </div>
 
-            </div>
+
             <div className={styles.boxContainer}>
               <div className={styles.box}>
                 <div className={styles.getongetoff}>
