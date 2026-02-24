@@ -4,7 +4,13 @@ It is hosted for the first time in September 6, 2025.
 
 ## Getting Started
 
-First, run the development server:
+Install any necessary packages from `package.json` using
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
