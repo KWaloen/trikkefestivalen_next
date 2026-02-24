@@ -21,6 +21,12 @@ pnpm dev
 # or
 bun dev
 ```
+running on our Raspberry Pi server, we encountered the folloing turbopack error as (described here](https://github.com/vercel/next.js/discussions/75665). Running
+
+```bash
+npx run dev
+```
+was a succesful workaround.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
