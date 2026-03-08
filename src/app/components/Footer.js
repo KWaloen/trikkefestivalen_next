@@ -26,19 +26,18 @@ export default function Footer() {
       <div className={styles.footer}>
 
         <div className={styles.footerleft}>
-          <ul className={styles.footerlink}><a href='https://www.trikkefestivalen.no/artister_og_program'>Artister</a></ul>
-          <ul className={styles.footerlink}><a href='https://www.trikkefestivalen.no/billetter_og_om_festivalen'>Billetter & Om Festivalen</a></ul>
+          <a className={styles.footerlink} href='/artister_og_program'>Artister</a>
+          <a className={styles.footerlink} href='/billetter_og_om_festivalen'>Billetter & Om Festivalen</a>
         </div>
 
         <div className={styles.footercenter}>
-          <ul className={styles.footerlink}><a href='https://www.instagram.com/trikkefestivalen/'>Instagram</a></ul>
-          <ul className={styles.footerlink}><a href='https://www.facebook.com/trikkefestivalen'>Facebook</a></ul>
+          <a className={styles.footerlink} href='https://www.instagram.com/trikkefestivalen/'>Instagram</a>
+          <a className={styles.footerlink} href='https://www.facebook.com/trikkefestivalen'>Facebook</a>
         </div>
 
-
         <div className={styles.footerright}>
-          <ul className={styles.footerlink}><a href='https://discord.gg/qw3EeAhK7K'>Discord</a></ul>
-          <ul className={styles.footerlink}><a href='mailto:trikkfestivalen@gmail.com'>Kontakt</a></ul>
+          <a className={styles.footerlink} href='https://discord.gg/qw3EeAhK7K'>Discord</a>
+          <a className={styles.footerlink} href='mailto:trikkfestivalen@gmail.com'>Kontakt</a>
         </div>
       </div>
       <div className={styles.logoGrid}>

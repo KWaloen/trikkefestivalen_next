@@ -14,23 +14,23 @@
   position: relative;
   padding: 20px;
   margin: auto;
-  color: #ed5c10;
   align-items: center;
   justify-items: center;
   align-content: center;
 }
 
 .box {
-  background-color: white;
+  background-color: #e5e7cc;
+  color: black;
   max-width: 1000px;
   padding: 10px;
   border-radius: 10px;
   position: relative;
   z-index: 1;
-  font-family: "Winky Rough", sans-serif;
-  font-size: 20px;
+  font-family: var(--font-gravity-bold);
+  font-size: 18px;
   font-weight: 100;
-  margin: 10 auto;
+  margin: 10px auto;
 
 }
 
@@ -192,7 +192,7 @@
   font-size: 40px;
   font-family: var(--font-gravity-bold), sans-serif;
   max-width: 50%;
-  margin: 50 auto;
+  margin: 50px auto;
   text-align: center;
 }
 
@@ -269,7 +269,7 @@
   width: max-content;
   height: 55px;
   width: 200px;
-  margin: 0 auto 20;
+  margin: 0 auto 20px;
   text-align: center;
 }
 
@@ -346,7 +346,7 @@
 
 .bli_frivilligTitle {
   font-size: 30px;
-  font-family: "House Soft Narrow", sans-serif;
+  font-family: var(--font-house-soft);
   color: #ed5c10;
   margin: 0 auto;
   text-align: center;
@@ -395,7 +395,6 @@
     position: relative;
     padding: 20px;
     margin: auto;
-    color: #ed5c10;
     align-items: center;
     justify-items: center;
     align-content: center;
@@ -408,16 +407,17 @@
   }
 
   .box {
-    background-color: white;
+    background-color: #e5e7cc;
+    color: black;
     max-width: 1000px;
     padding: 10px;
     border-radius: 10px;
     position: relative;
     z-index: 1;
-    font-family: "Winky Rough", sans-serif;
-    font-size: 20px;
+    font-family: var(--font-gravity-bold);
+    font-size: 18px;
     font-weight: 100;
-    margin: 10 auto;
+    margin: 10px auto;
 
   }
 

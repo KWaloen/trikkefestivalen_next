@@ -1,13 +1,12 @@
 .page {
     position: relative;
-    background: linear-gradient(#0099AD 40%);
+    background: #0099AD;
 
     display: grid;
     align-items: center;
     justify-items: center;
     min-height: 10svh;
     padding: 50px;
-    font-family: var(--font-geist-sans);
     z-index: 1;
 }
 
@@ -22,20 +21,17 @@
 .footerleft {
     display: grid;
     gap: 15px;
-    flex-direction: row;
 }
 
 
 .footercenter {
     display: grid;
     gap: 15px;
-    flex-direction: row;
 }
 
 .footerright {
     display: grid;
     gap: 15px;
-    flex-direction: row;
 }
 
 .footerlink {
@@ -44,7 +40,7 @@
 }
 
 .footerlink:hover {
-    color: white;
+    color: #c8f4fa;
     text-decoration: underline;
 }
 
@@ -82,14 +78,13 @@
 
 .page {
     position: relative;
-    background: linear-gradient(#0099AD 40%);
+    background: #0099AD;
 
     display: grid;
     align-items: center;
     justify-items: center;
     min-height: 10svh;
     padding: 50px;
-    font-family: var(--font-geist-sans);
     z-index: 1;
 }
 
@@ -102,19 +97,16 @@
 .footerleft {
     display: grid;
     gap: 15px;
-    flex-direction: row;
 }
 
 .footercenter {
     display: grid;
     gap: 15px;
-    flex-direction: row;
 }
 
 .footerright {
     display: grid;
     gap: 15px;
-    flex-direction: row;
 }
 
 .logo {

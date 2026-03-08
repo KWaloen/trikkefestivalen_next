@@ -93,7 +93,6 @@
 }
 
 .boxContainer img {
-    position: center;
     max-width: 100%;
     height: auto;
 }
@@ -105,10 +104,10 @@
   border-radius: 10px;
   position: relative;
   z-index: 1;
-  font-family: "Winky Rough", sans-serif;
-  font-size: 20px;
+  font-family: var(--font-gravity-bold);
+  font-size: 18px;
   font-weight: 100;
-  margin: 10 auto;
+  margin: 10px auto;
 }
 
 .box a {
@@ -146,8 +145,9 @@
   position: relative;
   z-index: 1;
   font-family: var(--font-gravity-bold), sans-serif;
-  font-size: 20px;
-  margin: 10 auto;
+  font-size: 18px;
+  color: black;
+  margin: 10px auto;
 }
 
 .date {
@@ -160,8 +160,8 @@
 .getongetoff {
   position: relative;
   z-index: 1;
-  font-family: "House Soft Narrow", sans-serif;
-  font-size: 20px;
+  font-family: var(--font-gravity-bold);
+  font-size: 18px;
   color: black;
 }
 
@@ -191,8 +191,8 @@
   position: relative;
   z-index: 1;
   font-family: var(--font-gravity-bold), sans-serif;
-  font-size: 10px;
-  margin: 10 auto;
+  font-size: 18px;
+  margin: 10px auto;
   color: black;
 }
 
@@ -232,7 +232,9 @@
 }
 
 .moreInfo {
-    font-size: 14px;
+    font-size: 18px;
+    font-family: var(--font-gravity-bold);
+    color: black;
     line-height: 1.4;
     text-align: center;
   }
@@ -293,10 +295,10 @@
     border-radius: 10px;
     position: relative;
     z-index: 1;
-    font-family: "Winky Rough", sans-serif;
+    font-family: var(--font-gravity-bold);
     font-size: 20px;
     font-weight: 100;
-    margin: 10 auto;
+    margin: 10px auto;
 
   }
 
@@ -310,7 +312,7 @@
     z-index: 1;
     font-family: var(--font-gravity-bold), sans-serif;
     font-size: 20px;
-    margin: 10 auto;
+    margin: 10px auto;
   }
 
   .date {
@@ -323,7 +325,7 @@
   .getongetoff {
     position: relative;
     z-index: 1;
-    font-family: "House Soft Narrow", sans-serif;
+    font-family: var(--font-house-soft);
     font-size: 20px;
     color: black;
   }
@@ -354,7 +356,7 @@
     z-index: 1;
     font-family: var(--font-gravity-bold), sans-serif;
     font-size: 10px;
-    margin: 10 auto;
+    margin: 10px auto;
     color: black;
   }
 
@@ -424,7 +426,9 @@
   .sequence,
   .getongetoff,
   .moreInfo {
-    font-size: 14px;
+    font-size: 18px;
+    font-family: var(--font-gravity-bold);
+    color: black;
     line-height: 1.4;
     text-align: center;
   }

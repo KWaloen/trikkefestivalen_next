@@ -67,7 +67,7 @@ export default async function Home() {
 
       
         </div>
-        <div className={styles.artister_og_programText}style={{ color: '#ed5c10' }}>PROGRAM</div>
+        <div className={styles.artister_og_programText} style={{ color: '#ed5c10' }}>PROGRAM</div>
 
 
         <div className={styles.table}>
@@ -139,14 +139,14 @@ export default async function Home() {
           />
         </div>
       <div className={styles.boxContainer}>
-          <div className={styles.artister_og_programText}style={{ color: '#ed5c10', textAlign: 'center' , fontSize: '30px'}}>
+          <div className={styles.artister_og_programText} style={{ color: '#ed5c10', textAlign: 'center' , fontSize: '30px'}}>
             GRATISKONSERT PÅ CAFÉ OPERA
           </div>
           <div className={styles.box}>
             Raa Duo, Kathy Long og Hin spiller en ekstra, gratis konsert på Café Opera klokken 19:00. <br /><br />
             Vi får også et foredrag om den historiske trikken fra Carl Harbitz-Rasmussen, som er styreleder for Bergen Elektriske Sporvei. 
           </div>
-          <div className={styles.artister_og_programText}style={{ color: '#ed5c10', textAlign: 'center' , fontSize: '30px'}}>
+          <div className={styles.artister_og_programText} style={{ color: '#ed5c10', textAlign: 'center' , fontSize: '30px'}}>
             SPILLELISTER
           </div>
           <div className={styles.box}>

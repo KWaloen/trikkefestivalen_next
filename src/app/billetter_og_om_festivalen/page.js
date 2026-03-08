@@ -183,7 +183,7 @@ export default function Home() {
                               height={600*scaling_factor}
                             />
 
-                  < /div>
+                  </div>
                   </div>                
                   
                   </div>
@@ -308,14 +308,6 @@ export default function Home() {
 
       </div>
 
-      {// Commenteted out code for Subscribe component, might want this later
-      }
-      {/*
-      // <div className={styles.pageContent}>
-      // <Subscribe />
-      // </div>
-    */
-      }
       <Footer />
     </div>
 
