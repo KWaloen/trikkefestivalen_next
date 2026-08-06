@@ -44,9 +44,10 @@
     border-radius: 10px;
     position: relative;
     z-index: 1;
-    font-size: 20px;
+    font-family: var(--font-gravity-bold);
+    font-size: 18px;
     font-weight: 100;
-    margin: 10 auto;
+    margin: 10px auto;
     max-width: 900px;
 
 }
@@ -177,16 +178,16 @@
     color: black;
     font-size: 30px;
     font-family: var(--font-gravity-bold), sans-serif;
-    margin: 20 auto;
+    margin: 20px auto;
     text-align: center;
     max-width: 1000px;
 }
 
 .apply {
-    color: black 40%;
+    color: black;
     font-size: 30px;
     font-family: var(--font-gravity-bold), sans-serif;
-    margin: 20 auto;
+    margin: 20px auto;
     text-align: center;
     max-width: 1000px;
 
@@ -198,13 +199,11 @@
     .page {
         display: grid;
         position: relative;
-        background: #ed5c10 40%;
-        ;
+        background: #ed5c10;
         align-items: center;
         justify-items: center;
         align-content: center;
         min-height: min-content;
-        font-family: var(--font-geist-sans);
         z-index: 1;
     }
 
@@ -230,9 +229,9 @@
         border-radius: 10px;
         position: relative;
         z-index: 1;
-        font-family: var(--font-gravity), sans-serif;
-        font-size: 20px;
-        margin: 10 auto;
+        font-family: var(--font-gravity-bold), sans-serif;
+        font-size: 18px;
+        margin: 10px auto;
         max-width: 400px;
     }
 

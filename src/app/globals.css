@@ -26,7 +26,8 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "House Soft Narrow", "Gravity Bold", sans-serif;
+  font-family: "Gravity Bold", sans-serif;
+  font-size: 18px;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
