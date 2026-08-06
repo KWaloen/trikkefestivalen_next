@@ -83,49 +83,49 @@ export default async function Home() {
             </thead>
             <tbody>
               <tr>
-                <td>HIN</td>
-                <td>Bergens Tekniske Museum</td>
-                <td>13:00</td>
+                <td data-label="Artistnavn">HIN</td>
+                <td data-label="Starter hvor">Bergens Tekniske Museum</td>
+                <td data-label="Starter når">13:00</td>
               </tr>
               <tr>
-                <td>SPARKESYKKEL</td>
-                <td>Engen, foran DNS</td>
-                <td>14:00</td>
+                <td data-label="Artistnavn">SPARKESYKKEL</td>
+                <td data-label="Starter hvor">Engen, foran DNS</td>
+                <td data-label="Starter når">14:00</td>
               </tr>
               <tr>
-                <td>EMBLA</td>
-                <td>Bergens Tekniske Museum</td>
-                <td>15:00</td>
+                <td data-label="Artistnavn">EMBLA</td>
+                <td data-label="Starter hvor">Bergens Tekniske Museum</td>
+                <td data-label="Starter når">15:00</td>
               </tr>
               <tr>
-                <td>SKANKY</td>
-                <td>Engen, foran DNS</td>
-                <td>16:00</td>
+                <td data-label="Artistnavn">SKANKY</td>
+                <td data-label="Starter hvor">Engen, foran DNS</td>
+                <td data-label="Starter når">16:00</td>
               </tr>
               <tr>
-                <td>BEINGAMONKEY</td>
-                <td>Bergens Tekniske Museum</td>
-                <td>17:00</td>
+                <td data-label="Artistnavn">BEINGAMONKEY</td>
+                <td data-label="Starter hvor">Bergens Tekniske Museum</td>
+                <td data-label="Starter når">17:00</td>
               </tr>
               <tr>
-                <td>JULIE GREVE</td>
-                <td>Engen, foran DNS</td>
-                <td>18:00</td>
+                <td data-label="Artistnavn">JULIE GREVE</td>
+                <td data-label="Starter hvor">Engen, foran DNS</td>
+                <td data-label="Starter når">18:00</td>
               </tr>
               <tr>
-                <td>RAA DUO</td>
-                <td>Café Opera</td>
-                <td>19:00</td>
+                <td data-label="Artistnavn">RAA DUO</td>
+                <td data-label="Starter hvor">Café Opera</td>
+                <td data-label="Starter når">19:00</td>
               </tr>
               <tr>
-                <td>KATHY LONG</td>
-                <td>Café Opera</td>
-                <td>19:30</td>
+                <td data-label="Artistnavn">KATHY LONG</td>
+                <td data-label="Starter hvor">Café Opera</td>
+                <td data-label="Starter når">19:30</td>
               </tr>
               <tr>
-                <td>HIN</td>
-                <td>Café Opera</td>
-                <td>20:00</td>
+                <td data-label="Artistnavn">HIN</td>
+                <td data-label="Starter hvor">Café Opera</td>
+                <td data-label="Starter når">20:00</td>
               </tr>
             </tbody>
           </table>

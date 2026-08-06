@@ -91,34 +91,39 @@
 }
 
 .footer {
-    display: flex;    
-    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     align-items: center;
+    text-align: center;
 }
 
 .footerleft {
     display: grid;
-    gap: 15px;
+    gap: 10px;
+    justify-items: center;
 }
 
 .footercenter {
     display: grid;
-    gap: 15px;
+    gap: 10px;
+    justify-items: center;
 }
 
 .footerright {
     display: grid;
-    gap: 15px;
+    gap: 10px;
+    justify-items: center;
 }
 
 .logo {
     margin-bottom: 50px;
-   
+
 }
 
 .images {
-  display: grid;              
-  grid-template-columns: repeat(1, 3fr);
+  display: grid;
+  grid-template-columns: 1fr;
   width: 100%;
   margin: 0 auto;
   row-gap: 10px;
