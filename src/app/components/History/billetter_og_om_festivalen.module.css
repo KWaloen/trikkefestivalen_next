@@ -432,4 +432,17 @@
     line-height: 1.4;
     text-align: center;
   }
+
+  .table {
+    overflow-x: auto;
+  }
+
+  .table table {
+    font-size: 0.75rem;
+  }
+
+  .table th,
+  .table td {
+    padding: 8px 6px;
+  }
 }
