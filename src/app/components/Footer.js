@@ -44,75 +44,10 @@ export default function Footer() {
         <Image
           loading="lazy"
           decoding="async"
-          src="/billetter_og_om_festivalen/Logo-RGB-hoyde-Bergenkommune.png"
-          alt="Bergen Kommune Logo"
-          width={500}
-          height={200}
-          style={{ width: '150px', height: 'auto' }}
-        />
-        <Image
-          loading="lazy"
-          decoding="async"
-          src="/billetter_og_om_festivalen/SRIB-grnn-grnn_bakgrunn-01-smaller.png"
-          alt="SRIB Logo"
-          width={400}
-          height={400}
-          style={{ width: '100px', height: 'auto' }}
-        />
-        <div className={styles.img_invert}>
-          <Image
-            loading="lazy"
-            decoding="async"
-            src="/billetter_og_om_festivalen/BSTV_Svart_midtstilt.png"
-            alt="BSTV logo"
-            width={600}
-            height={400}
-            style={{ width: '150px', height: 'auto' }}
-          />
-        </div>
-        <Image
-          loading="lazy"
-          decoding="async"
-          src="/billetter_og_om_festivalen/CafeOpera_logo-svart.png"
-          alt="Cafe Opera logo"
-          width={400}
-          height={400}
-          style={{ width: '100px', height: 'auto' }}
-        />
-        <Image
-          loading="lazy"
-          decoding="async"
-          src="/billetter_og_om_festivalen/nobel_bopel_logo.png"
-          alt="Nobel Bopel logo"
-          width={400}
-          height={400}
-          style={{ width: '100px', height: 'auto' }}
-        />
-        <Image
-          loading="lazy"
-          decoding="async"
-          src="/billetter_og_om_festivalen/draumstudiologo.png"
-          alt="Draum Studio logo"
-          width={400}
-          height={400}
-          style={{ width: '100px', height: 'auto' }}
-        />
-        <Image
-          loading="lazy"
-          decoding="async"
-          src="/billetter_og_om_festivalen/d-production_logo.png"
-          alt="D-Production logo"
-          width={400}
-          height={400}
-          style={{ width: '100px', height: 'auto' }}
-        />
-        <Image
-          loading="lazy"
-          decoding="async"
-          src="/billetter_og_om_festivalen/livesupply.png"
-          alt="Livesupply logo"
-          width={400}
-          height={400}
+          src="/billetter_og_om_festivalen/2026/Sparebanken-Norge-rod.jpg"
+          alt="Sparebanken Norge Logo"
+          width={500} // original width
+          height={200} // original height
           style={{ width: '100px', height: 'auto' }}
         />
       </div>

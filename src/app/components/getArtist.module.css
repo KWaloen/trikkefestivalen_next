@@ -1,5 +1,5 @@
 .artister_og_program {
-  display: grid;              
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   width: 100%;
@@ -9,7 +9,10 @@
   padding: 0 20px;
   justify-items: center;
   text-align: center;
-  
+}
+
+.artister_og_program .artistCard:only-child {
+  grid-column: 1 / -1;
 }
 
 .artistCard {
