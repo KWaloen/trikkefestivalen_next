@@ -187,40 +187,6 @@
   height: auto;
 }
 
-.yearTabs {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  margin: 20px 0;
-  z-index: 1;
-  position: relative;
-}
-
-.yearTab {
-  font-family: var(--font-gravity-bold), sans-serif;
-  font-size: 20px;
-  padding: 10px 30px;
-  border: 2px solid black;
-  border-radius: 8px;
-  background: transparent;
-  color: black;
-  cursor: pointer;
-  transition: background 0.2s, color 0.2s;
-}
-
-.yearTab:hover {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.yearTabActive {
-  background: black;
-  color: #ed5c10;
-}
-
-.yearTabActive:hover {
-  background: black;
-}
-
 .tramText {
   position: relative;
   z-index: 1;

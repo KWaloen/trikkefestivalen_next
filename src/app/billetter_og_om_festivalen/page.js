@@ -1,19 +1,19 @@
-// page.js for billetter_og_om_festivalen (no: "Billett & Om Festivalen")
+'use client'
 
+import { useState } from 'react'
 import Image from 'next/image'
 import styles from './billetter_og_om_festivalen.module.css'
 import NavBar from '../components/NavBar'
-import BillettoWidget from '../components/BillettoButton'
 import Footer from '../components/Footer'
+import Artists2025 from '../components/History/2025'
+import Artists2026 from '../components/History/2026'
 
 export default function Home() {
-
-    const scaling_factor = 1.1;
+  const [activeYear, setActiveYear] = useState(2026)
 
   return (
 
     <div className={styles.background}>
-      {/* Load the Billetto widget script on the client */}
 
       <NavBar />
       <div className={styles.page}>
@@ -42,269 +42,24 @@ export default function Home() {
             height={100}
           />
         </div>
-        <div>
-          <div className={styles.tramText}>
-            <div className={styles.boxContainer}>
-              <div className={styles.box}>
-                <div className={styles.getongetoff}>
-                  BILLETTER
-                </div>
-                <div className={styles.boxContainer}>
-                  <div className={styles.box}>
-                    <div className={styles.widgetShell}>
-                      <BillettoWidget />
-                    </div>
-                    <div className={styles.moreInfo}>
-                    Billetter kjøpes på <a href='https://billetto.no/e/trikkefestivalen-2025-billetter-1522099?utm_source=organiser&utm_medium=share&utm_campaign=copy_link&utm_content=1'>billetto.no</a> og kan betales med kort eller Vipps. Det anbefales å kjøpe billetter på forhånd for å sikre plass.
-                    Sjekk ut programmet for mer informasjon om tidspunktene og startplass for konsertene.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.boxContainer}>
-              <div className={styles.box}>
-                <div className={styles.getongetoff}>
-                  Hva er Trikkefestivalen?
-                </div>
-                <div className={styles.moreInfo}>
-                  I år (2025) arrangerer vi for første gang Trikkefestivalen, en lokal musikkfestival hvor vi kombinerer den historiske trikken med moderne musikk! Å lokale, unge artister vil i løpet av en dag fremføre musikk mens trikken beveger seg til og fra Café Opera over Høyden til Teknisk Museum på Møhlenpris
-                  <br />
-                  <br />
-                  Festivalen blir planlagt og koordinert av Janina Wildermuth og Illimar Rekand etter et ønske om å lage en festival som kombinerer det historiske med det moderne, og som kan gi unge artister en scene for å vise frem sitt talent i musikkbyen Bergen.
-                  <br />
-                  <br />
-                  <div className={styles.getongetoff}>
-                    Hvem skal spille?
-                  </div>
 
-                  <div className={styles.moreInfo}>
-                    Vi har gleden av å presentere åtte spennende artister som skal opptre på Trikkefestivalen 2025. Sjekk ut siden "Artister & Program" for mer informasjon om artistene og deres musikk.
-                    Vi har også laget en spilleliste med artistene som skal spille på Trikkefestivalen som du kan finne under: <br /><br />
-                    
-                    <div className={styles.playlistBox}>
-                      <iframe
-                        src="https://open.spotify.com/embed/playlist/1aPOyUCTREZZSjgk3JHOX0?utm_source=generator"
-                        width="100%"
-                        height="352"
-                        frameBorder={0}
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        allowFullScreen
-                        loading="lazy"
-                        title="Spotify playlist"
-                      />
-                    </div>
-
-                    <div className={styles.playlistBox}>
-                      <iframe
-                        src="https://embed.tidal.com/playlists/7cfccb76-66a4-4d7f-ad69-cbec751ef5c0"
-                        width="100%"
-                        height="352"
-                        allow="encrypted-media; fullscreen; clipboard-write https://embed.tidal.com; web-share"
-                        sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox"
-                        style={{ colorScheme: "light dark" }}
-                        title="TIDAL Embed Player"
-                      />
-                    </div>
-                  </div>
-                  <br />
-                  <br />
-                <div className={styles.getongetoff}>
-                  Praktisk informasjon
-                </div>
-                <div className={styles.moreInfo}>
-                  Konsertene starter på to forskjellige lokasjoner. Sørg for at du møter opp til riktig tid og riktig sted for at du skal få rekke å få med deg konserten.
-
-
-        <div className={styles.table}>
-          <table>
-            <thead>
-              <tr>
-                <th>Artistnavn</th>
-                <th>Konserten starter hvor:</th>
-                <th>Konserten starter når:</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>HIN</td>
-                <td>Bergens Tekniske Museum</td>
-                <td>13:00</td>
-              </tr>
-              <tr>
-                <td>SPARKESYKKEL</td>
-                <td>Engen, foran DNS</td>
-                <td>14:00</td>
-              </tr>
-              <tr>
-                <td>EMBLA</td>
-                <td>Bergens Tekniske Museum</td>
-                <td>15:00</td>
-              </tr>
-              <tr>
-                <td>SKANKY</td>
-                <td>Engen, foran DNS</td>
-                <td>16:00</td>
-              </tr>
-              <tr>
-                <td>BEINGAMONKEY</td>
-                <td>Bergens Tekniske Museum</td>
-                <td>17:00</td>
-              </tr>
-              <tr>
-                <td>JULIE GREVE</td>
-                <td>Engen, foran DNS</td>
-                <td>18:00</td>
-              </tr>
-              <tr>
-                <td>RAA DUO</td>
-                <td>Café Opera</td>
-                <td>19:00</td>
-              </tr>
-              <tr>
-                <td>KATHY LONG</td>
-                <td>Café Opera</td>
-                <td>19:30</td>
-              </tr>
-              <tr>
-                <td>HIN</td>
-                <td>Café Opera</td>
-                <td>20:00</td>
-              </tr>
-            </tbody>
-          </table>
+        <div className={styles.yearTabs}>
+          <button
+            className={`${styles.yearTab} ${activeYear === 2025 ? styles.yearTabActive : ''}`}
+            onClick={() => setActiveYear(2025)}
+          >
+            2025
+          </button>
+          <button
+            className={`${styles.yearTab} ${activeYear === 2026 ? styles.yearTabActive : ''}`}
+            onClick={() => setActiveYear(2026)}
+          >
+            2026
+          </button>
         </div>
-                Konsertene starter og ender på Engen, foran DNS og Bergens Tekniske Museum. De tre siste opptredene tar sted på gratiskonserten på Café Opera.
-                <div>            
-                            <Image
-                              src="/artister_og_program/TrikkefestivalKart.png"
-                              alt="tram_image"
-                              width={500*scaling_factor}
-                              height={600*scaling_factor}
-                            />
 
-                  </div>
-                  </div>                
-                  
-                  </div>
-                  </div>
-                  </div>
-
-                  <div className={styles.boxContainer}>
-                    <div className={styles.box}>
-
-                  <div className={styles.getongetoff}>
-                    Hvem er våre støttepartnere?
-                  </div>
-
-                  <div className={styles.moreInfo}>
-                    Festivalen drives med støtte fra Bergen Kommune og Studentradioen i Bergen. Vi har også partnerskap med Bergen Elektriske Sporvei. Nobel Bopel og Café Opera tilbyr med rabatt til innehavere av billetter til Trikkefestivalen, og sistnevnte stiller også med lokaler for konserter. Bergen Student-TV bistår med utlån av utstyr.
-                  </div>
-                <div className={styles.grid}>
-                  <Image
-                    loading="lazy"
-                    decoding="async"
-                    src="/billetter_og_om_festivalen/Logo-RGB-hoyde-Bergenkommune.png"
-                    alt="Bergen Kommune Logo"
-                    width={500} // original width
-                    height={200} // original height
-                    style={{ width: '100px', height: 'auto' }}
-                  />
-                  <Image
-                    loading="lazy"
-                    decoding="async"
-                    src="/billetter_og_om_festivalen/SRIB-grnn-grnn_bakgrunn-01-smaller.png"
-                    alt="SRIB Logo"
-                    width={400} // original width
-                    height={400} // original height
-                    style={{ width: '100px', height: 'auto' }} // smaller
-                  />
-                  <div className={styles.img_invert}>
-                    <Image
-                      loading="lazy"
-                      decoding="async"
-                      src="/billetter_og_om_festivalen/BSTV_Svart_midtstilt.png"
-                      alt="BSTV logo"
-                      width={600} // original width
-                      height={400} // original height
-                      style={{ width: '200px', height: 'auto' }} // smaller
-                    />
-                  </div>
-                  <Image
-                    loading="lazy"
-                    decoding="async"
-                    src="/billetter_og_om_festivalen/CafeOpera_logo-svart.png"
-                    alt="Cafe Opera logo"
-                    width={400} // original width
-                    height={400} // original height
-                    style={{ width: '100px', height: 'auto' }} // smaller
-                  />
-                  <Image
-                    loading="lazy"
-                    decoding="async"
-                    src="/billetter_og_om_festivalen/nobel_bopel_logo.png"
-                    alt="Nobel Bopel logo"
-                    width={400} // original width
-                    height={400} // original height
-                    style={{ width: '100px', height: 'auto' }} // smaller
-                  />
-                  <Image
-                    loading="lazy"
-                    decoding="async"
-                    src="/billetter_og_om_festivalen/draumstudiologo.png"
-                    alt="Draum Studio logo"
-                    width={400}
-                    height={400}
-                    style={{ width: '100px', height: 'auto' }}
-                  />
-                  <Image
-                    loading="lazy"
-                    decoding="async"
-                    src="/billetter_og_om_festivalen/d-production_logo.png"
-                    alt="D-Production logo"
-                    width={400}
-                    height={400}
-                    style={{ width: '100px', height: 'auto' }}
-                  />
-                  <Image
-                    loading="lazy"
-                    decoding="async"
-                    src="/billetter_og_om_festivalen/livesupply.png"
-                    alt="Livesupply logo"
-                    width={400}
-                    height={400}
-                    style={{ width: '100px', height: 'auto' }}
-                  />
-                </div>
-                </div>
-              </div>
-
-
-            <div className={styles.boxContainer}>
-              <div className={styles.box}>
-                <div className={styles.getongetoff}>
-                  Om denne nettsiden & Anerkjennelser
-                </div>
-                <div className={styles.moreInfo}>
-                  Den grafiske profilingen av Trikkefestivalen og trikkefestivalen.no er laget av Henriette Nådland (IG: <a href="https://www.instagram.com/studionaad/">@studionaad</a>, webside: <a href="https://www.studionaad.com">www.studionaad.com</a>), og nettsiden er utviklet av Kai Waløen (<a href="https://www.kwal.no">www.kwal.no</a>), med bidrag fra Robin Garen Aaberg, Malin Bjørkli, Anne Hognaland og Illimar Rekand.
-                  <br />
-                  <br />
-                  Denne nettsiden er laget med Next.js og React. Den er åpen kildekode og lisensiert under en MIT-lisens og kan finnes på <a href="https://github.com/KWaloen/trikkefestivalen_next">https://github.com/KWaloen/trikkefestivalen_next</a>. Vi setter pris på bidrag gjennom Pull Requests!
-                </div>
-              </div>
-            </div>
-            <div className={styles.boxContainer}>
-              <div className={styles.box}>
-                <div className={styles.getongetoff}>
-                  Kontakt
-                </div>
-                <div className={styles.moreInfo}>
-                  Om du skulle ønske å komme i kontakt med oss, kan du sende en e-post til <a href="mailto:trikkfestivalen@gmail.com">trikkfestivalen@gmail.com</a>, <a href="mailto:janina.wildermuth@uib.no">janina.wildermuth@uib.no</a> eller  <a href="mailto:illimar.rekand@gmail.com">illimar.rekand@gmail.com</a>.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {activeYear === 2025 && <Artists2025 />}
+        {activeYear === 2026 && <Artists2026 />}
 
       </div>
 

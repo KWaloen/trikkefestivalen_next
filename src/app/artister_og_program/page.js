@@ -53,20 +53,22 @@ export default async function Home() {
 
         <div className={styles.orangeBackground}>
 
-            <div className={styles.artister_og_programText}>ARTISTER</div>
+          <div className={styles.artister_og_programText}>ARTISTER</div>
 
-            <Image
-              src="/artister_og_program/artister_og_programNotes.png"
-              alt="artister_og_programNotes"
-              width={180}
-              height={80}
-            />
-      
+          <Image
+            src="/artister_og_program/artister_og_programNotes.png"
+            alt="artister_og_programNotes"
+            width={180}
+            height={80}
+          />
+
 
           <GetArtist />
 
-      
+
         </div>
+
+        {/*
         <div className={styles.artister_og_programText} style={{ color: '#ed5c10' }}>PROGRAM</div>
 
 
@@ -138,53 +140,46 @@ export default async function Home() {
             height={600*scaling_factor}
           />
         </div>
-      <div className={styles.boxContainer}>
-          <div className={styles.artister_og_programText} style={{ color: '#ed5c10', textAlign: 'center' , fontSize: '30px'}}>
-            GRATISKONSERT PÅ CAFÉ OPERA
-          </div>
-          <div className={styles.box}>
-            Raa Duo, Kathy Long og Hin spiller en ekstra, gratis konsert på Café Opera klokken 19:00. <br /><br />
-            Vi får også et foredrag om den historiske trikken fra Carl Harbitz-Rasmussen, som er styreleder for Bergen Elektriske Sporvei. 
-          </div>
-          <div className={styles.artister_og_programText} style={{ color: '#ed5c10', textAlign: 'center' , fontSize: '30px'}}>
-            SPILLELISTER
-          </div>
+
+        
+        <div className={styles.boxContainer}>
+          
           <div className={styles.box}>
             Vi har laget en spilleliste med artistene som skal spille på Trikkefestivalen som du kan finne under: <br /><br />
-            
+
             <div className={styles.playlistBox}>
-  <iframe
-    src="https://open.spotify.com/embed/playlist/1aPOyUCTREZZSjgk3JHOX0?utm_source=generator"
-    width="100%"
-    height="352"
-    frameBorder={0}
-    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-    allowFullScreen
-    loading="lazy"
-    title="Spotify playlist"
-  />
-</div>
+              <iframe
+                src="https://open.spotify.com/embed/playlist/1aPOyUCTREZZSjgk3JHOX0?utm_source=generator"
+                width="100%"
+                height="352"
+                frameBorder={0}
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                allowFullScreen
+                loading="lazy"
+                title="Spotify playlist"
+              />
+            </div>
 
-<div className={styles.playlistBox}>
-  <iframe
-    src="https://embed.tidal.com/playlists/7cfccb76-66a4-4d7f-ad69-cbec751ef5c0"
-    width="100%"
-    height="352"
-    allow="encrypted-media; fullscreen; clipboard-write https://embed.tidal.com; web-share"
-    sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox"
-    style={{ colorScheme: "light dark" }}
-    title="TIDAL Embed Player"
-  />
-</div>
+            <div className={styles.playlistBox}>
+              <iframe
+                src="https://embed.tidal.com/playlists/7cfccb76-66a4-4d7f-ad69-cbec751ef5c0"
+                width="100%"
+                height="352"
+                allow="encrypted-media; fullscreen; clipboard-write https://embed.tidal.com; web-share"
+                sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox"
+                style={{ colorScheme: "light dark" }}
+                title="TIDAL Embed Player"
+              />
+            </div>
 
-              </div>
-      </div>
+          */}
 
       </div>
 
       <Footer />
-
+      
     </div>
+
   )
 }
 
