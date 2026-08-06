@@ -94,6 +94,9 @@
 }
 
 .table {
+  width: 100%;
+  overflow-x: auto;
+
   table {
     width: 100%;
     border-collapse: collapse;
@@ -110,9 +113,7 @@
   td {
     padding: 14px 18px;
     text-align: center;
-    /* <-- center horizontally */
     vertical-align: middle;
-    /* <-- center vertically (in case of multi-line) */
   }
 
   th {
@@ -133,7 +134,6 @@
   tbody tr:nth-child(even) {
     background-color: #f5cfab;
   }
-
 
   table[border],
   table[border] * {
@@ -440,11 +440,10 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    /* Center items horizontally - might remove */
     align-content: center;
     min-height: 20svh;
     width: 100%;
-    z-index: 1;
+    z-index: 100;
   }
 
   .topRow {
@@ -618,6 +617,9 @@
   }
 
   .table {
+    width: 100%;
+    overflow-x: auto;
+
     table {
       width: 100%;
       border-collapse: collapse;
@@ -635,9 +637,7 @@
     td {
       padding: 14px 10px;
       text-align: center;
-      /* <-- center horizontally */
       vertical-align: middle;
-      /* <-- center vertically (in case of multi-line) */
     }
 
     th {
@@ -662,6 +662,69 @@
     table[border],
     table[border] * {
       border: none !important;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .table {
+      table {
+        margin: 1rem 0;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tbody tr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        overflow: hidden;
+        border-bottom: none;
+      }
+
+      tbody tr:nth-child(even) {
+        background-color: transparent;
+      }
+
+      td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 12px;
+        text-align: right;
+        border-bottom: 1px solid #e0d5c0;
+      }
+
+      td::before {
+        content: attr(data-label);
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        letter-spacing: 0.05em;
+        color: #ed5c10;
+        text-align: left;
+        flex-shrink: 0;
+        margin-right: 1rem;
+      }
+
+      td:first-child {
+        background: #ed5c10;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 700;
+        justify-content: center;
+        padding: 10px 12px;
+      }
+
+      td:first-child::before {
+        display: none;
+      }
+
+      td:last-child {
+        border-bottom: none;
+      }
     }
   }
 
