@@ -149,7 +149,7 @@
   position: static;
 }
 
-@media (max-width: 1650px) {
+@media (max-width: 1450px) {
   .page {
     position: relative;
     background: #ed5c10;
@@ -207,10 +207,11 @@
     left: 50%;
     transform: translateX(-50%);
     top: 0;
-    width: fit-content;
+    width: auto;
+    height: auto;
+    max-height: 38%;
     z-index: 2;
     pointer-events: none;
-    max-height: 38%;
   }
 
   .title {
