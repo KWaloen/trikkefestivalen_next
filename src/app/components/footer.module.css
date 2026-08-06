@@ -89,34 +89,39 @@
 }
 
 .footer {
-    display: flex;    
-    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     align-items: center;
+    text-align: center;
 }
 
 .footerleft {
     display: grid;
-    gap: 15px;
+    gap: 10px;
+    justify-items: center;
 }
 
 .footercenter {
     display: grid;
-    gap: 15px;
+    gap: 10px;
+    justify-items: center;
 }
 
 .footerright {
     display: grid;
-    gap: 15px;
+    gap: 10px;
+    justify-items: center;
 }
 
 .logo {
     margin-bottom: 50px;
-   
+
 }
 
 .images {
-  display: grid;              
-  grid-template-columns: repeat(1, 3fr);
+  display: grid;
+  grid-template-columns: 1fr;
   width: 100%;
   margin: 0 auto;
   row-gap: 10px;
@@ -129,10 +134,12 @@
 
 .logoGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* two equal columns */
-  gap: 1rem; /* space between images */
-  justify-items: center; /* center images in their cells */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-items: center;
   align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .img_invert img {
