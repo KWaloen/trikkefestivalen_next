@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <div className={styles.page}>
 
-      <div className={styles.date}>TBA 2026</div>
+      <div className={styles.hero}>
+        <div className={styles.date}>TBA 2026</div>
 
         <Image
           className={styles.title}
@@ -32,6 +33,7 @@ export default function Home() {
           width={800}
           height={700}
         />
+      </div>
 
       <div className={styles.linksGrid}>
         <Link href="/artister_og_program" className={styles.cardLink}>
