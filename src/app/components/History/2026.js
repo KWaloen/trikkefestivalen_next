@@ -14,13 +14,8 @@ export default function Artists() {
                         <div className={styles.getongetoff}>
                             BILLETTER
                         </div>
-                        <div className={styles.boxContainer}>
-                            <div className={styles.box}>
-                                
-                                <div className={styles.moreInfo}>
-                                    Billetter kommer snart!
-                                </div>
-                            </div>
+                        <div className={styles.moreInfo}>
+                            Billetter kommer snart!
                         </div>
                     </div>
                 </div>

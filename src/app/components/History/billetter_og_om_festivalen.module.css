@@ -108,6 +108,8 @@
   font-size: 18px;
   font-weight: 100;
   margin: 10px auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .box a {
@@ -431,5 +433,18 @@
     color: black;
     line-height: 1.4;
     text-align: center;
+  }
+
+  .table {
+    overflow-x: auto;
+  }
+
+  .table table {
+    font-size: 0.75rem;
+  }
+
+  .table th,
+  .table td {
+    padding: 8px 6px;
   }
 }
