@@ -6,32 +6,34 @@ export default function Home() {
   return (
     <div className={styles.page}>
 
-      <div className={styles.date}>Lørdag 06.September, 2025</div>
+      <div className={styles.hero}>
+        <div className={styles.date}>TBA 2026</div>
 
-      <Image
-        className={styles.title}
-        src="/main/trikkefestivalenLogo.png"
-        alt="title"
-        width={600}
-        height={250}
-        margin={250}
-      />
+        <Image
+          className={styles.title}
+          src="/main/trikkefestivalenLogo.png"
+          alt="title"
+          width={600}
+          height={250}
+          margin={250}
+        />
 
-      <Image
-        className={styles.tram}
-        src="/main/whiteee.gif"
-        alt="whiteee"
-        width={700}
-        height={600}
-      />
+        <Image
+          className={styles.tram}
+          src="/main/whiteee.gif"
+          alt="whiteee"
+          width={700}
+          height={600}
+        />
 
-      <Image
-        className={styles.clouds}
-        src="/main/clouds.gif"
-        alt="clouds"
-        width={800}
-        height={700}
-      />
+        <Image
+          className={styles.clouds}
+          src="/main/clouds.gif"
+          alt="clouds"
+          width={800}
+          height={700}
+        />
+      </div>
 
       <div className={styles.linksGrid}>
         <Link href="/artister_og_program" className={styles.cardLink}>

@@ -9,6 +9,8 @@ import GetArtist from '../components/GetArtist'
 
 export default async function Home() {
 
+  const scaling_factor = 1.1;
+
 
   return (
     <div className={styles.body}>
@@ -44,89 +46,140 @@ export default async function Home() {
             className={styles.yellow}
             src="/artister_og_program/yellow.png"
             alt="yellow"
-            width={2000}
+            width={4000}
             height={50}
           />
         </div>
 
         <div className={styles.orangeBackground}>
 
-          <div className={styles.artister_og_programTitle}>
+          <div className={styles.artister_og_programText}>ARTISTER</div>
 
-            <div className={styles.artister_og_programText}>ARTISTER</div>
+          <Image
+            src="/artister_og_program/artister_og_programNotes.png"
+            alt="artister_og_programNotes"
+            width={180}
+            height={80}
+          />
 
-            <Image
-              src="/artister_og_program/artister_og_programNotes.png"
-              alt="artister_og_programNotes"
-              width={180}
-              height={80}
-            />
-          </div>
 
           <GetArtist />
 
-        </div>
-        <div className={styles.experience}>
-            <p>
-                Mer informasjon om festivalprogrammet kommer snart!
-            </p>
+
         </div>
 
         {/*
+        <div className={styles.artister_og_programText} style={{ color: '#ed5c10' }}>PROGRAM</div>
+
+
         <div className={styles.table}>
-          <table border="1" cellPadding="80" cellSpacing="100">
+          <table>
             <thead>
               <tr>
-                <th>Artist name</th>
-                <th>Time</th>
-                <th>Concert start</th>
+                <th>Artistnavn</th>
+                <th>Konserten starter hvor:</th>
+                <th>Konserten starter når:</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Artist 1</td>
-                <td>12:00</td>
-                <td>12:15</td>
+                <td data-label="Artistnavn">HIN</td>
+                <td data-label="Starter hvor">Bergens Tekniske Museum</td>
+                <td data-label="Starter når">13:00</td>
               </tr>
               <tr>
-                <td>Artist 2</td>
-                <td>12:30</td>
-                <td>12:45</td>
+                <td data-label="Artistnavn">SPARKESYKKEL</td>
+                <td data-label="Starter hvor">Engen, foran DNS</td>
+                <td data-label="Starter når">14:00</td>
               </tr>
               <tr>
-                <td>Artist 3</td>
-                <td>13:00</td>
-                <td>13:15</td>
+                <td data-label="Artistnavn">EMBLA</td>
+                <td data-label="Starter hvor">Bergens Tekniske Museum</td>
+                <td data-label="Starter når">15:00</td>
               </tr>
               <tr>
-                <td>Artist 4</td>
-                <td>13:30</td>
-                <td>13:45</td>
+                <td data-label="Artistnavn">SKANKY</td>
+                <td data-label="Starter hvor">Engen, foran DNS</td>
+                <td data-label="Starter når">16:00</td>
               </tr>
               <tr>
-                <td>Artist 5</td>
-                <td>14:00</td>
-                <td>14:15</td>
+                <td data-label="Artistnavn">BEINGAMONKEY</td>
+                <td data-label="Starter hvor">Bergens Tekniske Museum</td>
+                <td data-label="Starter når">17:00</td>
               </tr>
               <tr>
-                <td>Artist 6</td>
-                <td>14:30</td>
-                <td>14:45</td>
+                <td data-label="Artistnavn">JULIE GREVE</td>
+                <td data-label="Starter hvor">Engen, foran DNS</td>
+                <td data-label="Starter når">18:00</td>
               </tr>
               <tr>
-                <td>Artist 7</td>
-                <td>15:00</td>
-                <td>15:15</td>
+                <td data-label="Artistnavn">RAA DUO</td>
+                <td data-label="Starter hvor">Café Opera</td>
+                <td data-label="Starter når">19:00</td>
+              </tr>
+              <tr>
+                <td data-label="Artistnavn">KATHY LONG</td>
+                <td data-label="Starter hvor">Café Opera</td>
+                <td data-label="Starter når">19:30</td>
+              </tr>
+              <tr>
+                <td data-label="Artistnavn">HIN</td>
+                <td data-label="Starter hvor">Café Opera</td>
+                <td data-label="Starter når">20:00</td>
               </tr>
             </tbody>
           </table>
         </div>
-        */}
+
+
+        <div className={styles.boxContainer}>
+          <Image
+            src="/artister_og_program/TrikkefestivalKart.png"
+            alt="tram_image"
+            width={500*scaling_factor}
+            height={600*scaling_factor}
+          />
+        </div>
+
+        
+        <div className={styles.boxContainer}>
+          
+          <div className={styles.box}>
+            Vi har laget en spilleliste med artistene som skal spille på Trikkefestivalen som du kan finne under: <br /><br />
+
+            <div className={styles.playlistBox}>
+              <iframe
+                src="https://open.spotify.com/embed/playlist/1aPOyUCTREZZSjgk3JHOX0?utm_source=generator"
+                width="100%"
+                height="352"
+                frameBorder={0}
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                allowFullScreen
+                loading="lazy"
+                title="Spotify playlist"
+              />
+            </div>
+
+            <div className={styles.playlistBox}>
+              <iframe
+                src="https://embed.tidal.com/playlists/7cfccb76-66a4-4d7f-ad69-cbec751ef5c0"
+                width="100%"
+                height="352"
+                allow="encrypted-media; fullscreen; clipboard-write https://embed.tidal.com; web-share"
+                sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox"
+                style={{ colorScheme: "light dark" }}
+                title="TIDAL Embed Player"
+              />
+            </div>
+
+          */}
+
       </div>
 
       <Footer />
-
+      
     </div>
+
   )
 }
 

@@ -7,7 +7,6 @@
   justify-items: center;
   align-content: center;
   min-height: 30svh;
-  font-family: var(--font-geist-sans);
   z-index: 1;
 }
 
@@ -24,7 +23,6 @@
 
 .notesGif {
   position: absolute;
-  z-index: 2;
   left: -280px;
   top: -380px;
   z-index: -2;
@@ -52,7 +50,7 @@
 }
 
 .title {
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-house-soft);
   font-size: 35px;
   top: 50px;
   position: relative;
@@ -71,22 +69,22 @@
   color: #E7E7CE;
   background: #ed5c10;
   padding: 20px;
-  width: max-content;
   height: 55px;
   width: 800px;
   border-radius: 10px 10px 0 0;
   cursor: pointer;
   z-index: 3;
 
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-house-soft);
   font-optical-sizing: auto;
   font-style: normal;
 }
 
 .answer {
   padding: 10px 20px;
-  color: #ed5c10;
-  font-family: "Winky Rough", sans-serif;
+  color: black;
+  font-family: var(--font-gravity-bold);
+  font-size: 18px;
   background: #f5f5f5;
   border-radius: 0 0 10px 10px;
   height: auto;
@@ -124,16 +122,12 @@
     display: grid;
     position: relative;
     background: #0099AD 40%;
-
-    display: grid;
     grid-template-rows: 20px 1fr 20px;
     align-items: center;
     justify-items: center;
     align-content: center;
     min-height: 40svh;
-
-
-  font-family: var(--font-geist-sans);
+    font-family: var(--font-house-soft);
     z-index: 1;
   }
 
@@ -146,7 +140,7 @@
 
 
   .title {
-    font-family: var(--font-geist-sans);
+    font-family: var(--font-house-soft);
     font-size: 35px;
     top: 50px;
     position: relative;
@@ -216,13 +210,14 @@
     cursor: pointer;
     z-index: 3;
 
-    font-family: var(--font-geist-sans);
+    font-family: var(--font-house-soft);
     font-optical-sizing: auto;
     font-style: normal;
   }
 
   .answer {
-    font-family: "Winky Rough", sans-serif;
+    font-family: var(--font-gravity-bold);
+    font-size: 18px;
     padding: 10px 20px;
     color: black;
     background: #f5f5f5;
