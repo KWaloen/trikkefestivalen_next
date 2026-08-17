@@ -41,15 +41,42 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.logoGrid}>
-        <Image
-          loading="lazy"
-          decoding="async"
-          src="/billetter_og_om_festivalen/2026/Sparebanken-Norge-rod.jpg"
-          alt="Sparebanken Norge Logo"
-          width={500} // original width
-          height={200} // original height
-          style={{ width: '100px', height: 'auto' }}
-        />
+                            <Image
+                                loading="lazy"
+                                decoding="async"
+                                src="/billetter_og_om_festivalen/2026/Sparebanken-Norge-rod.jpg"
+                                alt="Sparebanken Norge Logo"
+                                width={500} // original width
+                                height={200} // original height
+                                style={{ width: '100px', height: 'auto' }}
+                            />
+                            <Image
+                                loading="lazy"
+                                decoding="async"
+                                src="/billetter_og_om_festivalen/2026/Logo-RGB-hoyde-Bergenkommune.png"
+                                alt="Bergen Kommune Logo"
+                                width={500} // original width
+                                height={200} // original height
+                                style={{ width: '100px', height: 'auto' }}
+                            />
+                            <Image
+                                loading="lazy"
+                                decoding="async"
+                                src="/billetter_og_om_festivalen/2026/Bergen_elektriske_sporveis_våpen.svg"
+                                alt="Bergens Elektriske Sporveier Logo"
+                                width={500} // original width
+                                height={200} // original height
+                                style={{ width: '100px', height: 'auto' }}
+                            />
+                            <Image
+                                loading="lazy"
+                                decoding="async"
+                                src="/billetter_og_om_festivalen/2026/BTM-transperent-logo-svart.png"
+                                alt="Bergens Tekniske Museum Logo"
+                                width={500} // original width
+                                height={200} // original height
+                                style={{ width: '100px', height: 'auto' }}
+                            />
       </div>
 
     </div>
