@@ -63,10 +63,9 @@
 }
 
 .logoGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
-  justify-items: center;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
@@ -135,10 +134,9 @@
 }
 
 .logoGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
-  justify-items: center;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
