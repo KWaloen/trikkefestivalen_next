@@ -14,8 +14,11 @@ export default function Artists() {
                         <div className={styles.getongetoff}>
                             BILLETTER
                         </div>
+                        <script src="https://billetto.no/widget.js"></script>
+                        <billetto-organiser-widget type="calendar" organiser="6502409" organization="billetto.no" lang="no" theme="light" color="#056FDA" button-style="medium" font-family="Roboto" background-color="#FFFFFF"></billetto-organiser-widget>
+
                         <div className={styles.moreInfo}>
-                            Billetter kommer snart!
+                            Billetter kjøpes på billetto.no og kan betales med kort eller Vipps. Det anbefales å kjøpe billetter på forhånd for å sikre plass. Sjekk ut programmet for mer informasjon om tidspunktene og startplass for konsertene.
                         </div>
                     </div>
                 </div>
@@ -51,7 +54,7 @@ export default function Artists() {
                         </div>
 
                         <div className={styles.moreInfo}>
-                            Festivalen drives med støtte fra Sparebanken Norge. Vi har også partnerskap med Bergen Elektriske Sporvei.
+                            Festivalen drives med støtte fra Sparebanken Norge og Bergen Kommune. Vi har også partnerskap med Bergens Elektriske Sporveier og Bergens Tekniske Museum.
                         </div>
                         <div className={styles.grid}>
                             <Image
@@ -59,6 +62,33 @@ export default function Artists() {
                                 decoding="async"
                                 src="/billetter_og_om_festivalen/2026/Sparebanken-Norge-rod.jpg"
                                 alt="Sparebanken Norge Logo"
+                                width={500} // original width
+                                height={200} // original height
+                                style={{ width: '100px', height: 'auto' }}
+                            />
+                            <Image
+                                loading="lazy"
+                                decoding="async"
+                                src="/billetter_og_om_festivalen/2026/Logo-RGB-hoyde-Bergenkommune.png"
+                                alt="Bergen Kommune Logo"
+                                width={500} // original width
+                                height={200} // original height
+                                style={{ width: '100px', height: 'auto' }}
+                            />
+                            <Image
+                                loading="lazy"
+                                decoding="async"
+                                src="/billetter_og_om_festivalen/2026/Bergen_elektriske_sporveis_våpen.svg"
+                                alt="Bergens Elektriske Sporveier Logo"
+                                width={500} // original width
+                                height={200} // original height
+                                style={{ width: '100px', height: 'auto' }}
+                            />
+                            <Image
+                                loading="lazy"
+                                decoding="async"
+                                src="/billetter_og_om_festivalen/2026/BTM-transperent-logo-svart.png"
+                                alt="Bergens Tekniske Museum Logo"
                                 width={500} // original width
                                 height={200} // original height
                                 style={{ width: '100px', height: 'auto' }}
