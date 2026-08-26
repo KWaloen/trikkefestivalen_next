@@ -1,6 +1,6 @@
 import styles from './billetter_og_om_festivalen.module.css'
 import BillettoWidget from '../BillettoButton'
-import Image from 'next/image'
+import SponsorLogos from '../SponsorLogos'
 
 const scaling_factor = 1.1;
 
@@ -57,42 +57,7 @@ export default function Artists() {
                             Festivalen drives med støtte fra Sparebanken Norge og Bergen Kommune. Vi har også partnerskap med Bergens Elektriske Sporveier og Bergens Tekniske Museum.
                         </div>
                         <div className={styles.grid}>
-                            <Image
-                                loading="lazy"
-                                decoding="async"
-                                src="/billetter_og_om_festivalen/2026/Sparebanken-Norge-rod.jpg"
-                                alt="Sparebanken Norge Logo"
-                                width={500} // original width
-                                height={200} // original height
-                                style={{ width: '100px', height: 'auto' }}
-                            />
-                            <Image
-                                loading="lazy"
-                                decoding="async"
-                                src="/billetter_og_om_festivalen/2026/Logo-RGB-hoyde-Bergenkommune.png"
-                                alt="Bergen Kommune Logo"
-                                width={500} // original width
-                                height={200} // original height
-                                style={{ width: '100px', height: 'auto' }}
-                            />
-                            <Image
-                                loading="lazy"
-                                decoding="async"
-                                src="/billetter_og_om_festivalen/2026/Bergen_elektriske_sporveis_våpen.svg"
-                                alt="Bergens Elektriske Sporveier Logo"
-                                width={500} // original width
-                                height={200} // original height
-                                style={{ width: '100px', height: 'auto' }}
-                            />
-                            <Image
-                                loading="lazy"
-                                decoding="async"
-                                src="/billetter_og_om_festivalen/2026/BTM-transperent-logo-svart.png"
-                                alt="Bergens Tekniske Museum Logo"
-                                width={500} // original width
-                                height={200} // original height
-                                style={{ width: '100px', height: 'auto' }}
-                            />
+                            <SponsorLogos />
                         </div>
                     </div>
                 </div>

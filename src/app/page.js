@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.page}>
 
       <div className={styles.hero}>
-        <div className={styles.date}>TBA 2026</div>
+        <div className={styles.date}>Lørdag 05.09 2026</div>
 
         <Image
           className={styles.title}
