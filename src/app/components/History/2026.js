@@ -15,8 +15,7 @@ export default function Artists() {
                             BILLETTER
                         </div>
                         <script src="https://billetto.no/widget.js"></script>
-                        <billetto-organiser-widget type="calendar" organiser="6502409" organization="billetto.no" lang="no" theme="light" color="#056FDA" button-style="medium" font-family="Roboto" background-color="#FFFFFF"></billetto-organiser-widget>
-
+<billetto-organiser-widget type="list" organiser="6502409" organization="billetto.no" lang="no" theme="light" color="#ed5c10" button-style="medium" font-family="Tahoma, Geneva, sans-serif" background-color="#ffffff" show-event-description></billetto-organiser-widget>
                         <div className={styles.moreInfo}>
                             Billetter kjøpes på billetto.no og kan betales med kort eller Vipps. Det anbefales å kjøpe billetter på forhånd for å sikre plass. Sjekk ut programmet for mer informasjon om tidspunktene og startplass for konsertene.
                         </div>
