@@ -74,6 +74,66 @@ export default function Artists() {
                     </div>
                 </div>
 
+                <br />
+                <br />
+                <div className={styles.box}>
+                            <div className={styles.getongetoff}>
+                                Praktisk informasjon
+                            <div className={styles.moreInfo}>
+                                Konsertene starter på to forskjellige lokasjoner. Sørg for at du møter opp til riktig tid og riktig sted for at du skal få rekke å få med deg konserten.
+
+
+                                <div className={styles.table}>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Artistnavn</th>
+                                                <th>Konserten starter hvor:</th>
+                                                <th>Konserten starter når:</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>CUBAKISEN</td>
+                                                <td>Bergens Tekniske Museum</td>
+                                                <td>13:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MARXIZ</td>
+                                                <td>Engen, foran DNS</td>
+                                                <td>14:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MATHIAS LANGELAND</td>
+                                                <td>Bergens Tekniske Museum</td>
+                                                <td>15:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>BERGLJOT</td>
+                                                <td>Engen, foran DNS</td>
+                                                <td>16:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>PAPA PAUL</td>
+                                                <td>Bergens Tekniske Museum</td>
+                                                <td>17:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MISS WEDNESDAY</td>
+                                                <td>Engen, foran DNS</td>
+                                                <td>18:00</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                Konsertene starter og ender på Engen, foran DNS og Bergens Tekniske Museum. 
+                            </div>
+                            </div>
+
+                    </div>
+                
+
                 <div className={styles.boxContainer}>
                     <div className={styles.box}>
 
