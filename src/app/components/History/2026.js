@@ -112,7 +112,7 @@ export default function Artists() {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>TBA</td>
+                                            <td>CUBAKISEN</td>
                                             <td>Bergens Tekniske Museum</td>
                                             <td>13:00</td>
                                         </tr>
